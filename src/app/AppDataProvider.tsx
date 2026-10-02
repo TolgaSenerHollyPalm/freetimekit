@@ -33,6 +33,7 @@ const SYNC_AFTER_MS = 6 * 60 * 60 * 1000
 // which two changes in a row build on rather than on the last render.
 let current: Stored = { packs: [], progress: [], days: [], weekend: [] }
 let syncing = false
+let queued: Set<string> | undefined // categories asked for while a round ran; the next round takes them
 
 /** The server's index once a newer one arrived, else the copy inside the app. */
 const indexOf = (stored: Pick<Stored, 'packIndex'>): PackIndex => {
@@ -41,9 +42,13 @@ const indexOf = (stored: Pick<Stored, 'packIndex'>): PackIndex => {
 }
 const libraryOf = (stored: Stored) => buildLibrary(indexOf(stored), stored.packs)
 
-/** Categories a card on the device comes from, so a restored record finds its pack (plan 4.2). */
-const usedCategories = (stored: Stored) =>
-  new Set([...stored.progress.map((p) => cardCategory(p.cardId)), ...stored.weekend.flatMap((item) => (item.cardId ? [cardCategory(item.cardId)] : []))])
+/** Categories a card in the records comes from, so a restored record finds its pack (plan 4.2). */
+function usedCategories(stored: Stored): Set<string> {
+  const ids = [...stored.progress.map((p) => p.cardId), ...stored.weekend.flatMap((item) => item.cardId ?? [])]
+  // Today's card too: a restored day may name one from a category nothing else brings down.
+  const daily = stored.days.find((log) => log.date === toDay(new Date()))?.dailyCardId
+  return new Set([...ids, ...(daily ? [daily] : [])].map(cardCategory))
+}
 
 const withDay = (days: readonly DayLog[], log: DayLog) => [...days.filter((day) => day.date !== log.date), log]
 const stamp = (item: WeekendItem, now: Date): WeekendItem => ({ ...item, updatedAt: now.toISOString() })
@@ -89,15 +94,22 @@ export default function AppDataProvider({ children }: { children: ReactNode }) {
 
   const syncPacks = useCallback(
     async (explicit: readonly string[] = []) => {
-      if (syncing || !navigator.onLine || (!current.settings && explicit.length === 0)) return
-      syncing = true
+      if (!navigator.onLine || (!current.settings && explicit.length === 0)) return
       const waiting = Object.fromEntries(explicit.map((category) => [category, { state: 'downloading', done: 0, total: 0 } as CategorySync]))
       setSync((old) => ({ running: true, failed: false, categories: { ...old.categories, ...waiting } }))
-      try {
+      // Asked for while a round runs: one more round follows it, so a tap or a restore is never dropped.
+      if (syncing) {
+        queued = new Set([...(queued ?? []), ...explicit])
+        return
+      }
+      syncing = true
+
+      const round = async (categories: readonly string[]) => {
         const result = await fetchIndex((url, init) => fetch(url, init), import.meta.env.BASE_URL)
         if (!result.ok) {
           console.error('Pack index could not be fetched:', result.problem)
-          setSync((old) => ({ running: false, failed: true, categories: { ...old.categories, ...Object.fromEntries(explicit.map((c) => [c, { state: 'failed' }])) } }))
+          const failed = Object.fromEntries(categories.map((c) => [c, { state: 'failed' } as CategorySync]))
+          setSync((old) => ({ running: queued !== undefined, failed: true, categories: { ...old.categories, ...failed } }))
           return
         }
         let index = indexOf(current)
@@ -112,14 +124,14 @@ export default function AppDataProvider({ children }: { children: ReactNode }) {
 
         const local = new Map(current.packs.map((pack) => [pack.id, pack.version]))
         const auto = automaticPacks(index, local, current.settings?.interests ?? [], usedCategories(current))
-        const asked = missing(index.packs.filter((entry) => explicit.includes(entry.category)), local).filter((entry) => !auto.includes(entry))
+        const asked = missing(index.packs.filter((entry) => categories.includes(entry.category)), local).filter((entry) => !auto.includes(entry))
         const entries: IndexEntry[] = [...auto, ...asked]
         const totals = new Map<string, number>()
         for (const entry of entries) totals.set(entry.category, (totals.get(entry.category) ?? 0) + 1)
         const progress = new Map<string, CategorySync>()
         for (const [category, total] of totals) progress.set(category, { state: 'downloading', done: 0, total })
-        const show = (failed = false) =>
-          setSync((old) => ({ running: !failed && syncing, failed, categories: { ...old.categories, ...Object.fromEntries(progress), ...Object.fromEntries(explicit.filter((c) => !totals.has(c)).map((c) => [c, { state: 'idle' }])) } }))
+        const settled = Object.fromEntries(categories.filter((c) => !totals.has(c)).map((c) => [c, { state: 'idle' } as CategorySync]))
+        const show = (failed = false, running = true) => setSync((old) => ({ running, failed, categories: { ...old.categories, ...Object.fromEntries(progress), ...settled } }))
         show()
         const failedCategories = new Set<string>()
         const outcomes = await downloadPacks(entries, {
@@ -146,10 +158,17 @@ export default function AppDataProvider({ children }: { children: ReactNode }) {
         for (const category of totals.keys()) progress.set(category, failedCategories.has(category) ? { state: 'failed' } : { state: 'idle' })
         // Once the whole round is in, so a day picked meanwhile does not draw on the first pack alone.
         if (outcomes.some((outcome) => outcome.ok)) ensureToday()
-        syncing = false
-        show(outcomes.length > 0 && outcomes.every((outcome) => !outcome.ok))
+        show(outcomes.length > 0 && outcomes.every((outcome) => !outcome.ok), queued !== undefined)
+      }
+
+      try {
+        for (let next: readonly string[] | undefined = explicit; next; next = queued && [...queued]) {
+          queued = undefined
+          await round(next)
+        }
       } finally {
         syncing = false
+        queued = undefined
         setSync((old) => ({ ...old, running: false }))
       }
     },

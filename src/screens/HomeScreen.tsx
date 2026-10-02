@@ -1,3 +1,4 @@
+import BackupReminder from 'kitshelf-ui/backup/BackupReminder.tsx'
 import { Button, LinkButton } from 'kitshelf-ui/ui/Button.tsx'
 import { IconLink } from 'kitshelf-ui/ui/IconButton.tsx'
 import { ArrowRightIcon, CheckIcon, ChevronRightIcon, SlidersIcon } from 'kitshelf-ui/ui/icons.tsx'
@@ -10,6 +11,7 @@ import { useOnline } from 'kitshelf-ui/ui/useOnline.ts'
 import type { ReactNode } from 'react'
 import { useAppData } from '../app/appData.ts'
 import { href } from '../app/router.ts'
+import { BACKUP_TEXTS, useBackupReminder } from '../backup/kitBackup.ts'
 import { dayTitle } from '../cards/dates.ts'
 import { categoryOf } from '../cards/library.ts'
 import { streak, streakText, todayStatus } from '../cards/progress.ts'
@@ -110,8 +112,9 @@ function NoCards() {
 }
 
 /** Bugün, the home screen: the day's card, three more picked for you, and the weekend list. */
-export default function HomeScreen({ banner }: { banner?: ReactNode }) {
+export default function HomeScreen() {
   const data = useAppData()
+  const { reminder: backup, lastBackupAt, snooze } = useBackupReminder()
   const { library, todayLog, today, days, weekend, table } = data
   const daily = todayLog?.dailyCardId ? library.cards.get(todayLog.dailyCardId) : undefined
   const suggestions = (todayLog?.suggestedCardIds ?? []).flatMap((id) => library.cards.get(id) ?? [])
@@ -131,7 +134,7 @@ export default function HomeScreen({ banner }: { banner?: ReactNode }) {
       aside={
         <>
           <OnlineBadge />
-          <IconLink to={href({ screen: 'settings' })} label="Ayarlar">
+          <IconLink to={href({ screen: 'settings' })} label={backup.due ? 'Ayarlar, yedek zamanı' : 'Ayarlar'} badge={backup.due}>
             <SlidersIcon />
           </IconLink>
         </>
@@ -147,7 +150,7 @@ export default function HomeScreen({ banner }: { banner?: ReactNode }) {
       }
     >
       <IosInstallHint dismissedKey={KEYS.installHintDismissed} />
-      {banner}
+      {backup.showBanner && <BackupReminder reminder={backup} lastBackupAt={lastBackupAt} text={BACKUP_TEXTS.banner} href={href({ screen: 'settings' })} onDismiss={snooze} />}
       {daily ? <DailyCard card={daily} /> : <NoCards />}
       {daily && todayLog?.repeat && <p className={styles.repeat}>Yeni kart kalmadı; bu, daha önce gördüğün bir kart. Yeni paketler geldikçe burada olacak.</p>}
 

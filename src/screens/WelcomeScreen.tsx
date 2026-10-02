@@ -1,9 +1,10 @@
 import { Button } from 'kitshelf-ui/ui/Button.tsx'
 import { ArrowRightIcon, CheckIcon } from 'kitshelf-ui/ui/icons.tsx'
 import Screen from 'kitshelf-ui/ui/Screen.tsx'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { useAppData } from '../app/appData.ts'
 import { navigate } from '../app/router.ts'
+import { useRestore } from '../backup/useRestore.tsx'
 import { welcomeSettings } from '../cards/interests.ts'
 import { KIT_NAME } from '../kit.ts'
 import { CategoryTile } from '../ui/category.tsx'
@@ -12,8 +13,10 @@ import home from './HomeScreen.module.css'
 import styles from './WelcomeScreen.module.css'
 
 /** The first visit, before there are any interests: which categories the day's cards come from (plan 6.1). */
-export default function WelcomeScreen({ restore }: { restore?: React.ReactNode }) {
+export default function WelcomeScreen() {
   const data = useAppData()
+  const restore = useRestore()
+  const picker = useRef<HTMLInputElement>(null)
   const [chosen, setChosen] = useState<string[]>([])
   const categories = data.index.categories
   const toggle = (id: string) => setChosen((list) => (list.includes(id) ? list.filter((c) => c !== id) : [...list, id]))
@@ -76,7 +79,22 @@ export default function WelcomeScreen({ restore }: { restore?: React.ReactNode }
         <WifiOffIcon />
         Kartlar internet varken iner, sonra internetsiz de açılır.
       </p>
-      {restore}
+      <button type="button" className={styles.restore} onClick={() => picker.current?.click()}>
+        Yedeğin var mı? Geri yükle
+      </button>
+      {/* As on the settings card: no accept filter, reading the file checks it instead. */}
+      <input
+        ref={picker}
+        type="file"
+        hidden
+        onChange={(event) => {
+          const file = event.target.files?.[0]
+          event.target.value = ''
+          if (file) restore.open(file)
+        }}
+      />
+      {/* Restored settings make the home screen show instead of this one. */}
+      {restore.dialogs}
     </Screen>
   )
 }

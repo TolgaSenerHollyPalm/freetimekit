@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { at, dayLog, opened } from '../cards/test-helpers.ts'
+import { answerQuestion, openCard } from '../cards/progress.ts'
+import { at, card, dayLog, opened } from '../cards/test-helpers.ts'
 import { mergeDays, mergeOne, mergeProgress, mergeSettings } from './merge.ts'
 
 describe('merging progress', () => {
@@ -28,6 +29,17 @@ describe('merging progress', () => {
     expect(result.items.map((p) => p.cardId)).toEqual(['a', 'b'])
     expect([result.added, result.updated]).toEqual([1, 0])
   })
+
+  it('counts a finished card the backup has as it is as unchanged, whatever the order of its fields', () => {
+    const quiz = card('tarih-001', { questions: 1 })
+    const now = new Date(at('2026-09-29'))
+    const { progress } = answerQuestion(openCard(undefined, quiz.id, now), quiz, quiz.questions[0].id, 0, now)
+    const copy = JSON.parse(JSON.stringify(mergeOne(progress, progress))) as typeof progress
+    expect(Object.keys(copy)).not.toEqual(Object.keys(progress))
+    const result = mergeProgress([progress], [copy])
+    expect([result.added, result.updated]).toEqual([0, 0])
+    expect(result.items[0]).toBe(progress)
+  })
 })
 
 describe('merging days', () => {
@@ -37,6 +49,14 @@ describe('merging days', () => {
     const result = mergeDays([mine], [theirs, dayLog('2026-09-28', 'doga-001', ['doga-001'])])
     expect(result.items.find((d) => d.date === '2026-09-29')).toMatchObject({ dailyCardId: 'tarih-001', repeat: false, suggestedCardIds: ['x'], countedCardIds: ['tarih-001', 'bilim-002'] })
     expect([result.added, result.updated]).toEqual([1, 1])
+  })
+
+  it('gives a day the device opened before it had cards the backup’s card and suggestions', () => {
+    const mine = dayLog('2026-09-29')
+    const theirs = dayLog('2026-09-29', 'bilim-002', [], { suggestedCardIds: ['tarih-001'] })
+    const result = mergeDays([mine], [theirs])
+    expect(result.items[0]).toMatchObject({ dailyCardId: 'bilim-002', suggestedCardIds: ['tarih-001'], countedCardIds: [] })
+    expect(result.updated).toBe(1)
   })
 
   it('changes nothing when the backup brings no new counted card', () => {

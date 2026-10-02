@@ -73,8 +73,9 @@ export default function TopicsScreen() {
   const data = useAppData()
   const online = useOnline()
   const [problem, setProblem] = useState<string>()
-  const interests = data.settings?.interests ?? []
   const categories = data.index.categories
+  // A restored backup may name a category this device's index does not know yet; it counts once the index does.
+  const interests = (data.settings?.interests ?? []).filter((id) => categories.some((c) => c.id === id))
 
   const toggle = (id: string) => {
     const result = toggleInterest(interests, id)

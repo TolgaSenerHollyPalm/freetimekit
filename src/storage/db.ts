@@ -1,4 +1,6 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb'
+import type { RestoreCount, RestoreMode } from 'kitshelf-ui/backup/format.ts'
+import { planRestore, type KitData } from '../backup/restorePlan.ts'
 import type { CardProgress, DayLog, Settings, TableSession, WeekendItem } from '../cards/types.ts'
 import { DATABASE_NAME } from '../kit.ts'
 import type { Pack, PackIndex } from '../packs/types.ts'
@@ -156,6 +158,25 @@ export async function saveMeta(key: MetaKey, value: Settings | PackIndex | strin
 export async function deleteTable(): Promise<void> {
   const db = await database()
   await db.delete('meta', 'table')
+}
+
+/** Writes a backup in one transaction over the records, the settings and the table: all of it, or nothing. */
+export async function restoreBackup(data: KitData, mode: RestoreMode): Promise<RestoreCount[]> {
+  const db = await database()
+  const tx = db.transaction(['progress', 'days', 'weekend', 'meta'], 'readwrite')
+  const [progress, days, weekend, meta] = [tx.objectStore('progress'), tx.objectStore('days'), tx.objectStore('weekend'), tx.objectStore('meta')]
+  // Read and planned inside the transaction; awaiting anything but its own requests would end it.
+  const [storedProgress, storedDays, storedWeekend, settings] = await Promise.all([progress.getAll(), days.getAll(), weekend.getAll(), meta.get('settings')])
+  const plan = planRestore({ progress: storedProgress, days: storedDays, weekend: storedWeekend, settings: settings as Settings | undefined }, data, mode)
+  await Promise.all([
+    ...(plan.clear ? [progress.clear(), days.clear(), weekend.clear(), meta.delete('table')] : []),
+    ...plan.progress.map((record) => progress.put(record)),
+    ...plan.days.map((record) => days.put(record)),
+    ...plan.weekend.map((record) => weekend.put(record)),
+    plan.settings ? meta.put(plan.settings, 'settings') : meta.delete('settings'),
+    tx.done,
+  ])
+  return plan.counts
 }
 
 /** Asks the browser not to clear our data when the device runs low on space. */

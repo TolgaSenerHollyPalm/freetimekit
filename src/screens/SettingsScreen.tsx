@@ -1,14 +1,22 @@
 import { currentAppearance, saveAppearance, type Appearance } from 'kitshelf-ui/app/appearance.ts'
+import BackupCard from 'kitshelf-ui/backup/BackupCard.tsx'
+import { saveBackup } from 'kitshelf-ui/backup/save.ts'
 import StorageStatus from 'kitshelf-ui/backup/StorageStatus.tsx'
+import { saveMessage, wipeWarning } from 'kitshelf-ui/backup/texts.ts'
 import { Button } from 'kitshelf-ui/ui/Button.tsx'
 import ChoiceGroup from 'kitshelf-ui/ui/ChoiceGroup.tsx'
 import ConfirmDialog from 'kitshelf-ui/ui/ConfirmDialog.tsx'
-import { AutoIcon, MoonIcon, SunIcon } from 'kitshelf-ui/ui/icons.tsx'
+import { AutoIcon, CheckIcon, DownloadIcon, MoonIcon, SunIcon } from 'kitshelf-ui/ui/icons.tsx'
+import { LinkRow, ListCard } from 'kitshelf-ui/ui/ListCard.tsx'
 import Screen from 'kitshelf-ui/ui/Screen.tsx'
 import SettingsFooter from 'kitshelf-ui/ui/SettingsFooter.tsx'
 import text from 'kitshelf-ui/ui/text.module.css'
+import { useToast } from 'kitshelf-ui/ui/toastContext.ts'
 import { useEffect, useState, type ReactNode } from 'react'
+import { useAppData } from '../app/appData.ts'
 import { href } from '../app/router.ts'
+import { BACKUP_TEXTS, finishedCount, typographic, useBackupReminder, useKitBackup } from '../backup/kitBackup.ts'
+import { useRestore } from '../backup/useRestore.tsx'
 import { wipeDevice } from '../storage/wipe.ts'
 import styles from './SettingsScreen.module.css'
 
@@ -23,10 +31,17 @@ const APPEARANCES: { value: Appearance; label: string; icon: ReactNode }[] = [
 const megabytes = (bytes: number) => `${(bytes / 1024 / 1024).toFixed(1)} MB`
 
 export default function SettingsScreen() {
+  const { progress, packs } = useAppData()
+  const backup = useKitBackup()
+  const { reminder, lastBackupAt, refresh } = useBackupReminder()
+  const restore = useRestore(refresh)
+  const show = useToast()
   const [usage, setUsage] = useState<number>()
   const [confirming, setConfirming] = useState(false)
   const [wiping, setWiping] = useState(false)
   const [appearance, setAppearance] = useState(currentAppearance)
+  const [saving, setSaving] = useState(false)
+  const finished = finishedCount(progress.values())
 
   // How much room the app takes; the browser answers for the whole site, not just our stores.
   useEffect(() => {
@@ -40,7 +55,18 @@ export default function SettingsScreen() {
     return () => {
       active = false
     }
-  }, [])
+  }, [packs, progress])
+
+  // Straight from the tap: saveBackup opens the share sheet before anything is awaited.
+  const save = () => {
+    setSaving(true)
+    void saveBackup(backup).then((result) => {
+      setSaving(false)
+      refresh()
+      const message = saveMessage(result)
+      if (message) show(typographic(message), { duration: result.status === 'downloaded' ? 6000 : 4000 })
+    })
+  }
 
   const wipe = () => {
     setWiping(true)
@@ -52,7 +78,10 @@ export default function SettingsScreen() {
 
   return (
     <Screen title="Ayarlar" back={href({ screen: 'home' })}>
-      <h2 className={text.sectionTitle}>Görünüm</h2>
+      <h2 className={text.sectionTitle}>Yedek</h2>
+      <BackupCard lastBackupAt={lastBackupAt} reminder={reminder} description={BACKUP_TEXTS.card} busy={saving} onSave={save} onFile={restore.open} />
+
+      <h2 className={`${text.sectionTitle} ${styles.later}`}>Görünüm</h2>
       <ChoiceGroup
         label="Görünüm"
         hideLabel
@@ -69,10 +98,48 @@ export default function SettingsScreen() {
         <StorageStatus />
         <dl className={styles.facts}>
           <div>
+            <dt>Biten kart</dt>
+            <dd>{finished}</dd>
+          </div>
+          <div>
+            <dt>İndirilen paket</dt>
+            <dd>{packs.length}</dd>
+          </div>
+          <div>
             <dt>Kapladığı yer</dt>
             <dd>{usage === undefined ? '—' : megabytes(usage)}</dd>
           </div>
         </dl>
+      </section>
+      <ListCard as="nav" label="Konular ve paketler">
+        <LinkRow
+          to={href({ screen: 'topics' })}
+          tile={
+            <span className={styles.tile}>
+              <DownloadIcon size={20} />
+            </span>
+          }
+          title="Konular ve paketler"
+        />
+      </ListCard>
+
+      <h2 className={`${text.sectionTitle} ${styles.later}`}>Hakkında</h2>
+      <section className={styles.about}>
+        <p className={styles.aboutLine}>
+          <CheckIcon size={18} strokeWidth={2.2} />
+          <span>
+            Kartlardaki bilgiler kaynaklarından kontrol edilerek hazırlanır; her kartın altında kaynakları yazar. Bir hata
+            görürsen{' '}
+            <a href="mailto:merhaba@kitshelf.app" data-inline>
+              merhaba@kitshelf.app
+            </a>{' '}
+            adresine yaz.
+          </span>
+        </p>
+        <p className={styles.aboutLine}>
+          <DownloadIcon size={18} />
+          Kart paketleri freetime.kitshelf.app’ten iner; bu isteklerde senden hiçbir bilgi gitmez.
+        </p>
       </section>
 
       <h2 className={`${text.sectionTitle} ${styles.later}`}>Verileri sil</h2>
@@ -86,6 +153,8 @@ export default function SettingsScreen() {
 
       <SettingsFooter version={buildTime} />
 
+      {restore.dialogs}
+
       <ConfirmDialog
         open={confirming}
         title="Her şey silinsin mi?"
@@ -96,7 +165,14 @@ export default function SettingsScreen() {
         }}
         onCancel={() => setConfirming(false)}
       >
-        Uygulama ayarları silinecek. Uygulama sıfırdan açılacak.
+        {finished > 0 ? (
+          <>
+            <strong>{finished} biten kart</strong>, serin, hafta sonu listen ve indirilen paketler silinecek.
+          </>
+        ) : (
+          <>Serin, hafta sonu listen ve indirilen paketler silinecek.</>
+        )}{' '}
+        Uygulama sıfırdan açılacak. {wipeWarning(lastBackupAt)}
       </ConfirmDialog>
     </Screen>
   )

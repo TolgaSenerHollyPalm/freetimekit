@@ -28,7 +28,10 @@ export interface Merged<T> {
   updated: number // records whose merged copy differs from the device's
 }
 
-const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b)
+// Field by field: records written by different code paths keep their keys in different orders.
+const sameAnswers = (a: Record<string, number>, b: Record<string, number>) => Object.keys(a).length === Object.keys(b).length && Object.keys(a).every((id) => a[id] === b[id])
+const sameProgress = (a: CardProgress, b: CardProgress) => a.openedAt === b.openedAt && a.completedAt === b.completedAt && a.updatedAt === b.updatedAt && sameAnswers(a.answers, b.answers)
+const sameSettings = (a: Settings, b: Settings) => a.updatedAt === b.updatedAt && a.interests.join() === b.interests.join()
 
 export function mergeProgress(local: readonly CardProgress[], incoming: readonly CardProgress[]): Merged<CardProgress> {
   const byId = new Map(local.map((p) => [p.cardId, p]))
@@ -42,8 +45,9 @@ export function mergeProgress(local: readonly CardProgress[], incoming: readonly
       continue
     }
     const merged = mergeOne(mine, theirs)
-    if (!same(merged, mine)) updated += 1
+    if (sameProgress(merged, mine)) continue
     byId.set(theirs.cardId, merged)
+    updated += 1
   }
   return { items: [...byId.values()], added, updated }
 }
@@ -61,8 +65,10 @@ export function mergeDays(local: readonly DayLog[], incoming: readonly DayLog[])
       continue
     }
     const counted = [...mine.countedCardIds, ...theirs.countedCardIds.filter((id) => !mine.countedCardIds.includes(id))]
-    if (counted.length === mine.countedCardIds.length) continue
-    byDate.set(theirs.date, { ...mine, countedCardIds: counted, updatedAt: later(mine.updatedAt, theirs.updatedAt) })
+    // A day the device opened before any card was on it takes the backup's card, which may be under way.
+    const choice = !mine.dailyCardId && theirs.dailyCardId ? { dailyCardId: theirs.dailyCardId, repeat: theirs.repeat, suggestedCardIds: theirs.suggestedCardIds } : undefined
+    if (counted.length === mine.countedCardIds.length && !choice) continue
+    byDate.set(theirs.date, { ...mine, ...choice, countedCardIds: counted, updatedAt: later(mine.updatedAt, theirs.updatedAt) })
     updated += 1
   }
   return { items: [...byDate.values()], added, updated }
@@ -77,6 +83,6 @@ export function mergeWeekend(local: readonly WeekendItem[], incoming: readonly W
 export function mergeSettings(local: Settings | undefined, incoming: Settings | undefined): { settings?: Settings; changed: boolean } {
   if (!incoming) return { settings: local, changed: false }
   if (!local) return { settings: incoming, changed: true }
-  const take = local.updatedAt === undefined ? incoming.updatedAt !== undefined || !same(local, incoming) : (incoming.updatedAt ?? '') > local.updatedAt
-  return take ? { settings: incoming, changed: !same(local, incoming) } : { settings: local, changed: false }
+  const take = local.updatedAt === undefined ? incoming.updatedAt !== undefined || !sameSettings(local, incoming) : (incoming.updatedAt ?? '') > local.updatedAt
+  return take ? { settings: incoming, changed: !sameSettings(local, incoming) } : { settings: local, changed: false }
 }
