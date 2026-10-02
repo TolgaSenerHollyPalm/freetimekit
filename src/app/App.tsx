@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import { KIT_NAME } from '../kit.ts'
 import HomeScreen from '../screens/HomeScreen.tsx'
 import SettingsScreen from '../screens/SettingsScreen.tsx'
+import AppDataProvider from './AppDataProvider.tsx'
 import { href, useRoute, type Route } from './router.ts'
 import UpdatePrompt from './UpdatePrompt.tsx'
 
@@ -18,8 +19,10 @@ export default function App() {
 
   return (
     <ToastProvider>
-      {/* Keyed by address so a screen starts fresh whenever the route changes. */}
-      <CurrentScreen key={address} route={route} />
+      <AppDataProvider>
+        {/* Keyed by address so a screen starts fresh whenever the route changes. */}
+        <CurrentScreen key={address} route={route} />
+      </AppDataProvider>
       <div className={toast.stack}>
         <UpdatePrompt />
         <ConnectionNotice appName={KIT_NAME} />

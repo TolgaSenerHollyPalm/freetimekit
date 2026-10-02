@@ -9,6 +9,7 @@ export const KEYS = {
   appearance: `${KIT}-appearance`, // the inline script in index.html reads it before the first paint
   installHintDismissed: `${KIT}-ios-install-hint-dismissed`,
   offlineReadyShown: `${KIT}-offline-ready-shown`,
+  lastPlayers: `${KIT}-last-players`, // the names at the last table, offered when the next one is set up
 }
 
 /** The page colour of each scheme (kitshelf-ui's --color-bg), as in index.html's theme-color tags. */
