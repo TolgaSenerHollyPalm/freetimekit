@@ -9,6 +9,11 @@ import DoneScreen from '../screens/DoneScreen.tsx'
 import HomeScreen from '../screens/HomeScreen.tsx'
 import QuizScreen from '../screens/QuizScreen.tsx'
 import SettingsScreen from '../screens/SettingsScreen.tsx'
+import TableDoneScreen from '../screens/TableDoneScreen.tsx'
+import TableScreen from '../screens/TableScreen.tsx'
+import TableSetupScreen from '../screens/TableSetupScreen.tsx'
+import TopicsScreen from '../screens/TopicsScreen.tsx'
+import WeekendScreen from '../screens/WeekendScreen.tsx'
 import WelcomeScreen from '../screens/WelcomeScreen.tsx'
 import { useAppData } from './appData.ts'
 import AppDataProvider from './AppDataProvider.tsx'
@@ -67,10 +72,14 @@ function CurrentScreen({ route }: { route: Route }) {
     case 'answers':
       return <AnswersScreen cardId={route.cardId} />
     case 'topics':
+      return <TopicsScreen />
     case 'weekend':
+      return <WeekendScreen />
     case 'table-new':
+      return <TableSetupScreen />
     case 'table':
+      return <TableScreen />
     case 'table-done':
-      return <HomeScreen />
+      return <TableDoneScreen />
   }
 }

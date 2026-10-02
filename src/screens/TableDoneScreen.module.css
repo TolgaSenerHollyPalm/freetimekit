@@ -1,0 +1,75 @@
+.ranking {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 56px;
+  padding: 10px 16px;
+}
+
+.row + .row {
+  border-top: 1px solid var(--color-divider);
+}
+
+.first .who {
+  font-weight: 800;
+}
+
+.who {
+  overflow-wrap: anywhere;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.points {
+  flex: none;
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+.later {
+  margin-top: calc(var(--gap-section) - var(--gap-card));
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.topicTitle {
+  font-size: 1.0625rem;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.question {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
