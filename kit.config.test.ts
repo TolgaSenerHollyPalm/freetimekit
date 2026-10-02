@@ -75,6 +75,14 @@ const TEXT_PAIRS = [
   ['--color-primary-dark', '--color-bg'], // a link on the page
   ['--color-primary-dark', '--color-primary-soft'], // a chosen option, a tile
   ['--color-primary-dark', '--color-amber-soft'], // the link on the backup reminder
+  ['--color-on-primary', '--color-primary-hover'], // the main button under the pointer
+  ['--color-primary-edge', '--color-bg'], // a text button under the pointer
+]
+
+// [edge, what it is drawn on]: a chosen option, a focused field and the restore sheet's chosen card.
+const EDGE_PAIRS = [
+  ['--color-primary-edge', '--color-bg'],
+  ['--color-primary-edge', '--color-surface'],
 ]
 
 describe('kit colour in src/kit.css', () => {
@@ -90,6 +98,10 @@ describe('kit colour in src/kit.css', () => {
   describe.each(['light', 'dark'] as const)('in the %s scheme', (scheme) => {
     it.each(TEXT_PAIRS)('%s on %s reads at 4.5:1 or better', (text, background) => {
       expect(contrast(color(scheme, text), color(scheme, background))).toBeGreaterThanOrEqual(4.5)
+    })
+
+    it.each(EDGE_PAIRS)('%s against %s stands out at 3:1 or better', (edge, background) => {
+      expect(contrast(color(scheme, edge), color(scheme, background))).toBeGreaterThanOrEqual(3)
     })
   })
 })

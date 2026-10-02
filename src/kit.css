@@ -7,6 +7,9 @@
   --color-primary-dark: #8a5a0b; /* text and icons in the kit colour */
   --color-primary-soft: #fbf0d6; /* chosen options, tiles */
   --color-on-primary: #3a2a06; /* text on --color-primary */
+  /* The amber itself is too light on the page: kitshelf-ui's hover and chosen edges take these instead. */
+  --color-primary-hover: #d99a28;
+  --color-primary-edge: var(--color-primary-dark);
 }
 
 :root[data-scheme='dark'] {
@@ -14,4 +17,6 @@
   --color-primary-dark: #f5c96a;
   --color-primary-soft: #3a2a0e;
   --color-on-primary: #2a1c00;
+  --color-primary-hover: var(--color-primary-dark);
+  --color-primary-edge: var(--color-primary);
 }
