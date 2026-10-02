@@ -1,0 +1,287 @@
+.streak {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.bolt {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.streakLines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.streakText {
+  font-family: var(--font-display);
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+.streakNote {
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  color: var(--color-muted);
+}
+
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+  margin: 4px 0 0;
+  padding: 14px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  list-style: none;
+}
+
+.week li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.dayName {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.today {
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1.5px dashed var(--color-check-border);
+  border-radius: 999px;
+  color: var(--color-on-primary);
+}
+
+.done {
+  border: 0;
+  background: var(--color-primary);
+}
+
+.ring {
+  box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-primary-dark);
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.scoreTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.scoreLines {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.scoreLabel {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.scoreValue {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.scoreNumber {
+  font-family: var(--font-display);
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.marks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.yes,
+.no {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+}
+
+.yes {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+.no {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+}
+
+.wrongLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: var(--tap-size);
+  margin: -6px 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-divider);
+  color: var(--color-primary-dark);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.allRight {
+  padding-top: 12px;
+  border-top: 1px solid var(--color-divider);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-success-text);
+}
+
+.learnedHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  margin-top: 14px;
+}
+
+.learnedHead > span {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.learned {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  list-style: none;
+}
+
+.learned li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+}
+
+.learned li + li {
+  border-top: 1px solid var(--color-divider);
+}
+
+.learned p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.tick {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-top: 1px;
+  border-radius: 999px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+}
+
+.discussion {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.chat {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+}
+
+.discussionLines {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.discussionLines strong {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+/* A smaller pill than the default, so "Listende" leaves the line beside it whole. */
+.discussion button {
+  flex: none;
+  min-height: 48px;
+  padding: 0 16px;
+}
+
+.discussionLines span {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}

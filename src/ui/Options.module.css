@@ -1,0 +1,90 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Options run from one letter to some sixty characters, so the design's 22px gives way to a size that wraps well. */
+.option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 56px;
+  padding: 12px 16px 12px 20px;
+  border: 1.5px solid var(--color-border);
+  border-radius: 16px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-display);
+  font-size: 1.1875rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.option:disabled {
+  cursor: default;
+}
+
+.text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.right {
+  border: 2px solid var(--color-success);
+  background: var(--color-success-bg);
+  color: var(--color-success-text);
+}
+
+.wrong {
+  border: 2px solid var(--color-danger);
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+}
+
+.quiet {
+  color: var(--color-muted);
+}
+
+.right svg,
+.wrong svg {
+  flex: none;
+}
+
+.tag {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.verdict {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: var(--color-sunken);
+}
+
+.verdict p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-chip-text);
+}
+
+.yes {
+  color: var(--color-success-text);
+}
+
+.no {
+  color: var(--color-danger);
+}

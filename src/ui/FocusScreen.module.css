@@ -1,0 +1,58 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+/* The way out, where you are, and an empty third that keeps the title centred. */
+.bar {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: calc(var(--content-width) + 2 * var(--page-margin));
+  min-height: 60px;
+  margin: 0 auto;
+  padding: 12px var(--page-margin) 0;
+}
+
+.title {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.under {
+  width: 100%;
+  max-width: calc(var(--content-width) + 2 * var(--page-margin));
+  margin: 10px auto 0;
+  padding: 0 var(--page-margin);
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: calc(var(--content-width) + 2 * var(--page-margin));
+  margin: 0 auto;
+  padding: 18px var(--page-margin) 24px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  max-width: calc(var(--content-width) + 2 * var(--page-margin));
+  margin: 0 auto;
+  padding: 12px var(--page-margin) calc(28px + env(safe-area-inset-bottom, 0px));
+}
+
+.footer > * {
+  box-shadow: var(--shadow-float);
+}

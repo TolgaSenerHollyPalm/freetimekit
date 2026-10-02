@@ -1,0 +1,24 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 18px;
+}
+
+.question + .question {
+  padding-top: 18px;
+  border-top: 1px solid var(--color-border);
+}
+
+.text {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-wrap: pretty;
+}
+
+.number {
+  color: var(--color-muted);
+}
