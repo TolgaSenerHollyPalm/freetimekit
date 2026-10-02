@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 1,
+  "id": "ftk-sanat-1",
+  "kit": "freetimekit",
+  "category": "sanat",
+  "title": "Sanat · Paket 1",
+  "version": 1,
+  "updatedAt": "2026-10-02",
+  "cards": [
+    {
+      "id": "sanat-001",
+      "title": "Çıraklık, kalfalık, ustalık: Mimar Sinan",
+      "subtitle": "Osmanlı mimarbaşısı ve üç büyük camisi",
+      "facts": [
+        "1538’deki Boğdan seferinde Prut Nehri üzerine 13 günde bir köprü kurdu. Ardından mimarbaşılığa getirildi ve 1588’deki ölümüne kadar bu görevde kaldı.",
+        "Şehzade Camii’ni Kanuni, ölen oğlu adına yaptırdı; cami 1548’de tamamlandı. Süleymaniye Camii ise 1550’de başlanıp 1557’de bitirildi.",
+        "Sinan’ın Şehzade’yi “çıraklık”, Süleymaniye’yi “kalfalık”, Edirne’deki Selimiye’yi “ustalık” eseri saydığı aktarılır. Hayatı en ayrıntılı, dostu Sâî Mustafa Çelebi’nin Tezkiretü’l-Bünyan’ında anlatılır.",
+        "Selimiye Camii ve Külliyesi 2011’de UNESCO Dünya Mirası Listesi’ne girdi. UNESCO’ya göre Sinan bu külliyeyi en iyi eseri sayıyordu; caminin büyük kubbesi sekiz ayağa oturur."
+      ],
+      "sources": [
+        {
+          "name": "TDV İslâm Ansiklopedisi",
+          "url": "https://islamansiklopedisi.org.tr/sinan"
+        },
+        {
+          "name": "UNESCO Dünya Mirası Merkezi",
+          "url": "https://whc.unesco.org/en/list/1366/"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/biography/Sinan"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-001-q1",
+          "text": "Sinan’ın “ustalık eseri” saydığı aktarılan cami hangisidir?",
+          "options": [
+            "Edirne Selimiye Camii",
+            "Bursa Ulu Camii",
+            "İstanbul Şehzade Camii",
+            "İstanbul Süleymaniye Camii"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aktarılan söze göre Şehzade çıraklık, Süleymaniye kalfalık, Selimiye ustalık eseridir. UNESCO da Sinan’ın Selimiye’yi en iyi eseri saydığını yazar.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-001-q2",
+          "text": "Sinan, Boğdan seferinde Prut Nehri üzerindeki köprüyü kaç günde kurdu?",
+          "options": [
+            "40 günde",
+            "100 günde",
+            "13 günde",
+            "3 günde"
+          ],
+          "answerIndex": 2,
+          "explanation": "TDV İslâm Ansiklopedisi’ne göre Sinan bu köprüyü 1538’de 13 günde kurdu; ardından mimarbaşılığa getirildi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-001-q3",
+          "text": "Sinan’ın anlattıklarını derleyen Tezkiretü’l-Bünyan’ı kim kaleme aldı?",
+          "options": [
+            "Evliya Çelebi",
+            "Kâtip Çelebi",
+            "Sâî Mustafa Çelebi",
+            "Lâmiî Çelebi"
+          ],
+          "answerIndex": 2,
+          "explanation": "Eseri, Sinan’ın çağdaşı ve yakın dostu olan şair Sâî Mustafa Çelebi yazdı; Sinan’ın hayatı hakkındaki en geniş bilgiler buradadır.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen kendi hayatında hangi işine “çıraklık eserim” derdin? Bugün ona bakınca ne hissediyorsun?",
+        "Sence bir insan en iyi eserini gençken mi verir, yıllarca birikim yaptıktan sonra mı?"
+      ]
+    },
+    {
+      "id": "sanat-002",
+      "title": "Mona Lisa’nın kayıp 28 ayı",
+      "subtitle": "1911’de Louvre’dan çalınan tablonun hikâyesi",
+      "facts": [
+        "Mona Lisa, 21 Ağustos 1911’de Paris’teki Louvre Müzesi’nden çalındı. Tablonun yerinde olmadığı ancak ertesi gün fark edildi.",
+        "Hırsız, Louvre’da camcı olarak çalışmış İtalyan Vincenzo Peruggia’ydı. Tabloyu Paris’te kaldığı odada, çift dipli bir ahşap sandıkta sakladı.",
+        "Aralık 1913’te, 28 ay sonra, tabloyu Floransa’da sanat tüccarı Alfredo Geri’ye satmaya çalıştı. Geri, Uffizi Galerisi’nin müdürüyle görüştü ve Peruggia polise yakalandı.",
+        "Tablo Floransa, Milano ve Roma’daki kalabalık sergilerden sonra Louvre’a döndü. Louvre’a göre bu olay Mona Lisa’nın ününü daha da büyüttü."
+      ],
+      "sources": [
+        {
+          "name": "Louvre Müzesi",
+          "url": "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana"
+        },
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/stolen-how-the-mona-lisa-became-the-worlds-most-famous-painting-16406234/"
+        },
+        {
+          "name": "HISTORY",
+          "url": "https://www.history.com/articles/the-heist-that-made-the-mona-lisa-famous"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-002-q1",
+          "text": "Mona Lisa’yı çalan Vincenzo Peruggia, Louvre’da hangi işi yapmıştı?",
+          "options": [
+            "Rehberlik",
+            "Bekçilik",
+            "Camcılık",
+            "Restoratörlük"
+          ],
+          "answerIndex": 2,
+          "explanation": "Louvre’a göre Peruggia müzede çalışmış bir camcıydı. HISTORY’ye göre Mona Lisa’nın koruyucu çerçevesinin yapımına da yardım etmişti.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-002-q2",
+          "text": "Peruggia tabloyu hangi şehirde satmaya çalışırken yakalandı?",
+          "options": [
+            "Floransa",
+            "Venedik",
+            "Torino",
+            "Napoli"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aralık 1913’te tabloyu Floransa’da bir sanat tüccarına satmaya çalıştı; tüccar yetkilileri haberdar etti.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-002-q3",
+          "text": "Soruşturma sırasında tutuklanıp sonra serbest bırakılan ünlü şair kimdi?",
+          "options": [
+            "Guillaume Apollinaire",
+            "Arthur Rimbaud",
+            "Charles Baudelaire",
+            "Paul Verlaine"
+          ],
+          "answerIndex": 0,
+          "explanation": "Polis 1911’de şair Guillaume Apollinaire’i tutukladı, Picasso’yu da sorguladı. İkisi de serbest bırakıldı; Mona Lisa hırsızlığıyla ilgileri yoktu.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sence bir eseri asıl ünlü yapan şey sanatçının ustalığı mı, yoksa başına gelen hikâye mi?",
+        "Sen 1911’de Paris’te olsan, tablonun boş kalan duvarını görmeye gider miydin? Neden?"
+      ]
+    },
+    {
+      "id": "sanat-003",
+      "title": "Yıldızlı Gece",
+      "subtitle": "Van Gogh’un 1889’da boyadığı gece göğü",
+      "facts": [
+        "Van Gogh tabloyu Haziran 1889’da, Güney Fransa’da Saint-Rémy’deki Saint-Paul-de-Mausole akıl hastanesinde kalırken yaptı. Esin kaynağı penceresinden gördüğü manzaraydı.",
+        "Kardeşi Theo’ya yazdığı bir mektupta, gün doğmadan çok önce penceresinden kırları seyrettiğini, gökte yalnızca çok büyük görünen sabah yıldızının olduğunu anlattı. Bu “sabah yıldızı” Venüs gezegeniydi.",
+        "Manzara gece görülmüş olsa da tablo gündüz, birkaç oturumda boyandı. Aşağıdaki köy pencereden görünmüyordu; soldaki servi de gerçekte olduğundan daha yakın çizildi.",
+        "Tuval üzerine yağlıboya tablo 73,7 x 92,1 cm boyutunda. MoMA onu 1941’de edindi; müzenin duyurusuna göre bir New York müzesine giren ilk Van Gogh tuvaliydi."
+      ],
+      "sources": [
+        {
+          "name": "MoMA",
+          "url": "https://www.moma.org/collection/works/79802"
+        },
+        {
+          "name": "MoMA basın arşivi (1941)",
+          "url": "https://www.moma.org/docs/press_archives/739/releases/MOMA_1941_0076_1941-09-29_41929-75.pdf"
+        },
+        {
+          "name": "Van Gogh Müzesi – Van Gogh’un mektupları",
+          "url": "https://vangoghletters.org/vg/letters/let777/print.html"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-003-q1",
+          "text": "Yıldızlı Gece’nin esin kaynağı neydi?",
+          "options": [
+            "Amsterdam’da bir kanal kıyısından görünen manzara",
+            "Kaldığı odanın penceresinden görünen manzara",
+            "Arles’da bir kafenin terasından görünen manzara",
+            "Paris’teki atölyesinin çatısından görünen manzara"
+          ],
+          "answerIndex": 1,
+          "explanation": "MoMA’ya göre tablo, Saint-Rémy’de kaldığı yerin penceresinden gördüğü manzaradan esinlendi; ama köy gibi bazı ayrıntılar başka görüntülerden geldi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-003-q2",
+          "text": "Van Gogh’un mektubunda andığı parlak “sabah yıldızı” aslında hangi gök cismiydi?",
+          "options": [
+            "Kutup Yıldızı",
+            "Jüpiter gezegeni",
+            "Mars gezegeni",
+            "Venüs gezegeni"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mektubun akademik notuna göre o günlerde sabah göğünde parlayan “yıldız” Venüs’tü. MoMA da tablonun sol ortasındaki parlak noktayı Venüs olarak tanımlar.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-003-q3",
+          "text": "MoMA’nın 1941 duyurusuna göre Yıldızlı Gece hangi açıdan bir ilkti?",
+          "options": [
+            "Van Gogh’un Fransa’da yaptığı ilk tablosuydu",
+            "ABD’de sergilenen ilk Van Gogh tablosuydu",
+            "Van Gogh’un hayattayken sattığı ilk tablosuydu",
+            "Bir New York müzesine giren ilk Van Gogh tuvaliydi"
+          ],
+          "answerIndex": 3,
+          "explanation": "MoMA 1941 basın bülteninde bu tabloyu bir New York müzesinin koleksiyonuna giren ilk Van Gogh tuvali olarak duyurdu.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen kendi pencerenden gördüğün manzarayı resmetsen, neyi olduğu gibi bırakır, neyi değiştirirdin?",
+        "Sence bir manzarayı gerçeğe sadık mı çizmek daha değerli, yoksa akılda kaldığı hâliyle mi?"
+      ]
+    },
+    {
+      "id": "sanat-004",
+      "title": "Su üstünde resim: Ebru",
+      "subtitle": "UNESCO listesindeki geleneksel Türk sanatı",
+      "facts": [
+        "Ebruda boyalar, koyulaştırılmış su dolu bir tekneye fırçayla serpilir; suyun yüzeyinde oluşan desen kâğıda aktarılır. UNESCO ebruyu 2014’te Somut Olmayan Kültürel Miras listesine aldı.",
+        "Suya, geven bitkisinden elde edilen kitre katılır; böylece boyalar dibe çökmez. Boyalara sığır ödü eklenir; öd, rengin suyun yüzeyinde yayılmasını sağlar.",
+        "Boyalar, at kuyruğu kılından yapılan fırçalarla serpilir. Teknedeki desen yalnızca tek bir kâğıda geçer; bu yüzden bir ebrunun aynısı bir daha yapılamaz.",
+        "UNESCO’ya göre ebru bilgisi usta-çırak ilişkisi içinde, sözlü ve uygulamalı olarak aktarılır. Temel becerileri kazanmak en az iki yıl sürer."
+      ],
+      "sources": [
+        {
+          "name": "UNESCO Somut Olmayan Kültürel Miras",
+          "url": "https://ich.unesco.org/en/RL/traditional-turkish-art-of-ebru-00644"
+        },
+        {
+          "name": "TDV İslâm Ansiklopedisi",
+          "url": "https://islamansiklopedisi.org.tr/ebru"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-004-q1",
+          "text": "Ebruda boyalara eklenen ve rengin su yüzeyinde yayılmasını sağlayan madde hangisidir?",
+          "options": [
+            "Zeytinyağı",
+            "Sığır ödü",
+            "Kaya tuzu",
+            "Bal mumu"
+          ],
+          "answerIndex": 1,
+          "explanation": "Her boyaya önceden sığır ödü katılır; ne kadar çok öd eklenirse boya yüzeyde o kadar çok yayılır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-004-q2",
+          "text": "Ebru teknesinde oluşturulan bir desen kaç kâğıda aktarılabilir?",
+          "options": [
+            "Yüz kâğıda",
+            "Yalnızca bir kâğıda",
+            "İki kâğıda",
+            "On kâğıda"
+          ],
+          "answerIndex": 1,
+          "explanation": "Teknedeki desen yalnızca bir kâğıda geçer. Bu yüzden her ebru tektir; aynısı değil, ancak benzeri yapılabilir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-004-q3",
+          "text": "Lale, karanfil gibi gerçeğe yakın çiçekli ebruları ilk kez kim yaptı?",
+          "options": [
+            "Levnî",
+            "Hâmid Aytaç",
+            "Matrakçı Nasuh",
+            "Necmeddin Okyay"
+          ],
+          "answerIndex": 3,
+          "explanation": "TDV İslâm Ansiklopedisi’ne göre bunu ilk başaran Necmeddin Okyay’dır (ö. 1976); bu türe “Necmeddin ebrusu” denir.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sonucunu tam kontrol edemediğin bir sanatı mı, her adımını planladığın bir sanatı mı denemek isterdin?",
+        "Sen olsan iki yıl boyunca bir ustanın yanında hangi sanatı ya da zanaatı öğrenmek isterdin?"
+      ]
+    },
+    {
+      "id": "sanat-005",
+      "title": "Beethoven’ın Dokuzuncu Senfonisi",
+      "subtitle": "“Neşeye Övgü” ile biten son senfonisi",
+      "facts": [
+        "Dokuzuncu Senfoni, Beethoven’ın son senfonisidir. İlk kez 7 Mayıs 1824’te Viyana’da, bugün ayakta olmayan Kärntnertor Tiyatrosu’nda seslendirildi.",
+        "Son bölümde koro, Friedrich Schiller’in 1785 tarihli “Neşeye Övgü” (An die Freude) şiirinden dizeler söyler.",
+        "Beethoven’ın kendi eliyle yazdığı partisyon 2001’de UNESCO Dünya Belleği Kaydı’na girdi. Partisyonun büyük kısmı Berlin Devlet Kütüphanesi’nde korunuyor.",
+        "“Neşeye Övgü” teması 1972’de Avrupa Konseyi’nin, 1985’te Avrupa Topluluğu’nun marşı oldu; bugün AB’nin marşıdır. Marşın sözü yoktur, yalnızca müzikten oluşur."
+      ],
+      "sources": [
+        {
+          "name": "Beethoven-Haus Bonn",
+          "url": "https://www.beethoven.de/en/press/view/5079801412976640/RESOUND+Beethoven+9"
+        },
+        {
+          "name": "UNESCO Dünya Belleği",
+          "url": "https://www.unesco.org/en/memory-world/ludwig-van-beethoven-symphony-no-9-d-minor-op-125"
+        },
+        {
+          "name": "Avrupa Birliği",
+          "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_en"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-005-q1",
+          "text": "Dokuzuncu Senfoni’nin son bölümündeki sözler hangi şairin şiirinden alınmıştır?",
+          "options": [
+            "Friedrich Schiller",
+            "Friedrich Hölderlin",
+            "Johann Wolfgang von Goethe",
+            "Heinrich Heine"
+          ],
+          "answerIndex": 0,
+          "explanation": "Koro, Schiller’in 1785 tarihli “Neşeye Övgü” (An die Freude) şiirinden dizeler söyler.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-005-q2",
+          "text": "Dokuzuncu Senfoni ilk kez hangi şehirde seslendirildi?",
+          "options": [
+            "Bonn",
+            "Berlin",
+            "Salzburg",
+            "Viyana"
+          ],
+          "answerIndex": 3,
+          "explanation": "İlk seslendirme 7 Mayıs 1824’te Viyana’daki Kärntnertor Tiyatrosu’nda yapıldı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-005-q3",
+          "text": "Leonard Bernstein, 1989 Noel’indeki ünlü yorumlarında final korosunu nasıl değiştirdi?",
+          "options": [
+            "“Kardeşliğe Övgü”ye çevirdi",
+            "“Özgürlüğe Övgü”ye çevirdi",
+            "“Umuda Övgü”ye çevirdi",
+            "“Barışa Övgü”ye çevirdi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bernstein, 1989 Noel’inde Berlin’de yönettiği konserlerde sözlerdeki “Freude” (neşe) kelimesini “Freiheit” (özgürlük) yaptı; final “Özgürlüğe Övgü”ye dönüştü.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir senfoninin sonuna koro ekleyebilseydin, hangi şiiri ya da sözleri seçerdin?",
+        "Hayatında unutamadığın bir canlı müzik anı var mı? Seni en çok ne etkilemişti?"
+      ]
+    },
+    {
+      "id": "sanat-006",
+      "title": "Perdedeki gölgeler: Karagöz ve Hacivat",
+      "subtitle": "UNESCO listesindeki Türk gölge oyunu",
+      "facts": [
+        "Karagöz, UNESCO’nun 2009’da listesine aldığı bir gölge oyunudur. Deve ya da sığır derisinden “tasvir”ler, çubuklarla ışığın önünde tutulup pamuklu perdeye gölge düşürür.",
+        "Bütün tasvirleri tek bir sanatçı, “hayalî” oynatır; kadınların, çocukların ve farklı yöre ağızlarının seslerini de o verir. Yanında ona yardım eden, işi öğrenen çıraklar olabilir.",
+        "Karagöz özü sözü doğru, düşündüğünü açıkça söyleyen bir halk adamıdır. Hacivat ise düzgün konuşan, herkesin huyuna göre davranan, ara bulucu bir İstanbul çelebisidir.",
+        "İkilinin Orhan Gazi döneminde Bursa’da yaşadığı anlatılır, ama Metin And’a göre bu rivayetlerin belgesi yok. Yazılı kaynaklar gölge oyununun Osmanlı’ya 16. yüzyılda geldiğini gösterir."
+      ],
+      "sources": [
+        {
+          "name": "UNESCO Somut Olmayan Kültürel Miras",
+          "url": "https://ich.unesco.org/en/RL/karagoz-00180"
+        },
+        {
+          "name": "TDV İslâm Ansiklopedisi",
+          "url": "https://islamansiklopedisi.org.tr/karagoz"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-006-q1",
+          "text": "Karagöz perdesinin arkasında tasvirleri oynatan sanatçıya ne denir?",
+          "options": [
+            "Hayalî",
+            "Kavuklu",
+            "Pişekâr",
+            "Meddah"
+          ],
+          "answerIndex": 0,
+          "explanation": "UNESCO’ya göre bütün tasvirleri “hayalî” denen tek bir baş sanatçı oynatır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-006-q2",
+          "text": "Oyunda düzgün konuşan, ara bulucu İstanbul çelebisi hangi karakterdir?",
+          "options": [
+            "Kantocu",
+            "Hacivat",
+            "Hokkabaz",
+            "Karagöz"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hacivat düzgün ve ince sesle konuşan bir çelebidir; Karagöz ise dobra bir halk adamıdır.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-006-q3",
+          "text": "Yazılı kaynaklara göre gölge oyunu Osmanlı topraklarına hangi yüzyılda geldi?",
+          "options": [
+            "19. yüzyılda",
+            "14. yüzyılda",
+            "16. yüzyılda",
+            "12. yüzyılda"
+          ],
+          "answerIndex": 2,
+          "explanation": "Metin And’a göre konuyla ilgili ilk belgeler 16. yüzyıla aittir; Orhan Gazi dönemine uzanan Bursa hikâyesi belgesiz bir rivayettir.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir Karagöz oyununa bugünden bir karakter ekleyebilseydin, kim olurdu ve nasıl konuşurdu?",
+        "Sence Karagöz gibi dobra olmak mı daha iyi, Hacivat gibi ara bulucu olmak mı? Sen hangisine daha yakınsın?"
+      ]
+    },
+    {
+      "id": "sanat-007",
+      "title": "Büyük Dalga",
+      "subtitle": "Hokusai’nin dalgaya sakladığı Fuji Dağı",
+      "facts": [
+        "Asıl adı “Kanagawa Açıklarında Dalganın Altında”. Hokusai’nin “Fuji Dağı’nın Otuz Altı Görünümü” serisinden, 1831 civarında basılmış renkli bir tahta baskıdır.",
+        "Edo’daki pazara balık taşıyan üç hızlı tekne, dev bir dalgaya doğru ilerler. Fuji Dağı ise dalganın çukurunda küçük bir üçgen gibi görünür.",
+        "Baskıdaki güçlü mavide, o yıllarda Japon yayıncılara Çin’den ucuza gelen Prusya (Berlin) mavisi kullanıldı. The Met’e göre bu pigment manzara baskılarını yaygınlaştırdı.",
+        "British Museum’a göre serinin her tasarımından yıllar içinde 8.000’e varan baskı alındı. Edo’da bir baskının fiyatı, çift porsiyon eriştenin biraz üzerindeydi."
+      ],
+      "sources": [
+        {
+          "name": "British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/A_2008-3008-1"
+        },
+        {
+          "name": "The Met",
+          "url": "https://www.metmuseum.org/art/collection/search/45434"
+        },
+        {
+          "name": "The Met – Konservasyon yazısı",
+          "url": "https://www.metmuseum.org/about-the-met/conservation-and-scientific-research/conservation-stories/2020/hokusai-great-wave"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-007-q1",
+          "text": "Büyük Dalga’da, dalganın çukurunda küçük görünen dağ hangisidir?",
+          "options": [
+            "Asama Dağı",
+            "Takao Dağı",
+            "Aso Dağı",
+            "Fuji Dağı"
+          ],
+          "answerIndex": 3,
+          "explanation": "Baskı “Fuji Dağı’nın Otuz Altı Görünümü” serisindendir; Hokusai Fuji’yi dalganın çukurunda küçük bir üçgen gibi gösterir.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-007-q2",
+          "text": "Baskıdaki güçlü mavi renk hangi pigmentten gelir?",
+          "options": [
+            "Lacivert taşı (ultramarin)",
+            "Mısır mavisi",
+            "Kobalt mavisi",
+            "Prusya (Berlin) mavisi"
+          ],
+          "answerIndex": 3,
+          "explanation": "British Museum’a göre baskıdaki güçlü mavi, o yıllarda Japon yayıncılara Çin’den ucuza gelen Prusya (Berlin) mavisidir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-007-q3",
+          "text": "Seri yayımlandığında Hokusai kaç yaşlarındaydı?",
+          "options": [
+            "Yirmilerinin sonu, otuzlarının başı",
+            "Altmışlarının sonu, yetmişlerinin başı",
+            "Kırklarının sonu, ellilerinin başı",
+            "Seksenlerinin sonu, doksanlarının başı"
+          ],
+          "answerIndex": 1,
+          "explanation": "British Museum’a göre seri yaklaşık 1829-1833’te, Hokusai altmışlarının sonu ile yetmişlerinin başındayken yayımlandı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen yaşadığın şehrin en tanıdık manzarasını 36 farklı yerden çizecek olsan, ilk nereden bakarak çizerdin?",
+        "Sence bir eserin binlerce kopyası olması onu sıradanlaştırır mı, yoksa daha çok sevilmesini mi sağlar?"
+      ]
+    },
+    {
+      "id": "sanat-008",
+      "title": "Kaplumbağa Terbiyecisi",
+      "subtitle": "Osman Hamdi Bey’in 1906 tarihli tablosu",
+      "facts": [
+        "Osman Hamdi Bey’in 1906 tarihli, tuval üzerine yağlıboya tablosudur. 221,5 x 120 cm boyutundaki eser bugün İstanbul’daki Pera Müzesi’nde.",
+        "Tablo, 1 Mayıs 1906’da Paris Grand Palais’de açılan Salon sergisinde “L’homme aux Tortues” (Kaplumbağalı Adam) adıyla gösterildi.",
+        "Mekân olarak Bursa Yeşil Cami’nin üst kat odası kullanıldı. Elinde ney, sırtında vurmalı bir çalgı taşıyan figür için Osman Hamdi kendisi modellik etti.",
+        "Pera Müzesi’ne göre esin kaynağı, İsviçreli diplomat Aimé Humbert’in Japonya’da gördüğü kaplumbağa terbiyecilerini anlatan bir dergi yazısı ve gravürü olabilir."
+      ],
+      "sources": [
+        {
+          "name": "Pera Müzesi",
+          "url": "https://www.peramuzesi.org.tr/Images/pdf/ogretmen-kitapcik/osman-hamdi.pdf"
+        },
+        {
+          "name": "TDV İslâm Ansiklopedisi",
+          "url": "https://islamansiklopedisi.org.tr/osman-hamdi-bey"
+        }
+      ],
+      "questions": [
+        {
+          "id": "sanat-008-q1",
+          "text": "Kaplumbağa Terbiyecisi’ndeki figür için kim modellik yaptı?",
+          "options": [
+            "Bursalı bir neyzen",
+            "Parisli bir ressam dostu",
+            "Osman Hamdi Bey’in kendisi",
+            "Babası İbrahim Edhem Paşa"
+          ],
+          "answerIndex": 2,
+          "explanation": "Pera Müzesi’ne göre Osman Hamdi, pek çok resminde olduğu gibi bu figür için de kendisi poz verdi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "sanat-008-q2",
+          "text": "Kaplumbağa Terbiyecisi 1906’da hangi şehirde açılan Salon sergisinde gösterildi?",
+          "options": [
+            "İstanbul",
+            "Londra",
+            "Paris",
+            "Viyana"
+          ],
+          "answerIndex": 2,
+          "explanation": "Eser 1 Mayıs 1906’da Paris Grand Palais’de açılan Salon sergisinde “L’homme aux Tortues” adıyla sergilendi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "sanat-008-q3",
+          "text": "Osman Hamdi Bey 1881’de hangi kurumun müdürlüğüne getirildi?",
+          "options": [
+            "Müze-i Hümayun",
+            "Darülelhan",
+            "Darülfünun",
+            "Mekteb-i Tıbbiye"
+          ],
+          "answerIndex": 0,
+          "explanation": "Osman Hamdi, 1881’de müdür Anton Dethier’nin ölümü üzerine o sırada Çinili Köşk’te bulunan Müze-i Hümayun’un başına geçti.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir tabloda kendini model olarak çizseydin, hangi kılıkta ve ne yaparken görünmek isterdin?",
+        "Senin sabrını en çok sınayan iş ne? Kaplumbağa terbiyecisi kadar sabırlı olabileceğin bir şey var mı?"
+      ]
+    }
+  ]
+}

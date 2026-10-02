@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "id": "ftk-teknoloji-1",
+  "kit": "freetimekit",
+  "category": "teknoloji",
+  "title": "Teknoloji · Paket 1",
+  "version": 1,
+  "updatedAt": "2026-10-02",
+  "cards": [
+    {
+      "id": "teknoloji-001",
+      "title": "İlk web sitesi",
+      "subtitle": "CERN’de doğan World Wide Web",
+      "facts": [
+        "Tim Berners-Lee, World Wide Web için ilk önerisini Mart 1989’da CERN’de yazdı. Amaç, dünyanın dört bir yanındaki bilim insanlarının bilgi paylaşımını otomatik hâle getirmekti.",
+        "1990’ın sonunda ilk web sunucusu ve tarayıcısı CERN’de çalışıyordu. Sunucu olan NeXT bilgisayarın üstünde kırmızı mürekkeple “Bu makine bir sunucu. KAPATMAYIN!!” yazıyordu.",
+        "Sonradan info.cern.ch adıyla bilinen ilk web sitesinin konusu web projesinin kendisiydi: hipermetni ve sunucu kurmayı anlatıyordu. O yıllarda arama motoru yoktu.",
+        "CERN, 30 Nisan 1993’te web yazılımını kamu malı olarak herkese açtı. 1993’ün sonunda bilinen web sunucusu sayısı 500’ü aşmıştı."
+      ],
+      "sources": [
+        {
+          "name": "CERN – Web’in kısa tarihi",
+          "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+        },
+        {
+          "name": "CERN – Web’in doğuşu",
+          "url": "https://home.cern/science/computing/the-birth-of-the-web/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-001-q1",
+          "text": "Dünyanın ilk web sitesi hangi kurumda yayına girdi?",
+          "options": [
+            "CERN",
+            "Harvard Üniversitesi",
+            "NASA",
+            "MIT"
+          ],
+          "answerIndex": 0,
+          "explanation": "İlk web sitesi ve sunucusu, CERN’de Berners-Lee’nin NeXT bilgisayarında çalışıyordu; site sonradan info.cern.ch adıyla bilindi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-001-q2",
+          "text": "İlk web sunucusu hangi bilgisayarda çalışıyordu?",
+          "options": [
+            "Apple II",
+            "Commodore 64",
+            "NeXT",
+            "IBM PC"
+          ],
+          "answerIndex": 2,
+          "explanation": "Berners-Lee kodu, ilk web sunucusunu barındıran ve ofisinde duran NeXT bilgisayarda geliştirdi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-001-q3",
+          "text": "1993 başında Illinois Üniversitesi’ndeki NCSA’nın yayımladığı ve webin yayılmasını hızlandıran tarayıcı hangisidir?",
+          "options": [
+            "Mosaic",
+            "Internet Explorer",
+            "Netscape Navigator",
+            "Mozilla Firefox"
+          ],
+          "answerIndex": 0,
+          "explanation": "CERN’e göre NCSA, Mosaic’in ilk sürümünü 1993 başında yayımladı; kullanımı kolay tarayıcılar webin yayılmasını hemen hızlandırdı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sence web bir şirketin malı olsaydı, bugün internet nasıl görünürdü?",
+        "İlk web sitesini sen kursaydın, konusu ne olurdu?"
+      ]
+    },
+    {
+      "id": "teknoloji-002",
+      "title": "QR kodun doğuşu",
+      "subtitle": "DENSO WAVE’in hızlı okunan iki boyutlu kodu",
+      "facts": [
+        "QR kod, 1994’te Japonya’da, o sırada DENSO’nun bir bölümü olan DENSO WAVE tarafından duyuruldu. “QR”, hızlı okumayı vurgulayan “Quick Response” ifadesinin kısaltmasıdır.",
+        "Çıkış noktası barkodun sınırıydı: barkod yaklaşık 20 karakter tutabiliyordu. Projeyi yöneten Masahiro Hara ve ekibi, Kanji ve Kana karakterlerini de kodlayabilen bir 2B kod tasarladı.",
+        "Konum algılama karelerinde siyah ve beyaz alanlar 1:1:3:1:1 oranındadır. Ekip, basılı malzemede en az görülen bu oranı bulmak için el ilanlarını, dergileri ve kutuları taradı.",
+        "DENSO WAVE patent hakkını elinde tuttu ama kullanmayacağını açıkladı ve kodun özelliklerini herkese açtı. QR kod 2000’de ISO standardı oldu."
+      ],
+      "sources": [
+        {
+          "name": "DENSO WAVE (QRcode.com)",
+          "url": "https://www.qrcode.com/en/history/"
+        },
+        {
+          "name": "DENSO",
+          "url": "https://www.denso-am.eu/news/20140617_qr-code-development-team-wins-european-inventor-award"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-002-q1",
+          "text": "QR koddaki “QR” neyin kısaltmasıdır?",
+          "options": [
+            "Quick Reader",
+            "Quality Record",
+            "Query Request",
+            "Quick Response"
+          ],
+          "answerIndex": 3,
+          "explanation": "DENSO WAVE’e göre ad, “hızlı yanıt” anlamına gelen Quick Response’tan gelir ve kodun hızlı okunma hedefini anlatır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-002-q2",
+          "text": "QR kodun konum algılama karelerinde siyah ve beyaz alanların oranı nedir?",
+          "options": [
+            "1:1:3:1:1",
+            "1:1:1:1:1",
+            "3:1:1:1:3",
+            "1:2:1:2:1"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ekip, basılı malzemede en az rastlanan oranı aradı ve 1:1:3:1:1’i seçti; böylece kod her açıdan tanınabiliyor.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-002-q3",
+          "text": "DENSO WAVE’e göre QR kod Japonya’da hangi yıl halk arasında yaygınlaştı?",
+          "options": [
+            "1994",
+            "1987",
+            "2002",
+            "2015"
+          ],
+          "answerIndex": 2,
+          "explanation": "QR kod okuyabilen cep telefonlarının satışa çıkmasıyla kod, 2002’de Japonya’da geniş halk kesimlerine yayıldı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sence bir şirketin patent hakkını kullanmama kararı akıllıca mıydı? Sen olsan ne yapardın?",
+        "QR kod yarın ortadan kalksa, günlük hayatında en çok neyi özlerdin?"
+      ]
+    },
+    {
+      "id": "teknoloji-003",
+      "title": "Mark II’deki ünlü güve",
+      "subtitle": "1947’de bir deftere bantlanan güve",
+      "facts": [
+        "9 Eylül 1947’de Harvard’daki Mark II bilgisayarı üzerinde çalışan ekip, bilgisayarın rölelerinden birinin kontakları arasına sıkışmış bir güve buldu.",
+        "Ekip güveyi bilgisayarın kayıt defterine bantladı ve yanına “First actual case of bug being found” (gerçek bir böceğin bulunduğu ilk vaka) diye not düştü.",
+        "Güve, “bug” teriminin kaynağı değil. Smithsonian’a göre Thomas Edison daha 1870’lerde elektrik devrelerindeki kusurlardan “bug” diye söz ediyordu.",
+        "Ekipte sonradan ABD Deniz Kuvvetleri’nde tuğamiral olan Grace Hopper da vardı ve olayı konferanslarında anlatarak ünlendirdi. Defter bugün Smithsonian koleksiyonunda."
+      ],
+      "sources": [
+        {
+          "name": "Smithsonian Ulusal Amerikan Tarihi Müzesi",
+          "url": "https://americanhistory.si.edu/collections/object/nmah_334663"
+        },
+        {
+          "name": "Bilgisayar Tarihi Müzesi (CHM)",
+          "url": "https://www.computerhistory.org/tdih/september/9/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-003-q1",
+          "text": "1947’deki ünlü güve hangi bilgisayarda bulundu?",
+          "options": [
+            "UNIVAC I",
+            "ENIAC",
+            "Colossus",
+            "Harvard Mark II"
+          ],
+          "answerIndex": 3,
+          "explanation": "Güve, Harvard Üniversitesi’ndeki Mark II bilgisayarının içinde bulundu ve ekibin kayıt defterine bantlandı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-003-q2",
+          "text": "Smithsonian’a göre 1870’lerde elektrik devrelerindeki kusurlara “bug” diyen mucit kimdir?",
+          "options": [
+            "Alexander Graham Bell",
+            "Nikola Tesla",
+            "Thomas Edison",
+            "Samuel Morse"
+          ],
+          "answerIndex": 2,
+          "explanation": "Smithsonian, Edison’un 1870’lerde devrelerdeki “bug”lardan söz ettiğini yazar; yani terim 1947’den çok daha eskidir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-003-q3",
+          "text": "Güve, Mark II’nin hangi parçasının içinde sıkışmış hâlde bulundu?",
+          "options": [
+            "Bir sabit diskin içinde",
+            "Bir transistörün içinde",
+            "Bir rölenin kontaklarında",
+            "Bir mikroçipin üstünde"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bilgisayar Tarihi Müzesi’ne göre güve, Harvard Mark II’nin röle kontakları arasına sıkışmıştı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sence teknik hatalara İngilizcede “bug” (böcek) denmesi neden bu kadar tuttu? Sen olsan bu hatalara ne ad verirdin?",
+        "Yaşadığın bir teknoloji arızasını müzelik bir deftere yazsan, yanına nasıl bir not düşerdin?"
+      ]
+    },
+    {
+      "id": "teknoloji-004",
+      "title": "GPS ve görelilik",
+      "subtitle": "Uydu saatlerine yapılan görelilik düzeltmesi",
+      "facts": [
+        "GPS uyduları yaklaşık 20.200 km yükseklikte dolaşır ve her biri Dünya’nın çevresini günde iki kez turlar. Her uyduda birden fazla atom saati bulunur.",
+        "Özel göreliliğe göre hareket eden saat daha yavaş işler. Uyduların hızı yüzünden saatleri, yerdekilere göre günde yaklaşık 7 mikrosaniye geri kalır.",
+        "Genel göreliliğe göre büyük kütleye yakın saatler daha yavaş işler; bu yüzden yükseklikteki uydu saatleri günde yaklaşık 45 mikrosaniye öne geçer. Net fark günde yaklaşık 38 mikrosaniyedir.",
+        "Mühendisler bunu hesaba kattı: GPS standardına göre uydu saatleri 10,23 MHz yerine 10,22999999543 MHz’e, yani biraz yavaş ayarlıdır. Böylece yerden bakınca doğru hızda işlerler."
+      ],
+      "sources": [
+        {
+          "name": "GPS.gov",
+          "url": "https://www.gps.gov/space-segment"
+        },
+        {
+          "name": "Ohio State Üniversitesi",
+          "url": "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps.html"
+        },
+        {
+          "name": "ESA Navipedia",
+          "url": "https://gssc.esa.int/navipedia/index.php/Relativistic_Clock_Correction"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-004-q1",
+          "text": "Bir GPS uydusu Dünya’nın çevresini günde kaç kez dolaşır?",
+          "options": [
+            "On iki",
+            "Bir",
+            "İki",
+            "Dört"
+          ],
+          "answerIndex": 2,
+          "explanation": "GPS.gov’a göre yaklaşık 20.200 km yükseklikte dolaşan her GPS uydusu, Dünya’nın çevresini günde iki kez turlar.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-004-q2",
+          "text": "İki görelilik etkisi birlikte, uydu saatlerini yerdekilere göre günde yaklaşık ne kadar öne geçirir?",
+          "options": [
+            "38 saniye",
+            "38 mikrosaniye",
+            "38 milisaniye",
+            "38 nanosaniye"
+          ],
+          "answerIndex": 1,
+          "explanation": "Genel görelilikten gelen 45 mikrosaniyelik ilerlemeden özel görelilikten gelen 7 mikrosaniye düşünce günde yaklaşık 38 mikrosaniye kalır.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-004-q3",
+          "text": "Uydu saatlerinin yerdekilerden hızlı işlemesinin ana nedeni nedir?",
+          "options": [
+            "Güneş ışınlarının saatleri ısıtması",
+            "Dünya’nın kütlesinden daha uzakta bulunmaları",
+            "Uzayın çok soğuk olması",
+            "Uyduların çok hızlı hareket etmesi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Genel göreliliğe göre büyük kütleden uzaktaki saatler daha hızlı işler; bu etki günde yaklaşık 45 mikrosaniyedir. Uyduların hızı ise özel göreliliğe göre saatleri günde yaklaşık 7 mikrosaniye yavaşlatır.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sence görelilik gibi soyut görünen bir teorinin günlük hayatta işe yarayacağı, ilk ortaya atıldığında tahmin edilebilir miydi?",
+        "Telefonundaki konum servisi bir hafta çalışmasa, en çok nerede zorlanırdın?"
+      ]
+    },
+    {
+      "id": "teknoloji-005",
+      "title": "Ada Lovelace ve Not G",
+      "subtitle": "Hiç tamamlanmamış bir makine için yazılan tablo",
+      "facts": [
+        "Ada Lovelace (1815–1852), şair Lord Byron’ın kızıydı. 1833’te, 17 yaşındayken Charles Babbage ile tanıştı ve onun hesap makinelerine ilgi duydu.",
+        "Luigi Menabrea, Babbage’ın tasarladığı Analitik Makine’yi Fransızca bir makalede anlattı. Lovelace makaleyi İngilizceye çevirip ekler yazdı; 1843’te yayımlanan 66 sayfalık metnin 41 sayfasını bu ekler oluşturuyordu.",
+        "Son ek olan Not G, makinenin Bernoulli sayılarını nasıl hesaplayacağını adım adım gösteren bir tablo içerir. Bu tablo sık sık “ilk bilgisayar programı” diye anılır.",
+        "Analitik Makine hiçbir zaman tamamlanmadı. Lovelace, makinenin sayılardan başka şeyler üzerinde de çalışabileceğini, örneğin karmaşık müzik parçaları besteleyebileceğini öne sürdü."
+      ],
+      "sources": [
+        {
+          "name": "Bilgisayar Tarihi Müzesi (CHM)",
+          "url": "https://www.computerhistory.org/babbage/adalovelace/"
+        },
+        {
+          "name": "Bodleian Kütüphanesi, Oxford",
+          "url": "https://blogs.bodleian.ox.ac.uk/adalovelace/2018/07/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-005-q1",
+          "text": "Ada Lovelace kimin kızıydı?",
+          "options": [
+            "Şair Lord Byron",
+            "Michael Faraday",
+            "Charles Dickens",
+            "Charles Babbage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ada, şair Lord Byron ile Annabella Milbanke’nin kızıydı; Babbage ise 1833’te tanıştığı ve birlikte çalıştığı kişiydi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-005-q2",
+          "text": "Not G’deki tablo, Analitik Makine’nin hangi sayıları hesaplayışını gösterir?",
+          "options": [
+            "Bernoulli sayıları",
+            "Pi’nin basamakları",
+            "Asal sayılar",
+            "Fibonacci sayıları"
+          ],
+          "answerIndex": 0,
+          "explanation": "Not G, makinenin işleyişini Bernoulli sayılarının hesaplanması örneğiyle adım adım gösterir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-005-q3",
+          "text": "Analitik Makine’ye yapacağı işlemler nasıl verilecekti?",
+          "options": [
+            "Manyetik bantla",
+            "Disketlerle",
+            "Bir klavyeyle",
+            "Delikli kartlarla"
+          ],
+          "answerIndex": 3,
+          "explanation": "Makine, Jacquard dokuma tezgâhlarında kullanılanlara benzer delikli kartlarla programlanacaktı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Henüz var olmayan bir makine için program yazmak sence nasıl bir duygudur?",
+        "Lovelace bugünün bilgisayarlarını görse, sence en çok neye şaşırırdı?"
+      ]
+    },
+    {
+      "id": "teknoloji-006",
+      "title": "Kurita’nın 176 emojisi",
+      "subtitle": "MoMA koleksiyonuna giren erken emoji seti",
+      "facts": [
+        "1999’da Japon telekom şirketi NTT DOCOMO, cep telefonları için 176 emojilik bir set çıkardı. Seti, şirketin mobil internet hizmeti i-mode’un geliştirme ekibindeki Shigetaka Kurita tasarladı.",
+        "Emojiler 12×12 piksellik bir ızgarada çizildi. Kurita manga, Zapf Dingbats yazı tipi ve ifade simgelerinden (emoticon) esinlendi; sette hava durumu simgeleri, kalp ve yüzler vardı.",
+        "“Emoji” Japonca e (resim) ve moji (karakter) sözcüklerinden oluşur. “Emotion” ve “icon” sözcüklerinden türeyen “emoticon” ise ayrı bir kelimedir.",
+        "Set, NTT DOCOMO’nun bağışıyla New York’taki MoMA’nın koleksiyonunda. Emojipedia ise Japon operatör J-Phone’un (bugünkü SoftBank) 1997’de 90 emoji destekleyen bir telefon çıkardığını bildirdi; yani bu set ilk olmayabilir."
+      ],
+      "sources": [
+        {
+          "name": "MoMA (Modern Sanat Müzesi)",
+          "url": "https://www.moma.org/collection/works/196070"
+        },
+        {
+          "name": "Unicode Konsorsiyumu",
+          "url": "https://www.unicode.org/faq/emoji_dingbats.html"
+        },
+        {
+          "name": "Emojipedia",
+          "url": "https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-006-q1",
+          "text": "NTT DOCOMO’nun 1999’da çıkardığı emoji setinde kaç emoji vardı?",
+          "options": [
+            "64",
+            "176",
+            "256",
+            "500"
+          ],
+          "answerIndex": 1,
+          "explanation": "MoMA’ya göre NTT DOCOMO, 1999’da cep telefonları için 176 emojilik bir set yayımladı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-006-q2",
+          "text": "“Emoji” sözcüğündeki “e” Japoncada ne anlama gelir?",
+          "options": [
+            "Yüz",
+            "Resim",
+            "Duygu",
+            "Elektronik"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unicode’a göre e “resim”, moji “karakter” demektir. “Emotion” sözcüğünden türeyen kelime ise “emoticon”dur.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-006-q3",
+          "text": "Japon operatörlerin emojileri 2010’da hangi karakter standardına eklendi?",
+          "options": [
+            "Unicode",
+            "JPEG",
+            "ASCII",
+            "MPEG"
+          ],
+          "answerIndex": 0,
+          "explanation": "Her operatör farklı bir set ve birbiriyle uyumsuz kodlamalar kullanıyordu. Unicode’a göre operatörlerin emojilerinden oluşan 722 karakterlik setin 114’ü zaten Unicode’daydı; kalan 608’i 2010’da Unicode 6.0’a eklendi.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sence emojiler yazışmada beden dilinin yerini tutabiliyor mu?",
+        "Yalnızca 12×12 piksel kullanarak kendini anlatan bir emoji çizseydin, ne çizerdin?"
+      ]
+    },
+    {
+      "id": "teknoloji-007",
+      "title": "Lityum iyon pile giden üç adım",
+      "subtitle": "2019 Nobel Kimya Ödülü’nü getiren pil",
+      "facts": [
+        "2019 Nobel Kimya Ödülü, lityum iyon pilin geliştirilmesi için John B. Goodenough, M. Stanley Whittingham ve Akira Yoshino’ya verildi.",
+        "Temeller 1970’lerin petrol krizinde atıldı: Whittingham titanyum disülfür katotlu, iki voltun biraz üzerinde gerilim veren bir pil yaptı. Ama anottaki metalik lityum çok reaktifti ve pil fazla patlamaya yatkındı.",
+        "Goodenough, 1980’de katotta lityum iyonları barındıran kobalt oksit kullanarak dört volta kadar gerilim elde edilebileceğini gösterdi.",
+        "Yoshino 1985’te anotta reaktif lityum yerine petrol koku kullanarak ticari olarak uygulanabilir ilk lityum iyon pili yaptı. Bu piller 1991’de piyasaya çıktı."
+      ],
+      "sources": [
+        {
+          "name": "Nobel Vakfı – 2019 Kimya Ödülü",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2019/press-release/"
+        },
+        {
+          "name": "Nobel Vakfı – Nobel istatistikleri",
+          "url": "https://www.nobelprize.org/prizes/facts/nobel-prize-facts/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-007-q1",
+          "text": "Lityum iyon piller piyasaya ilk kez hangi yıl çıktı?",
+          "options": [
+            "1971",
+            "1991",
+            "1981",
+            "2001"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nobel Vakfı’na göre lityum iyon piller ilk kez 1991’de piyasaya çıktı ve o günden beri hayatımızı değiştirdi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-007-q2",
+          "text": "Goodenough 1980’de katot için hangi malzemeyi kullandı?",
+          "options": [
+            "Petrol koku",
+            "Titanyum disülfür",
+            "Metalik lityum",
+            "Kobalt oksit"
+          ],
+          "answerIndex": 3,
+          "explanation": "Goodenough, lityum iyonları barındıran kobalt oksidin dört volta kadar gerilim üretebildiğini gösterdi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-007-q3",
+          "text": "John B. Goodenough, Nobel Ödülü’nü kaç yaşında aldı?",
+          "options": [
+            "77",
+            "67",
+            "97",
+            "87"
+          ],
+          "answerIndex": 2,
+          "explanation": "Nobel Vakfı’na göre 97 yaşında ödüllendirilen Goodenough, tüm dallarda Nobel alan en yaşlı kişidir.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Şarj edilebilir pil hiç olmasaydı, sence hayatında en büyük değişiklik ne olurdu?",
+        "Hangi şarjlı cihazının pilinin çok daha uzun dayanmasını isterdin, neden?"
+      ]
+    },
+    {
+      "id": "teknoloji-008",
+      "title": "Kasada okunan ilk UPC barkodu",
+      "subtitle": "1974’te taranan bir paket sakız",
+      "facts": [
+        "26 Haziran 1974’te ABD’nin Ohio eyaletindeki Troy’da, Marsh süpermarketinin kasasında UPC barkodlu bir ürün ilk kez tarandı: bir paket Wrigley’s Juicy Fruit sakızı.",
+        "Fikir daha eski: Joseph Woodland kumda parmaklarıyla çizgiler çizerken Mors alfabesindeki gibi verinin geniş ve dar çizgilerle gösterilebileceğini fark etti.",
+        "Woodland ve Bernard Silver, her açıdan okunabilsin diye çizgileri iç içe dairelere, yani “boğa gözü” biçimine dönüştürdüler ve 1952’de patent aldılar.",
+        "IBM mühendisi George Laurer, baskıda kolay bulaşan boğa gözü yerine düz çizgili bir tasarım önerdi. Bu tasarıma dayanan UPC, 1973’te ABD market sektöründe kabul edildi."
+      ],
+      "sources": [
+        {
+          "name": "IBM",
+          "url": "https://www.ibm.com/history/upc"
+        },
+        {
+          "name": "GS1",
+          "url": "https://www.gs1.org/about/50YearsOfGS1"
+        },
+        {
+          "name": "Ohio History Connection",
+          "url": "https://remarkableohio.org/marker/35-55-first-upc-barcode-retail-scan/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "teknoloji-008-q1",
+          "text": "1974’te kasada taranan ilk UPC barkodlu ürün neydi?",
+          "options": [
+            "Bir şişe süt",
+            "Bir kavanoz kahve",
+            "Bir kutu mısır gevreği",
+            "Bir paket sakız"
+          ],
+          "answerIndex": 3,
+          "explanation": "Troy’daki Marsh süpermarketinde kasada okunan ilk UPC’li ürün, bir paket Wrigley’s Juicy Fruit sakızıydı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "teknoloji-008-q2",
+          "text": "Woodland’a barkod fikrini veren kodlama sistemi hangisiydi?",
+          "options": [
+            "Denizci bayrakları",
+            "Braille alfabesi",
+            "Roma rakamları",
+            "Mors alfabesi"
+          ],
+          "answerIndex": 3,
+          "explanation": "Woodland, Mors alfabesindeki nokta ve çizgiler gibi, geniş ve dar çizgilerin de veri taşıyabileceğini düşündü.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "teknoloji-008-q3",
+          "text": "George Laurer boğa gözü tasarımı yerine neden düz çizgileri önerdi?",
+          "options": [
+            "Renkli mürekkep gerektirdiği için",
+            "Baskıda kolay bulaştığı için",
+            "Elle çizilemediği için",
+            "Tek yönden okunabildiği için"
+          ],
+          "answerIndex": 1,
+          "explanation": "IBM’e göre Laurer, boğa gözü tasarımının basılırken bulaşmaya yatkın olduğunu ve bu kusurun aşılamayacağını düşündü.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Bir süpermarkette taranacak ilk ürünü sen seçseydin, hangisini seçerdin?",
+        "Sence gelecekte kasalarda barkodun yerini ne alır?"
+      ]
+    }
+  ]
+}

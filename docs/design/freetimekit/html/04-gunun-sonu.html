@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>FreeTimeKit — Günün sonu</title>
+</head>
+<body>
+<x-dc>
+<helmet>
+<!-- Fontlar: Bricolage Grotesque + Figtree -->
+<style>
+body{margin:0;background:#F7F5F0}
+a{color:#8A5A0B}a:hover{color:#6B4608}
+</style>
+</helmet>
+<div style="width: 390px; height: 936px; box-sizing: border-box; position: relative; overflow: hidden; display: flex; flex-direction: column; background: #F7F5F0; color: #1B1F1E; font-family: 'Figtree', system-ui, sans-serif">
+<header style="padding: 12px 20px 0; height: 60px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between">
+<a href="01-bugun.html" aria-label="Kapat" style="width: 44px; height: 44px; border-radius: 999px; border: 1px solid #E8E2D7; background: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="#1B1F1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+<span style="font-size: 15px; font-weight: 700">Günün sonu</span>
+<span aria-hidden="true" style="width: 44px; height: 44px"></span>
+</header>
+
+<section style="margin: 16px 20px 0; display: flex; align-items: center; gap: 16px">
+<span style="width: 64px; height: 64px; border-radius: 20px; background: #F0B23F; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M13.5 2.5L5 13.5h6.5L10.5 21.5 19 10.5h-6.5z" fill="none" stroke="#3A2A06" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<span style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 30px; line-height: 1.05; letter-spacing: -0.035em; font-weight: 800">6 gün üst üste</span>
+<span style="font-size: 15px; line-height: 1.4; color: #5E6562">Bugünün kartını bitirdin.</span>
+</span>
+</section>
+
+<ol aria-label="Son 7 gün" style="margin: 18px 20px 0; padding: 14px 12px; list-style: none; background: #FFFFFF; border: 1px solid #E8E2D7; border-radius: 20px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px">
+<li aria-label="Çarşamba: yapılmadı" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><span aria-hidden="true" style="font-size: 12px; font-weight: 600; color: #5E6562">Çar</span><span style="width: 32px; height: 32px; box-sizing: border-box; border-radius: 999px; border: 1.5px dashed #948C80"></span></li><li aria-label="Perşembe: tamamlandı" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><span aria-hidden="true" style="font-size: 12px; font-weight: 600; color: #5E6562">Per</span><span style="width: 32px; height: 32px; border-radius: 999px; background: #F0B23F; display: flex; align-items: center; justify-content: center"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#3A2A06" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></li><li aria-label="Cuma: tamamlandı" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><span aria-hidden="true" style="font-size: 12px; font-weight: 600; color: #5E6562">Cum</span><span style="width: 32px; height: 32px; border-radius: 999px; background: #F0B23F; display: flex; align-items: center; justify-content: center"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#3A2A06" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></li><li aria-label="Cumartesi: tamamlandı" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><span aria-hidden="true" style="font-size: 12px; font-weight: 600; color: #5E6562">Cmt</span><span style="width: 32px; height: 32px; border-radius: 999px; background: #F0B23F; display: flex; align-items: center; justify-content: center"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#3A2A06" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></li><li aria-label="Pazar: tamamlandı" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><span aria-hidden="true" style="font-size: 12px; font-weight: 600; color: #5E6562">Paz</span><span style="width: 32px; height: 32px; border-radius: 999px; background: #F0B23F; display: flex; align-items: center; justify-content: center"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#3A2A06" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></li><li aria-label="Pazartesi: tamamlandı" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><span aria-hidden="true" style="font-size: 12px; font-weight: 600; color: #5E6562">Pzt</span><span style="width: 32px; height: 32px; border-radius: 999px; background: #F0B23F; display: flex; align-items: center; justify-content: center"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#3A2A06" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></li><li aria-label="Salı, bugün: tamamlandı" style="display: flex; flex-direction: column; align-items: center; gap: 6px"><span aria-hidden="true" style="font-size: 12px; font-weight: 800; color: #1B1F1E">Sal</span><span style="width: 32px; height: 32px; border-radius: 999px; background: #F0B23F; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 2px #F7F5F0, 0 0 0 4px #8A5A0B"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#3A2A06" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></li>
+</ol>
+
+<section style="margin: 12px 20px 0; padding: 16px; background: #FFFFFF; border: 1px solid #E8E2D7; border-radius: 20px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<span style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 13px; font-weight: 600; color: #5E6562">Bilgi soruları</span>
+<span style="display: flex; align-items: baseline; gap: 6px"><span style="font-family: 'Bricolage Grotesque', sans-serif; font-size: 30px; line-height: 1.05; font-weight: 800; letter-spacing: -0.02em">2 / 3</span><span style="font-size: 15px; font-weight: 600; color: #5E6562">doğru</span></span>
+</span>
+<span aria-hidden="true" style="display: flex; gap: 6px"><span style="width: 30px; height: 30px; border-radius: 999px; background: #E3F4E8; display: flex; align-items: center; justify-content: center"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#1E7A45" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><span style="width: 30px; height: 30px; border-radius: 999px; background: #E3F4E8; display: flex; align-items: center; justify-content: center"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#1E7A45" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><span style="width: 30px; height: 30px; border-radius: 999px; background: #FCE8E6; display: flex; align-items: center; justify-content: center"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="#C02626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></span>
+</div>
+<div style="height: 1px; background: #F0EBE2"></div>
+<a href="03-bilgi-sorusu.html" style="min-height: 44px; margin: -6px 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; text-decoration: none; font-size: 15px; font-weight: 600; color: #8A5A0B">Yanlış cevabını gör<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M9 6l6 6-6 6" fill="none" stroke="#8A5A0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+</section>
+
+<div style="margin: 28px 20px 10px; min-height: 24px; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 19px; font-weight: 700; letter-spacing: -0.02em">Bugün öğrendiklerin</h2>
+<span style="display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border-radius: 999px; background: #8A5A37; color: #FFFFFF; font-size: 13px; font-weight: 600; white-space: nowrap"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M3.5 9L12 4l8.5 5M5.5 10v7.5M10 10v7.5M14 10v7.5M18.5 10v7.5M3.5 20.5h17" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>Göbeklitepe</span>
+</div>
+<ul style="margin: 0 20px; padding: 0; list-style: none; background: #FFFFFF; border: 1px solid #E8E2D7; border-radius: 20px; overflow: hidden">
+<li style="display: flex; align-items: flex-start; gap: 12px; padding: 13px 16px; border-bottom: 1px solid #F0EBE2">
+<span aria-hidden="true" style="width: 24px; height: 24px; border-radius: 999px; background: #FBF0D6; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#8A5A0B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<span style="font-size: 15px; line-height: 1.45; text-wrap: pretty">En eski yapıları yaklaşık 11.600 yıl önceye tarihleniyor.</span>
+</li><li style="display: flex; align-items: flex-start; gap: 12px; padding: 13px 16px; border-bottom: 1px solid #F0EBE2">
+<span aria-hidden="true" style="width: 24px; height: 24px; border-radius: 999px; background: #FBF0D6; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#8A5A0B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<span style="font-size: 15px; line-height: 1.45; text-wrap: pretty">T biçimli dikilitaşların bazıları 5 metreyi aşıyor.</span>
+</li><li style="display: flex; align-items: flex-start; gap: 12px; padding: 13px 16px; border-bottom: 1px solid #F0EBE2">
+<span aria-hidden="true" style="width: 24px; height: 24px; border-radius: 999px; background: #FBF0D6; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#8A5A0B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<span style="font-size: 15px; line-height: 1.45; text-wrap: pretty">En eski yapıları, Stonehenge’in ilk evresinden 6.000 yıldan daha eski.</span>
+</li><li style="display: flex; align-items: flex-start; gap: 12px; padding: 13px 16px">
+<span aria-hidden="true" style="width: 24px; height: 24px; border-radius: 999px; background: #FBF0D6; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#8A5A0B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<span style="font-size: 15px; line-height: 1.45; text-wrap: pretty">2018’de UNESCO Dünya Mirası Listesi’ne alındı.</span>
+</li>
+</ul>
+
+<section aria-label="Hafta sonu listem" style="margin: 12px 20px 0; padding: 14px 14px 14px 16px; background: #FFFFFF; border: 1px solid #E8E2D7; border-radius: 20px; display: flex; align-items: center; gap: 14px">
+<span style="width: 44px; height: 44px; border-radius: 14px; background: #FBF0D6; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M5 4h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#8A5A0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<span style="flex-grow: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-size: 16px; font-weight: 600">2 tartışma sorusu</span>
+<span style="font-size: 13px; line-height: 1.4; color: #5E6562">Hafta sonu masası için</span>
+</span>
+<span><button type="button" style="height: 44px; padding: 0 16px; border-radius: 999px; border: 0; background: #FBF0D6; color: #8A5A0B; font: inherit; font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 6px; cursor: pointer; flex-shrink: 0"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink: 0"><path d="M12 5v14M5 12h14" fill="none" stroke="#8A5A0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>Ekle</button></span>
+</section>
+
+<a href="01-bugun.html" style="position: absolute; left: 20px; right: 20px; bottom: 28px; height: 54px; border-radius: 999px; background: #F0B23F; color: #3A2A06; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 16px; font-weight: 600; box-shadow: 0 12px 24px -12px rgba(138, 90, 11, 0.55)">Bitir</a>
+</div>
+</x-dc>
+
+</body>
+</html>

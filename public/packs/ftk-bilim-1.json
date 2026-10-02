@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "id": "ftk-bilim-1",
+  "kit": "freetimekit",
+  "category": "bilim",
+  "title": "Bilim · Paket 1",
+  "version": 1,
+  "updatedAt": "2026-10-02",
+  "cards": [
+    {
+      "id": "bilim-001",
+      "title": "Ahtapotun üç kalbi",
+      "subtitle": "Üç kalp, mavi kan ve kollara dağılmış nöronlar",
+      "facts": [
+        "Ahtapotun üç kalbi var. İkisi kanı solungaçlardan geçirip oksijen almasını sağlar; üçüncüsü oksijenli kanı vücudun geri kalanına pompalar.",
+        "Kanı mavi görünür. Oksijeni bizdeki demir içeren hemoglobinle değil, bakır içeren hemosiyanin adlı bir proteinle taşır; bu protein oksijen bağlayınca maviye döner.",
+        "Ahtapot jet itkisiyle yüzerken, kanı vücuda pompalayan kalbi atmayı bırakır. Bu yüzden yüzmek onu yorar; çoğunlukla sürünerek ilerler.",
+        "500 milyondan fazla nöronu var. Bu nöronların üçte ikisinden fazlası kafasındaki beyinde değil, kollarında ve gövdesinde bulunur."
+      ],
+      "sources": [
+        {
+          "name": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/ten-wild-facts-about-octopuses-they-have-three-hearts-big-brains-and-blue-blood-7625828/"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/story/how-many-hearts-does-an-octopus-have"
+        },
+        {
+          "name": "Okinawa Bilim ve Teknoloji Enstitüsü (OIST)",
+          "url": "https://www.oist.jp/node/35601"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-001-q1",
+          "text": "Ahtapotun kanındaki hemosiyanin hangi metali içerir?",
+          "options": [
+            "Demir",
+            "Bakır",
+            "Magnezyum",
+            "Çinko"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hemosiyanin bakır içerir ve oksijen bağlayınca mavi görünür. Bizim kanımızdaki hemoglobin ise demir içerir.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-001-q2",
+          "text": "Ahtapotun nöronlarının çoğu nerede bulunur?",
+          "options": [
+            "Kalplerinin çevresinde",
+            "Kollarında ve gövdesinde",
+            "Solungaçlarında",
+            "Kafasındaki beyninde"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ahtapotun 500 milyonu aşkın nöronunun üçte ikisinden fazlası beyninde değil, kollarında ve gövdesindedir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-001-q3",
+          "text": "Hemosiyanin, ahtapot dışında hangi canlılarda da bulunur?",
+          "options": [
+            "Serçe gibi kuşlarda",
+            "Köpek gibi memelilerde",
+            "Yengeç gibi kabuklularda",
+            "Kertenkele gibi sürüngenlerde"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hemosiyanin pek çok yumuşakçada ve eklembacaklıda bulunur: birçok kabukluda, bazı örümceğimsilerde ve at nalı yengecinde.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Ahtapotun hangi özelliğine sahip olmak isterdin: üç kalp mi, mavi kan mı, nöron dolu kollar mı? Neden?",
+        "Sence bizden bu kadar farklı bir canlının ne hissettiğini hiç gerçekten anlayabilir miyiz?"
+      ]
+    },
+    {
+      "id": "bilim-002",
+      "title": "Güneş ışığının Dünya’ya yolculuğu",
+      "subtitle": "Işık hızı, Güneş’e uzaklık ve mevsimler",
+      "facts": [
+        "Güneş’ten çıkan ışık Dünya’ya yaklaşık 8 dakikada ulaşır. Yani gökyüzünde gördüğümüz Güneş, aslında yaklaşık 8 dakika önceki hâlidir.",
+        "Işık boşlukta saniyede tam 299.792.458 metre yol alır. 1983’ten beri metre, ışığın boşlukta 1/299.792.458 saniyede aldığı yol olarak tanımlanıyor.",
+        "Dünya ile Güneş arasındaki ortalama uzaklık yaklaşık 150 milyon km’dir. Gökbilimde buna 1 astronomi birimi (AB) denir; 2012’den beri 1 AB tam 149.597.870.700 metredir.",
+        "Dünya Güneş’e ocak başında en yakın (yaklaşık 147 milyon km), temmuz başında en uzak (yaklaşık 152 milyon km) konumdadır. Mevsimleri bu fark değil, eksen eğikliği belirler."
+      ],
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/earth/facts/"
+        },
+        {
+          "name": "NIST (ABD Ulusal Standartlar ve Teknoloji Enstitüsü)",
+          "url": "https://www.nist.gov/si-redefinition/meter"
+        },
+        {
+          "name": "Uluslararası Astronomi Birliği (IAU)",
+          "url": "https://iauarchive.eso.org/static/resolutions/IAU2012_English.pdf"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-002-q1",
+          "text": "Güneş ışığı Dünya’ya yaklaşık ne kadar sürede ulaşır?",
+          "options": [
+            "8 saniyede",
+            "8 dakikada",
+            "80 dakikada",
+            "8 saatte"
+          ],
+          "answerIndex": 1,
+          "explanation": "Işık, Dünya ile Güneş arasındaki ortalama 150 milyon km’lik yolu yaklaşık 8 dakikada alır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-002-q2",
+          "text": "Dünya yılın hangi döneminde Güneş’e en yakındır?",
+          "options": [
+            "Temmuz başında",
+            "Ocak başında",
+            "Ekim başında",
+            "Nisan başında"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dünya ocak başında Güneş’e en yakındır; kuzey yarımkürede o sırada kış yaşanır, çünkü mevsimleri eksen eğikliği belirler.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-002-q3",
+          "text": "Işığın bir yılda aldığı yola ne ad verilir?",
+          "options": [
+            "Astronomi birimi",
+            "Parsek",
+            "Güneş yılı",
+            "Işık yılı"
+          ],
+          "answerIndex": 3,
+          "explanation": "Işık yılı bir zaman değil, uzaklık birimidir: ışığın bir yılda aldığı yol. Astronomi birimi ise Dünya–Güneş ortalama uzaklığına dayanır.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Gökyüzüne bakınca aslında geçmişi görüyoruz. Bu fikir sana heyecan mı veriyor, yoksa tuhaf mı geliyor?",
+        "Işık hızında 8 dakikalık bir yolculuğa çıkabilseydin, kimi yanına alır, yolda neler konuşurdun?"
+      ]
+    },
+    {
+      "id": "bilim-003",
+      "title": "Buz neden suyun üstünde yüzer?",
+      "subtitle": "Suyun yoğunluğu, buz ve donan göller",
+      "facts": [
+        "Sıvı su en yoğun hâline yaklaşık 4 °C’de ulaşır. Bunun altına soğuyan su, çoğu sıvının aksine büzülmek yerine genleşir.",
+        "Donarken su molekülleri düzenli bir kafes kurar ve sıvıdakinden daha aralıklı dizilir. Bu yüzden buz, sıvı sudan daha az yoğundur ve suyun üstünde yüzer.",
+        "Kışın göl yüzeyindeki su 4 °C’nin altına soğuyunca hafifler ve yukarıda kalır; buz da en üstte oluşur. Göl dibindeki su bu sırada genellikle 4 °C civarındadır.",
+        "Su en yoğun hâline donma noktasında ulaşsaydı göller alttan yukarı donabilirdi. Yüzen buz sayesinde altta sıvı su kalır; bazı balıklar ve iki yaşamlılar kışı orada geçirir."
+      ],
+      "sources": [
+        {
+          "name": "ABD Jeolojik Araştırmalar Kurumu (USGS)",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-density"
+        },
+        {
+          "name": "Kraliyet Meteoroloji Derneği",
+          "url": "https://www.rmets.org/metmatters/frozen-ponds"
+        },
+        {
+          "name": "Illinois Üniversitesi Fizik Bölümü",
+          "url": "https://van.physics.illinois.edu/ask/listing/1736"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-003-q1",
+          "text": "Sıvı su yaklaşık kaç derecede en yoğundur?",
+          "options": [
+            "4 °C",
+            "0 °C",
+            "10 °C",
+            "−4 °C"
+          ],
+          "answerIndex": 0,
+          "explanation": "Su yaklaşık 4 °C’de en yoğundur; bundan soğuk ya da sıcak su biraz daha hafiftir.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-003-q2",
+          "text": "Buzun suda yüzmesinin nedeni nedir?",
+          "options": [
+            "Su yüzeyindeki gerilimin onu taşıması",
+            "İçinde hava kabarcıkları olması",
+            "Sıvı sudan daha az yoğun olması",
+            "Moleküllerinin donunca küçülmesi"
+          ],
+          "answerIndex": 2,
+          "explanation": "Donarken moleküller daha aralıklı bir kafes kurar; bu yüzden buz sıvı sudan daha az yoğundur ve yüzer.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-003-q3",
+          "text": "Su en yoğun hâline donma noktasında ulaşsaydı göllere ne olabilirdi?",
+          "options": [
+            "Yalnızca kıyılarından donardı",
+            "Hiçbir zaman donmazdı",
+            "Alttan yukarı doğru donabilirdi",
+            "Kışın daha hızlı buharlaşırdı"
+          ],
+          "answerIndex": 2,
+          "explanation": "Soğuyan yüzey suyu dibe çökerdi; bu durumda göller alttan yukarı donmaya başlayabilirdi.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Buz suyun dibine batsaydı, sence kış manzaraları ve kış eğlenceleri nasıl olurdu?",
+        "Suyun bu ‘kurallara uymayan’ davranışı gibi, doğada seni en çok şaşırtan olay hangisi?"
+      ]
+    },
+    {
+      "id": "bilim-004",
+      "title": "DNA’nın çift sarmalı",
+      "subtitle": "1953’teki model ve Rosalind Franklin’in fotoğrafı",
+      "facts": [
+        "James Watson ile Francis Crick, DNA’nın çift sarmal modelini 25 Nisan 1953’te Nature dergisinde yayımladı. Bu yapı, iki zincirden oluşan burgulu bir merdiveni andırır.",
+        "Rosalind Franklin, King’s College London’da lisansüstü öğrencisi Raymond Gosling ile DNA’nın X-ışını kırınım fotoğraflarını çekti. Mayıs 1952’de çekilen 51 numaralı fotoğraf çok netti.",
+        "Franklin’in verileri, Watson ile Crick’in doğru modele ulaşmasında kilit rol oynadı. Wilkins, 51 numaralı fotoğrafı Franklin’in haberi olmadan Watson’a göstermişti.",
+        "Franklin ile Gosling’in makalesi de aynı Nature sayısında çıktı. 1962 Nobel Fizyoloji veya Tıp Ödülü Watson, Crick ve Wilkins’e verildi; Franklin 1958’de, 37 yaşında hayatını kaybetmişti."
+      ],
+      "sources": [
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/171737a0"
+        },
+        {
+          "name": "ABD Ulusal Tıp Kütüphanesi (NLM)",
+          "url": "https://profiles.nlm.nih.gov/spotlight/kr/feature/dna"
+        },
+        {
+          "name": "Nobel Vakfı",
+          "url": "https://www.nobelprize.org/prizes/medicine/1962/summary/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-004-q1",
+          "text": "DNA’nın çift sarmal modeli hangi yıl yayımlandı?",
+          "options": [
+            "1923",
+            "1969",
+            "1989",
+            "1953"
+          ],
+          "answerIndex": 3,
+          "explanation": "Watson ve Crick’in modeli 25 Nisan 1953’te Nature dergisinde yayımlandı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-004-q2",
+          "text": "51 numaralı fotoğraf hangi yöntemle elde edildi?",
+          "options": [
+            "Manyetik rezonansla",
+            "Elektron mikroskobuyla",
+            "Işık mikroskobuyla",
+            "X-ışını kırınımıyla"
+          ],
+          "answerIndex": 3,
+          "explanation": "Bu fotoğraf, Franklin ile Gosling’in DNA üzerinde yürüttüğü X-ışını kırınımı çalışmalarının bir ürünüydü.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-004-q3",
+          "text": "DNA’da adenin (A) bazı hangi bazla eşleşir?",
+          "options": [
+            "Timin (T)",
+            "Urasil (U)",
+            "Guanin (G)",
+            "Sitozin (C)"
+          ],
+          "answerIndex": 0,
+          "explanation": "DNA’da A hep T ile, C de G ile eşleşir. Watson ve Crick bu eşleşmenin bir kopyalama düzenine işaret ettiğini yazmıştı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Bazen tek bir fotoğraf, bir mektup ya da bir karşılaşma çok şeyi değiştirebilir. Senin hayatında böyle bir dönüm noktası oldu mu?",
+        "Vücudundaki hücrelerin bir ‘tarif kitabı’ taşıdığını düşününce aklına ilk ne geliyor?"
+      ]
+    },
+    {
+      "id": "bilim-005",
+      "title": "Penisilinin keşfi",
+      "subtitle": "Bir petri kabındaki küften Nobel Ödülü’ne",
+      "facts": [
+        "Alexander Fleming 1928’de Londra’daki St. Mary’s Hastanesi’nde çalışıyordu. Tatile çıkmadan önce tezgâhta bıraktığı bir stafilokok kültürüne Penicillium küfü bulaşmıştı.",
+        "Fleming, küfün bakterilerin üremesini engellediğini fark etti. Bu etkiyi her küfün değil, yalnızca bazı Penicillium suşlarının gösterdiğini buldu.",
+        "Fleming bulgusunu Haziran 1929’da yayımladı ama penisilini saf ve kararlı hâlde elde edemedi. Makalesi 1930’larda bilim dünyasında pek ilgi görmedi.",
+        "Oxford’da Howard Florey ve Ernst Chain’in ekibi 25 Mayıs 1940’ta sekiz fareye streptokok bakterisi enjekte etti, dördüne penisilin verdi. 16,5 saat sonra yalnızca bu dördü yaşıyordu."
+      ],
+      "sources": [
+        {
+          "name": "Science History Institute: Alexander Fleming",
+          "url": "https://www.sciencehistory.org/education/scientific-biographies/alexander-fleming/"
+        },
+        {
+          "name": "Science History Institute: Florey ve Chain",
+          "url": "https://www.sciencehistory.org/education/scientific-biographies/howard-walter-florey-and-ernst-boris-chain/"
+        },
+        {
+          "name": "Nobel Vakfı",
+          "url": "https://www.nobelprize.org/prizes/medicine/1945/summary/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-005-q1",
+          "text": "Fleming penisilini hangi yıl keşfetti?",
+          "options": [
+            "1928",
+            "1953",
+            "1945",
+            "1908"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fleming penisilini 1928’de keşfetti; bulgusunu Haziran 1929’da yayımladı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-005-q2",
+          "text": "Penisilin hangi canlıdan elde edildi?",
+          "options": [
+            "Bir deniz süngerinden",
+            "Stafilokok adlı bir bakteriden",
+            "Bir ağacın kabuğundan",
+            "Penicillium adlı bir küften"
+          ],
+          "answerIndex": 3,
+          "explanation": "Fleming’in bulduğu penisilin, Penicillium cinsinden bir küfün ürettiği bir maddedir. Stafilokok ise Fleming’in kabında üreyen bakteriydi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-005-q3",
+          "text": "1945 Nobel Fizyoloji veya Tıp Ödülü’nü Fleming’le paylaşanlar kimlerdi?",
+          "options": [
+            "Marie ve Pierre Curie",
+            "James Watson ve Francis Crick",
+            "Howard Florey ve Ernst Chain",
+            "Louis Pasteur ve Robert Koch"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ödül, penisilinin keşfi ve çeşitli bulaşıcı hastalıklardaki tedavi edici etkisi için Fleming, Florey ve Chain’e birlikte verildi.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Fleming’in keşfi bir tesadüfle başladı. Hayatında tesadüf sayesinde bulduğun en güzel şey ne oldu?",
+        "Bir fikri ilk bulan mı, yoksa onu işe yarar hâle getiren mi daha çok takdiri hak eder? Sen ne düşünüyorsun?"
+      ]
+    },
+    {
+      "id": "bilim-006",
+      "title": "Ay’ın hep aynı yüzü",
+      "subtitle": "Eş zamanlı dönüş ve yavaşça uzaklaşan Ay",
+      "facts": [
+        "Ay, Dünya çevresindeki turunu yaklaşık 27 günde tamamlar ve kendi ekseni etrafında da aynı sürede bir kez döner. Bu yüzden Dünya’dan hep aynı yüzünü görürüz.",
+        "Bunun nedeni gelgit kuvvetleridir. Dünya ile Ay birbirini çekerek şekillerini hafifçe bozar; bu etki, Ay’ın dönüşünü tek yüzü Dünya’ya bakana dek yavaşlattı.",
+        "Ay’ın yörüngesi hafif oval, dönüş ekseni de yörüngesine göre biraz eğik. Bu yüzden Ay bize biraz ‘sallanıyor’ gibi görünür ve zamanla yüzeyinin yaklaşık %59’unu görebiliriz.",
+        "Apollo 11 astronotları 1969’da Ay’a bir lazer yansıtıcısı yerleştirdi. Ay’daki yansıtıcılarla yapılan ölçümler, Ay’ın Dünya’dan yılda yaklaşık 3,8 cm uzaklaştığını gösteriyor."
+      ],
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/moon/facts/"
+        },
+        {
+          "name": "NASA Jet İtki Laboratuvarı (JPL)",
+          "url": "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/"
+        },
+        {
+          "name": "NASA Goddard Uzay Uçuş Merkezi",
+          "url": "https://science.gsfc.nasa.gov/attic/eclipse2017.gsfc.nasa.gov/what's-lunar-libration.html"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-006-q1",
+          "text": "Ay, Dünya’dan yılda yaklaşık ne kadar uzaklaşıyor?",
+          "options": [
+            "3,8 cm",
+            "3,8 km",
+            "3,8 m",
+            "38 m"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ay’daki yansıtıcılara gönderilen lazerlerle yapılan ölçümler, Ay’ın Dünya’dan yılda yaklaşık 3,8 cm uzaklaştığını gösteriyor.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-006-q2",
+          "text": "Dünya’dan Ay’ın hep aynı yüzünü görmemizin nedeni nedir?",
+          "options": [
+            "Arka yüzünün ışığı yansıtmaması",
+            "Dönüş ve dolanım sürelerinin eşit olması",
+            "Kendi ekseni etrafında hiç dönmemesi",
+            "Arka yüzünün hep gölgede kalması"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ay kendi ekseni etrafında döner, ama bir turunu Dünya’yı dolanma süresiyle aynı sürede tamamlar.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-006-q3",
+          "text": "Ay’ı uzaklaştıran gelgit etkisi Dünya’nın kendi çevresindeki dönüşünü nasıl etkiliyor?",
+          "options": [
+            "Hızlandırıyor",
+            "Yavaşlatıyor",
+            "Hiç etkilemiyor",
+            "Yönünü tersine çeviriyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gelgit şişkinlikleriyle Ay arasındaki çekim Dünya’nın dönüşünü yavaşlatır, Ay’ı ise yörüngesinde öne çekerek uzaklaştırır.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Ay’ın bize hiç dönmeyen yüzüne gidebilseydin, orada ilk ne yapmak isterdin?",
+        "Ay her yıl birkaç santim uzaklaşıyor. Sence insanlar çok yavaş değişen şeyleri neden zor fark eder?"
+      ]
+    },
+    {
+      "id": "bilim-007",
+      "title": "Bir kara deliğin ilk görüntüsü",
+      "subtitle": "Olay Ufku Teleskobu’nun 2019 görüntüsü",
+      "facts": [
+        "10 Nisan 2019’da Olay Ufku Teleskobu (EHT) ekibi, bir kara deliğin ilk doğrudan görüntüsünü yayımladı. Görüntüde parlak bir halkanın ortasında karanlık bir ‘gölge’ var.",
+        "Görüntülenen kara delik, Başak gökada kümesindeki Messier 87 gökadasının merkezinde. Dünya’dan 55 milyon ışık yılı uzakta, kütlesi Güneş’in 6,5 milyar katı.",
+        "EHT, dünyanın farklı yerlerindeki sekiz radyo teleskobunu birbirine bağlayarak Dünya büyüklüğünde sanal bir teleskop oluşturdu. Gözlemler 2017’de, 1,3 mm dalga boyunda yapıldı.",
+        "12 Mayıs 2022’de ekip, Samanyolu’nun merkezindeki Sagittarius A* kara deliğinin ilk görüntüsünü yayımladı. Yaklaşık 27.000 ışık yılı uzaktaki bu kara delik, Güneş’in 4 milyon katı kütlede."
+      ],
+      "sources": [
+        {
+          "name": "Avrupa Güney Gözlemevi (ESO), 2019",
+          "url": "https://www.eso.org/public/news/eso1907/"
+        },
+        {
+          "name": "Event Horizon Telescope",
+          "url": "https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole"
+        },
+        {
+          "name": "Avrupa Güney Gözlemevi (ESO), 2022",
+          "url": "https://www.eso.org/public/news/eso2208-eht-mw/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-007-q1",
+          "text": "Bir kara deliğin ilk görüntüsü hangi yıl yayımlandı?",
+          "options": [
+            "2013",
+            "2004",
+            "2009",
+            "2019"
+          ],
+          "answerIndex": 3,
+          "explanation": "Olay Ufku Teleskobu ekibi, M87 gökadasının merkezindeki kara deliğin görüntüsünü 10 Nisan 2019’da yayımladı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-007-q2",
+          "text": "Olay Ufku Teleskobu nasıl çalışır?",
+          "options": [
+            "Uzaya gönderilen tek bir dev aynayla",
+            "Uzay istasyonundaki bir kamerayla",
+            "Dünyanın dört bir yanındaki radyo teleskoplarını birleştirerek",
+            "Ay’a kurulmuş bir teleskopla"
+          ],
+          "answerIndex": 2,
+          "explanation": "EHT, dünyanın dört bir yanındaki radyo gözlemevlerini bağlayarak Dünya büyüklüğünde sanal bir teleskop gibi çalışır. 2017 gözlemlerinde sekiz gözlemevi kullanıldı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-007-q3",
+          "text": "EHT’nin her teleskobu gözlem sırasında günde yaklaşık ne kadar veri üretti?",
+          "options": [
+            "350 terabayt",
+            "350 kilobayt",
+            "350 gigabayt",
+            "350 megabayt"
+          ],
+          "answerIndex": 0,
+          "explanation": "Her tesis günde yaklaşık 350 terabayt veri üretti. Veriler sabit disklere kaydedilip işlenmek üzere süper bilgisayarlara uçakla gönderildi.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Bir kara deliği ‘görmek’ ile onun varlığını hesaplarla bilmek arasında senin için fark var mı?",
+        "Dünyanın dört bir yanından insanlarla ortak bir proje yapabilseydin, ne üzerinde çalışmak isterdin?"
+      ]
+    },
+    {
+      "id": "bilim-008",
+      "title": "İskeletimiz",
+      "subtitle": "206 kemik, en küçüğü ve en büyüğü",
+      "facts": [
+        "Yetişkin bir insan iskeletinde genellikle 206 kemik bulunur. Bunların 106’sı el ve ayaklardadır (her elde 27, her ayakta 26 kemik).",
+        "Bebekler yetişkinlerden daha fazla kemikle doğar; kaynaklara göre bu sayı yaklaşık 270 ile 300 arasındadır. Büyüme sırasında bazı kemikler kaynaşarak birleşir.",
+        "En küçük kemik, orta kulaktaki üzengi kemiğidir; yalnızca birkaç milimetre uzunluğundadır. Kulak zarına gelen ses titreşimlerinin iç kulağa iletilmesinde görev alır.",
+        "En uzun ve en güçlü kemik uyluk kemiğidir (femur). Kalçadan dize uzanır ve boyumuzun yaklaşık dörtte biri kadardır."
+      ],
+      "sources": [
+        {
+          "name": "Cleveland Clinic",
+          "url": "https://health.clevelandclinic.org/facts-about-the-skeletal-system"
+        },
+        {
+          "name": "KidsHealth (Nemours)",
+          "url": "https://kidshealth.org/en/kids/bones.html"
+        },
+        {
+          "name": "OpenStax Anatomi ve Fizyoloji",
+          "url": "https://openstax.org/books/anatomy-and-physiology/pages/8-4-bones-of-the-lower-limb"
+        }
+      ],
+      "questions": [
+        {
+          "id": "bilim-008-q1",
+          "text": "Yetişkin bir insan iskeletinde genellikle kaç kemik bulunur?",
+          "options": [
+            "206",
+            "106",
+            "186",
+            "300"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yetişkin iskeletinde genellikle 206 kemik sayılır. 106 ise yalnızca el ve ayaklardaki kemiklerin toplamıdır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "bilim-008-q2",
+          "text": "Vücudumuzdaki en küçük kemik hangisidir?",
+          "options": [
+            "Köprücük kemiği",
+            "Diz kapağı",
+            "Üzengi kemiği",
+            "Kuyruk sokumu kemiği"
+          ],
+          "answerIndex": 2,
+          "explanation": "Orta kulaktaki üzengi kemiği yalnızca birkaç milimetre uzunluğundadır ve vücudun en küçük kemiğidir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "bilim-008-q3",
+          "text": "Kemiklerin içindeki kemik iliğinin görevlerinden biri nedir?",
+          "options": [
+            "Sindirim enzimleri üretmek",
+            "Safra üretmek",
+            "Sinir sinyallerini iletmek",
+            "Kan hücreleri üretmek"
+          ],
+          "answerIndex": 3,
+          "explanation": "Kemik iliği alyuvarları, akyuvarları ve kan pulcuklarını üretir.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Vücudundaki kemiklerden birine yeni bir ad verebilseydin, hangisini seçer, ona ne ad koyardın?",
+        "Bir müzede bir iskeletle karşılaşınca ne hissedersin: merak mı, ürperti mi, başka bir şey mi?"
+      ]
+    }
+  ]
+}

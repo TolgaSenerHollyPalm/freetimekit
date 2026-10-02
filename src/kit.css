@@ -3,15 +3,15 @@
  * which `npm test` measures (kit.config.test.ts).
  */
 :root {
-  --color-primary: #4a5d70; /* buttons, ticks, progress */
-  --color-primary-dark: #38485a; /* text and icons in the kit colour */
-  --color-primary-soft: #e6ebf0; /* chosen options, tiles */
-  --color-on-primary: #ffffff; /* text on --color-primary */
+  --color-primary: #f0b23f; /* buttons, ticks, progress */
+  --color-primary-dark: #8a5a0b; /* text and icons in the kit colour */
+  --color-primary-soft: #fbf0d6; /* chosen options, tiles */
+  --color-on-primary: #3a2a06; /* text on --color-primary */
 }
 
 :root[data-scheme='dark'] {
-  --color-primary: #a9bccf;
-  --color-primary-dark: #c5d3e0;
-  --color-primary-soft: #26313c;
-  --color-on-primary: #14202b;
+  --color-primary: #f0b23f;
+  --color-primary-dark: #f5c96a;
+  --color-primary-soft: #3a2a0e;
+  --color-on-primary: #2a1c00;
 }

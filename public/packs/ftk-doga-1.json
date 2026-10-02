@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "id": "ftk-doga-1",
+  "kit": "freetimekit",
+  "category": "doga",
+  "title": "Doğa · Paket 1",
+  "version": 1,
+  "updatedAt": "2026-10-02",
+  "cards": [
+    {
+      "id": "doga-001",
+      "title": "Arıların dansı",
+      "subtitle": "Bal arıları yiyeceğin yerini nasıl anlatır",
+      "facts": [
+        "Viyana doğumlu Karl von Frisch, bal arılarının yiyeceğin yerini kovandaki arkadaşlarına dansla anlattığını çözdü. 1973 Nobel Fizyoloji veya Tıp Ödülü’nü Konrad Lorenz ve Nikolaas Tinbergen ile paylaştı.",
+        "Yiyecek kovana yakınsa arı “dairesel dans” yapar. Kaynak daha uzaktaysa arı, düz bir hatta karnını sallayarak koştuğu “sallanma dansı”na geçer.",
+        "Arılar dikey petek üzerinde dans eder ve Güneş’in yönünü “yukarı” yöne çevirir: düz koşunun dikeyle yaptığı açı, yiyeceğin Güneş’e göre açısını gösterir. Dümdüz yukarı koşu “Güneş’e doğru uç” demektir.",
+        "Sallanma dansında uzaklığı düz koşunun süresi anlatır: koşu ne kadar uzun sürerse yiyecek o kadar uzaktadır. Güneş görünmediğinde bile arılar gökyüzündeki polarize ışıktan yönü bulabilir."
+      ],
+      "sources": [
+        {
+          "name": "Nobel Vakfı",
+          "url": "https://www.nobelprize.org/prizes/medicine/1973/press-release/"
+        },
+        {
+          "name": "NC State Üniversitesi",
+          "url": "https://content.ces.ncsu.edu/honey-bee-dance-language"
+        },
+        {
+          "name": "Texas A&M Üniversitesi (Texas Master Beekeeper Programı)",
+          "url": "https://extensionentomology.tamu.edu/wp-content/uploads/sites/5/2016/10/Honey-Bee-Biology-Part-2.pdf"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-001-q1",
+          "text": "Arının dansında dümdüz yukarı doğru yapılan koşu ne anlama gelir?",
+          "options": [
+            "Yiyecek rüzgârın estiği yönde",
+            "Yiyecek kovanın hemen altında",
+            "Yiyecek kuzey yönünde",
+            "Yiyecek Güneş yönünde"
+          ],
+          "answerIndex": 3,
+          "explanation": "Arı, Güneş’in yönünü petekte “yukarı” yöne çevirir; bu yüzden yukarı doğru koşu, Güneş’e doğru uçmak gerektiğini söyler.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-001-q2",
+          "text": "Sallanma dansında yiyeceğin ne kadar uzakta olduğunu en güvenilir biçimde ne gösterir?",
+          "options": [
+            "Dansı izleyen arı sayısı",
+            "Düz koşunun süresi",
+            "Dansçı arının büyüklüğü",
+            "Dansın yapıldığı saat"
+          ],
+          "answerIndex": 1,
+          "explanation": "Düz koşu ne kadar uzun sürerse yiyecek kaynağı o kadar uzaktadır.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-001-q3",
+          "text": "Güneş görünmediğinde arılar dansın yönünü neye göre belirleyebilir?",
+          "options": [
+            "Gökyüzündeki polarize ışığa",
+            "Ayın konumuna",
+            "Çiçeklerin kokusuna",
+            "Rüzgârın yönüne"
+          ],
+          "answerIndex": 0,
+          "explanation": "Arılar, Güneş görünmese bile gökyüzü ışığının polarizasyonunu çözümleyerek yönü gösterebilir.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir arı olsaydın, arkadaşlarına en sevdiğin yerin yolunu tek kelime etmeden nasıl tarif ederdin?",
+        "Sence hayvanların “dili” ile insan dili arasındaki en büyük fark ne?"
+      ]
+    },
+    {
+      "id": "doga-002",
+      "title": "Su ayıları",
+      "subtitle": "Kuruyup yeniden canlanabilen minik hayvanlar",
+      "facts": [
+        "Su ayıları (tardigradlar), dört çift kısa, genellikle pençeli bacağı olan mikroskobik hayvanlardır; çoğunun boyu 0,1–0,5 mm’dir. Denizde, tatlı suda ve karada yaşarlar; sık sık yosun ve likenlerde bulunurlar.",
+        "Su ayılarını ilk kez 1773’te Alman doğa bilimci J. A. E. Goeze “küçük su ayısı” adıyla tanımladı. 1776’da İtalyan Lazzaro Spallanzani onlara “yavaş yürüyenler” anlamına gelen “il tardigrado” adını verdi.",
+        "Ortam kuruyunca su ayıları vücutlarındaki suyu kaybedip metabolizmalarını neredeyse durdurur; bu “gizli yaşam” hâline kriptobiyoz denir.",
+        "Eylül 2007’de FOTON-M3 göreviyle Dünya yörüngesinde 10 gün uzay boşluğuna maruz kalan kurutulmuş su ayıları hayatta kaldı. Uzay koşullarına dayandığı gösterilen ilk hayvanlar oldular."
+      ],
+      "sources": [
+        {
+          "name": "Avustralya Fauna Rehberi (ABRS)",
+          "url": "https://www.biodiversity.org.au/afd/taxa/TARDIGRADA"
+        },
+        {
+          "name": "Massey Üniversitesi",
+          "url": "https://soilbugs.massey.ac.nz/tardigrada.php"
+        },
+        {
+          "name": "Current Biology (Jönsson ve ark., 2008)",
+          "url": "https://elib.dlr.de/55523/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-002-q1",
+          "text": "Su ayılarının kaç çift bacağı vardır?",
+          "options": [
+            "Üç çift",
+            "Altı çift",
+            "İki çift",
+            "Dört çift"
+          ],
+          "answerIndex": 3,
+          "explanation": "Su ayılarının gövdesinde dört çift kısa bacak bulunur; bacak uçlarında genellikle pençeler vardır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-002-q2",
+          "text": "Spallanzani’nin verdiği “tardigrad” adı ne anlama gelir?",
+          "options": [
+            "Hiç ölmeyenler",
+            "Suda yüzenler",
+            "Yosunda yaşayanlar",
+            "Yavaş yürüyenler"
+          ],
+          "answerIndex": 3,
+          "explanation": "Spallanzani 1776’da onlara, yürüyüşlerinin yavaşlığı yüzünden “yavaş yürüyenler” anlamındaki “il tardigrado” adını verdi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-002-q3",
+          "text": "2007’deki FOTON-M3 deneyinde su ayıları kaç gün uzay boşluğunda kaldı?",
+          "options": [
+            "10 gün",
+            "2 gün",
+            "45 gün",
+            "100 gün"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kurutulmuş su ayıları Dünya yörüngesinde 10 gün boyunca uzay boşluğuna maruz kaldı ve hayatta kaldı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Su ayısı gibi kendini “duraklatıp” yıllar sonra uyanabilseydin, hangi zamanda uyanmak isterdin?",
+        "Sence uzaya deney için gönderilecek bir sonraki canlı ne olmalı, neden?"
+      ]
+    },
+    {
+      "id": "doga-003",
+      "title": "Van Gölü ve inci kefali",
+      "subtitle": "Van Gölü’nün sodalı suyunda yaşayan tek balık",
+      "facts": [
+        "Van Gölü Türkiye’nin en büyük gölüdür. Suyu sodalı ve çok alkalidir: pH değeri yaklaşık 9,7–9,9.",
+        "Van Gölü’nün sodalı suyunda yaşayan tek balık türü inci kefalidir (Alburnus tarichi). Bu balık, dünyada yalnızca Van Gölü havzasında yaşar.",
+        "İnci kefalleri her yıl nisan ile temmuz arasında Van Gölü’ne dökülen tatlı su akarsularına göç eder ve yumurtalarını orada bırakır. Karasu, Bendimahi, Deliçay ve Zilan bunlardan bazılarıdır.",
+        "Üreme dönemindeki balıkları korumak için 15 Nisan–15 Temmuz arasında inci kefali avlamak yasaktır. “Van Gölü İnci Kefali” 2025’te coğrafi işaret olarak tescil edildi."
+      ],
+      "sources": [
+        {
+          "name": "Türk Patent ve Marka Kurumu",
+          "url": "https://ci.turkpatent.gov.tr/Files/GeographicalSigns/27472ed4-4db5-42de-b226-446d6a9ac765.pdf"
+        },
+        {
+          "name": "Turkish Journal of Fisheries and Aquatic Sciences",
+          "url": "https://trjfas.org/abstract.php?id=149"
+        },
+        {
+          "name": "T.C. Tarım ve Orman Bakanlığı Van İl Müdürlüğü",
+          "url": "https://van.tarimorman.gov.tr/Haber/702/Ercek-Golundeki-Van-Baligi-Da-Korunuyor"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-003-q1",
+          "text": "Van Gölü’nün sodalı suyunda yaşayan tek balık türü hangisidir?",
+          "options": [
+            "İnci kefali",
+            "Levrek",
+            "Alabalık",
+            "Hamsi"
+          ],
+          "answerIndex": 0,
+          "explanation": "İnci kefali (Alburnus tarichi), Van Gölü’nün çok alkali suyunda yaşayan tek balık türüdür.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-003-q2",
+          "text": "İnci kefalleri yumurtalarını nereye bırakır?",
+          "options": [
+            "Gölün ortasındaki adaların çevresine",
+            "Gölün en derin çukurlarına",
+            "Göle dökülen tatlı su akarsularına",
+            "Gölün sodalı açık sularına"
+          ],
+          "answerIndex": 2,
+          "explanation": "İnci kefalleri nisan–temmuz arasında gölden ayrılıp havzadaki tatlı su akarsularına göç eder ve orada yumurtlar.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-003-q3",
+          "text": "İnci kefali kaç yaşından itibaren üreme olgunluğuna erişir?",
+          "options": [
+            "6 yaşından",
+            "10 yaşından",
+            "3 yaşından",
+            "1 yaşından"
+          ],
+          "answerIndex": 2,
+          "explanation": "Coğrafi işaret kaydına göre inci kefalleri üç yaşından itibaren 12,5–13 cm boya ulaşıp üreme olgunluğuna erişir.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "İnci kefallerinin göçünü izlemeye gitseydin, en çok neyi merak ederdin?",
+        "Sence dünyada yalnızca bir yerde yaşayan bir canlıyı korumak için herkesin yapabileceği en basit şey ne?"
+      ]
+    },
+    {
+      "id": "doga-004",
+      "title": "Caretta caretta ve kumun sıcaklığı",
+      "subtitle": "Yavruların cinsiyetini sıcaklık belirliyor",
+      "facts": [
+        "Caretta caretta dişileri yumurtlamak için geceleri kumsala çıkar. Her yuvada yaklaşık 100 yumurta olur; bir dişi bir sezonda iki hafta arayla 3–5, bazen daha fazla yuva yapar.",
+        "Caretta caretta yavrularının cinsiyetini kuluçka sırasındaki sıcaklık belirler: serin yuvalardan daha çok erkek, sıcak yuvalardan daha çok dişi yavru çıkar. Yumurtalar yaklaşık iki ayda açılır.",
+        "Deniz kaplumbağalarında yarı erkek yarı dişi yavru çıkaran “eşik sıcaklık” yaklaşık 29 °C’dir. Yuva bundan sıcaksa dişiler, serinse erkekler ağır basar.",
+        "Muğla’daki Köyceğiz-Dalyan bölgesi 12 Haziran 1988’de Özel Çevre Koruma Bölgesi ilan edildi. Bölgedeki İztuzu kumsalı, Caretta caretta’nın üreme alanı olarak koruma altında."
+      ],
+      "sources": [
+        {
+          "name": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle"
+        },
+        {
+          "name": "T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+          "url": "https://webdosya.csb.gov.tr/db/tabiat/icerikler/koyceg-z-20211124130143.pdf"
+        },
+        {
+          "name": "Scientific Reports",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4735811"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-004-q1",
+          "text": "Caretta caretta yuvasında kum daha sıcak olursa ne olur?",
+          "options": [
+            "Cinsiyet oranı hiç değişmez",
+            "Daha çok erkek yavru çıkar",
+            "Yavruların hepsi erkek olur",
+            "Daha çok dişi yavru çıkar"
+          ],
+          "answerIndex": 3,
+          "explanation": "Deniz kaplumbağalarında sıcak yuvalardan daha çok dişi, serin yuvalardan daha çok erkek yavru çıkar.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-004-q2",
+          "text": "Bir Caretta caretta yuvasında yaklaşık kaç yumurta bulunur?",
+          "options": [
+            "25",
+            "100",
+            "1.000",
+            "10"
+          ],
+          "answerIndex": 1,
+          "explanation": "NOAA’ya göre her yuvada yaklaşık 100 yumurta olur.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-004-q3",
+          "text": "Köyceğiz-Dalyan bölgesi, Caretta caretta’nın yanı sıra hangi kaplumbağanın da önemli yuvalama alanıdır?",
+          "options": [
+            "Galapagos dev kaplumbağası",
+            "Hint yıldızlı kaplumbağası",
+            "Nil kaplumbağası",
+            "Aldabra dev kaplumbağası"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bakanlığa göre bölge, Akdeniz’de hem Caretta caretta hem de Nil kaplumbağası (Trionyx triunguis) için en önemli yuvalama alanlarından biri.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir kumsalda gece yürürken kaplumbağa yuvasına rastlasan ne yapardın?",
+        "Sence tatilciler ile kaplumbağalar aynı kumsalı en iyi nasıl paylaşabilir?"
+      ]
+    },
+    {
+      "id": "doga-005",
+      "title": "Peri bacaları nasıl oluştu?",
+      "subtitle": "Volkan külü, yağmur ve milyonlarca yıl",
+      "facts": [
+        "Hikâye yaklaşık 10 milyon yıl önce başladı: volkanlar Kapadokya’da yaklaşık 20.000 km²’lik bir alanı kül ve volkanik parçalarla örttü. Bu katmanlar zamanla sertleşip tüfe dönüştü.",
+        "Göreme Milli Parkı ve Kapadokya Kayalık Alanları 1985’te UNESCO Dünya Mirası Listesi’ne girdi. Bölgeyi güneyden ve doğudan volkan sıraları çevreler; bir ucunda Erciyes Dağı, öbür ucunda Hasan Dağı yükselir.",
+        "Peri bacaları, düz platoların çoğunlukla soğuma çatlakları boyunca yarılmasıyla başlar. Yağmur suyu çatlakları derinleştirir, donma-çözülme tüfün bozunmasını hızlandırır; bloklar zamanla yuvarlaklaşır.",
+        "Peri bacasının sert “şapka” kayası, alttaki yumuşak katmandan yavaş aşınır. Bir araştırmanın ölçümlerine göre şapkalar bin yılda 3,2–3,4 cm aşınıyor; baca yok olunca aşınma bin yılda yaklaşık 28 cm’ye çıkıyor."
+      ],
+      "sources": [
+        {
+          "name": "UNESCO Dünya Mirası Merkezi",
+          "url": "https://whc.unesco.org/en/list/357/"
+        },
+        {
+          "name": "Geomorphology (Sarıkaya, Çiner, Zreda, 2015)",
+          "url": "https://experts.arizona.edu/en/publications/fairy-chimney-erosion-rates-on-cappadocia-ignimbrites-turkey-insi/"
+        },
+        {
+          "name": "TMMOB Jeoloji Mühendisleri Odası",
+          "url": "https://jmo.org.tr/resimler/ekler/8db79b65a4c8f49_ek.pdf"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-005-q1",
+          "text": "Peri bacasının tepesindeki sert “şapka” ne işe yarar?",
+          "options": [
+            "Bacanın içini sıcak tutar",
+            "Alttaki yumuşak kayanın aşınmasını yavaşlatır",
+            "Yağmur suyunu toplayıp bacayı büyütür",
+            "Rüzgârı bacanın içine yönlendirir"
+          ],
+          "answerIndex": 1,
+          "explanation": "Şapkadaki sert kaya daha yavaş aşınır ve altındaki yumuşak tüfün aşınmasını geciktirir; baca bu sayede uzun süre ayakta kalır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-005-q2",
+          "text": "Kapadokya manzarasının oluşumu yaklaşık ne zaman başladı?",
+          "options": [
+            "Yaklaşık 10 milyon yıl önce",
+            "Yaklaşık 10 bin yıl önce",
+            "Yaklaşık 1 milyar yıl önce",
+            "Yaklaşık 2 bin yıl önce"
+          ],
+          "answerIndex": 0,
+          "explanation": "Volkanlar Geç Miyosen’de, yaklaşık 10 milyon yıl önce bölgeyi piroklastik malzemeyle örtmeye başladı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-005-q3",
+          "text": "Bir peri bacası yok olduktan sonra o noktada aşınma nasıl değişir?",
+          "options": [
+            "Tamamen durur",
+            "Yarı yarıya yavaşlar",
+            "Belirgin biçimde hızlanır",
+            "Hiç değişmez"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bir araştırmanın ölçümlerine göre şapkalar bin yılda 3,2–3,4 cm aşınırken baca yok olunca aşınma bin yılda yaklaşık 28 cm’ye çıkıyor.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Kapadokya’daki peri bacalarından birine ad koyacak olsan, ne derdin?",
+        "Sence on binlerce yıl sonra Kapadokya nasıl görünecek?"
+      ]
+    },
+    {
+      "id": "doga-006",
+      "title": "Yıldırım",
+      "subtitle": "Şimşek, gök gürültüsü ve bir rekor",
+      "facts": [
+        "Yıldırımın geçtiği kanalda hava, Güneş’in yüzeyinden 5 kat daha sıcak olabilir. Ani ısınan hava genleşir, hemen ardından soğuyup büzülür; bu hızlı hareket gök gürültüsü olarak duyulur.",
+        "Işık saniyede yaklaşık 300.000 km, ses ise yaklaşık 340 m yol alır. Şimşekle gök gürültüsü arasındaki saniyeleri sayıp 3’e bölersen, fırtınanın kaç km uzakta olduğunu kabaca bulursun.",
+        "“Yıldırım aynı yere iki kez düşmez” sözü doğru değil: yıldırım, özellikle yüksek, sivri ve yalnız duran nesnelere sık sık tekrar düşer. New York’taki Empire State Binası’na yılda ortalama 20’den fazla kez düşer.",
+        "Dünya Meteoroloji Örgütü’nün (WMO) kaydettiği en uzun şimşek, Ekim 2017’de Teksas’ın doğusundan Kansas City yakınlarına uzanan 829 km’lik (±8 km) bir dev şimşekti. Rekor 2025’te onaylandı."
+      ],
+      "sources": [
+        {
+          "name": "ABD Ulusal Hava Durumu Servisi (NWS)",
+          "url": "https://www.weather.gov/safety/lightning-science-thunder"
+        },
+        {
+          "name": "Hong Kong Gözlemevi",
+          "url": "https://www.hko.gov.hk/en/education/weather/meteorology-basics/00021-why-does-lightning-always-come-before-thunder.html"
+        },
+        {
+          "name": "Dünya Meteoroloji Örgütü (WMO)",
+          "url": "https://wmo.int/media/news/wmo-certifies-megaflash-lightning-record-usa"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-006-q1",
+          "text": "Şimşeği gördükten 9 saniye sonra gök gürültüsünü duydun. Fırtına yaklaşık ne kadar uzakta?",
+          "options": [
+            "9 km",
+            "27 km",
+            "3 km",
+            "1 km"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ses kabaca 3 saniyede 1 km yol alır; 9 saniyeyi 3’e bölünce fırtına yaklaşık 3 km uzakta demektir.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-006-q2",
+          "text": "ABD Ulusal Hava Durumu Servisi’ne göre Empire State Binası’na yılda ortalama kaç kez yıldırım düşer?",
+          "options": [
+            "23 kez",
+            "1 kez",
+            "230 kez",
+            "3 kez"
+          ],
+          "answerIndex": 0,
+          "explanation": "NWS’ye göre bina yılda ortalama 23 kez yıldırım alır (binanın kendi sitesi 25 diyor); yıldırım aynı yere defalarca düşebilir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-006-q3",
+          "text": "NASA uydu verilerine göre şimşeklerin yaklaşık yüzde kaçı karada çakar?",
+          "options": [
+            "Yüzde 50",
+            "Yüzde 90",
+            "Yüzde 10",
+            "Yüzde 30"
+          ],
+          "answerIndex": 1,
+          "explanation": "NASA uydu verilerine göre dünyada saniyede ortalama 44 şimşek çakar; bunların yaklaşık yüzde 90’ı karada, yüzde 10’u okyanuslar üzerinde oluşur.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Fırtınalı bir gecede gök gürültüsünü dinlemeyi mi seversin, yoksa yorganın altına mı girersin?",
+        "Bir şimşeğin enerjisini yakalayabilseydin, onu ilk olarak ne için kullanırdın?"
+      ]
+    },
+    {
+      "id": "doga-007",
+      "title": "Ateş böceklerinin ışığı",
+      "subtitle": "Soğuk ışık ve yanıp sönen mesajlar",
+      "facts": [
+        "Ateş böcekleri, Lampyridae familyasından kın kanatlı böceklerdir. Dünyada 2.000’den fazla türü bilinir; boyları 5 ile 25 mm arasında değişir.",
+        "Ateş böceğinin ışığı, karnın alt yüzündeki organlarda üretilir: lusiferin adlı madde, lusiferaz enziminin yardımıyla ATP ve oksijenle tepkimeye girip parlar. Çok az ısı çıktığı için buna “soğuk ışık” denir.",
+        "Çoğu türün kendine özgü bir yanıp sönme deseni vardır; erkekler ve dişiler birbirini bu desenle bulur. ABD’de yaşayan Photinus carolinus, ışıklarını topluca eş zamanlı yakıp söndürebilen az sayıdaki türden biridir.",
+        "Photuris cinsinin dişileri, Photinus dişilerinin ışıklı yanıtını taklit ederek Photinus erkeklerini çeker ve yer. James E. Lloyd bu “ölümcül tuzağı” 1965’te Science dergisinde anlattı."
+      ],
+      "sources": [
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/print/article/207935"
+        },
+        {
+          "name": "ABD Milli Parklar Servisi (NPS)",
+          "url": "https://www.nps.gov/grsm/learn/nature/fireflies.htm"
+        },
+        {
+          "name": "Science (Lloyd, 1965)",
+          "url": "https://entnemdept.ufl.edu/baldwin/webbugs/3005_5006/docs/firefly%20paper.pdf"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-007-q1",
+          "text": "Ateş böcekleri hangi böcek grubundandır?",
+          "options": [
+            "Sinekler",
+            "Kelebekler",
+            "Arılar",
+            "Kın kanatlılar"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ateş böcekleri, Lampyridae familyasından kın kanatlı böceklerdir.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-007-q2",
+          "text": "Ateş böceğinin ışığını üreten tepkimede görev alan enzimin adı nedir?",
+          "options": [
+            "Amilaz",
+            "Laktaz",
+            "Pepsin",
+            "Lusiferaz"
+          ],
+          "answerIndex": 3,
+          "explanation": "Lusiferin, lusiferaz enziminin yardımıyla ATP ve oksijenle tepkimeye girerek ışık üretir.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-007-q3",
+          "text": "2020’de yayımlanan bir uzman araştırmasına göre dünya genelinde ateş böcekleri için en büyük ikinci tehdit hangisi?",
+          "options": [
+            "Rüzgâr türbinleri",
+            "Işık kirliliği",
+            "Cep telefonu sinyalleri",
+            "Arılarla rekabet"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tufts Üniversitesi öncülüğündeki araştırmada tehditler yaşam alanı kaybı, ışık kirliliği ve tarım ilaçları diye sıralandı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Hiç ateş böceği gördün mü? Görmediysen, ilk kez görmek için nereye gitmek isterdin?",
+        "Sen ışıkla mesaj gönderebilseydin, arkadaşlarına “geldim” demek için nasıl bir desen seçerdin?"
+      ]
+    },
+    {
+      "id": "doga-008",
+      "title": "Pamukkale travertenleri",
+      "subtitle": "Sıcak sudan doğan beyaz basamaklar",
+      "facts": [
+        "Pamukkale’de kalsiyum bikarbonatça zengin sıcak su yüzeye çıkınca karbondioksiti havaya kaçar ve kalsiyum karbonat çökerek traverteni oluşturur. Çökelme, sudaki karbondioksit havayla dengelenene dek sürer.",
+        "Pamukkale’nin kaynakları, ovaya bakan yaklaşık 200 m yüksekliğindeki bir yamaçtan çıkar. Ortaya “taşlaşmış şelaleler” ve basamak basamak havuzlar çıkmıştır; taze kalsiyum karbonat bunlara parlak beyaz rengini verir.",
+        "Pamukkale’yi de içine alan geniş bölgede sıcaklığı 35 ile 100 °C arasında değişen 17 sıcak su alanı bulunur. Pamukkale, 22 Ekim 1990’da Özel Çevre Koruma Bölgesi ilan edildi.",
+        "Travertenlerle aynı alanda antik Hierapolis kentinin hamam, tapınak ve tiyatro gibi Greko-Romen dönemi kalıntıları bulunur. Hierapolis-Pamukkale 1988’de hem kültürel hem doğal mirasıyla UNESCO listesine girdi."
+      ],
+      "sources": [
+        {
+          "name": "UNESCO Dünya Mirası Merkezi",
+          "url": "https://whc.unesco.org/en/list/485/"
+        },
+        {
+          "name": "Pamukkale Üniversitesi",
+          "url": "https://www.pau.edu.tr/egpd2020/en/sayfa/field-trip-pamukkale-travertines"
+        },
+        {
+          "name": "T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+          "url": "https://webdosya.csb.gov.tr/db/tabiat/icerikler/pamukkale-20211124130203.pdf"
+        }
+      ],
+      "questions": [
+        {
+          "id": "doga-008-q1",
+          "text": "Pamukkale travertenlerine parlak beyaz rengini ne verir?",
+          "options": [
+            "Taze kalsiyum karbonat birikintisi",
+            "Beyaz kil tabakası",
+            "Deniz tuzu kristalleri",
+            "Donmuş su ve kar"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sıcak sudan yeni çöken kalsiyum karbonat, travertenleri göz alıcı beyaz bir katmanla kaplar.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "doga-008-q2",
+          "text": "Hierapolis-Pamukkale UNESCO Dünya Mirası Listesi’ne hangi yıl girdi?",
+          "options": [
+            "1938",
+            "1988",
+            "2008",
+            "1958"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hierapolis-Pamukkale, hem kültürel hem doğal değerleriyle 1988’de listeye alındı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "doga-008-q3",
+          "text": "UNESCO’ya göre Hierapolis-Pamukkale’nin korunması için alanda ne yapıldı?",
+          "options": [
+            "Teraslar cam kubbeyle örtüldü",
+            "Kaynak suyu tümüyle kesildi",
+            "Otel binaları kaldırıldı",
+            "Teraslar beyaza boyandı"
+          ],
+          "answerIndex": 2,
+          "explanation": "UNESCO’ya göre alandaki otel binaları ve termal havuz çevresindeki yapılar kaldırıldı; özel araçların alana girişi de yasaklandı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Pamukkale’ye gitsen önce travertenlere mi, Hierapolis’in kalıntılarına mı koşardın?",
+        "Sence doğal bir harikayı hem gezmek hem korumak için ziyaretçilere hangi kural konmalı?"
+      ]
+    }
+  ]
+}

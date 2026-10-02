@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "id": "ftk-psikoloji-1",
+  "kit": "freetimekit",
+  "category": "psikoloji",
+  "title": "Psikoloji · Paket 1",
+  "version": 1,
+  "updatedAt": "2026-10-02",
+  "cards": [
+    {
+      "id": "psikoloji-001",
+      "title": "Bir alışkanlık ne kadar sürede oturur?",
+      "subtitle": "“21 gün” sözü ve 2010’daki UCL çalışması",
+      "facts": [
+        "UCL’deki araştırmacılara göre “21 gün” sayısı, plastik cerrah Maxwell Maltz’ın 1960 tarihli Psycho-Cybernetics kitabına dayanıyor. Maltz, hastaların yeni yüzlerine yaklaşık 21 günde alıştığını yazmıştı.",
+        "Phillippa Lally ve ekibinin 2010’da yayımlanan çalışmasında 96 gönüllü, 12 hafta boyunca her gün aynı bağlamda (örneğin kahvaltıdan sonra) yapacakları bir yeme, içme ya da hareket davranışı seçti.",
+        "Otomatikliğin, kişinin ulaşabileceği tavan düzeyin %95’ine varması 18 gün ile tahmini 254 gün arasında sürdü. Modelin iyi uyduğu katılımcılarda ortanca süre 66 gündü.",
+        "Çalışmada davranışı bir kez yapmamak alışkanlık oluşumunu belirgin biçimde etkilemedi. Davranışı çok düzensiz yapan katılımcılarda ise alışkanlık oluşmadı."
+      ],
+      "sources": [
+        {
+          "name": "University College London (UCL)",
+          "url": "https://blogs.ucl.ac.uk/bsh/2012/06/29/busting-the-21-days-habit-formation-myth/"
+        },
+        {
+          "name": "European Journal of Social Psychology",
+          "url": "https://doi.org/10.1002/ejsp.674"
+        },
+        {
+          "name": "Healthcare dergisi (2024 derlemesi)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-001-q1",
+          "text": "2010’daki çalışmada, modelin iyi uyduğu katılımcılarda bir davranışın otomatikleşmesi için ortanca süre kaç gündü?",
+          "options": [
+            "120 gün",
+            "66 gün",
+            "21 gün",
+            "30 gün"
+          ],
+          "answerIndex": 1,
+          "explanation": "Lally ve ekibinin çalışmasında ortanca süre 66 gündü; kişisel süreler 18 gün ile tahmini 254 gün arasında değişti.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-001-q2",
+          "text": "UCL araştırmacıları “21 gün” sayısının kaynağı olarak hangi kitabı gösteriyor?",
+          "options": [
+            "B. F. Skinner’ın Walden Two kitabı",
+            "William James’in Psikolojinin İlkeleri kitabı",
+            "Sigmund Freud’un Rüyaların Yorumu kitabı",
+            "Maxwell Maltz’ın Psycho-Cybernetics kitabı"
+          ],
+          "answerIndex": 3,
+          "explanation": "UCL araştırmacılarına göre sayı, plastik cerrah Maxwell Maltz’ın 1960 tarihli Psycho-Cybernetics kitabının önsözüne dayanıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-001-q3",
+          "text": "20 çalışmayı inceleyen 2024 tarihli bir derlemede, alışkanlık oluşumu için bildirilen ortanca süreler hangi aralıktaydı?",
+          "options": [
+            "18–21 gün",
+            "7–14 gün",
+            "59–66 gün",
+            "200–250 gün"
+          ],
+          "answerIndex": 2,
+          "explanation": "Singh ve ekibinin 2024 derlemesinde ortanca süreler 59–66 gün, ortalamalar 106–154 gündü; kişiler arasında büyük farklar vardı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Kendiliğinden yerleşmiş bir alışkanlığını sonradan fark ettiğin oldu mu? Sence nasıl yerleşti?",
+        "Sence “21 gün” gibi net bir sayı, “kişiden kişiye değişir” demekten neden daha çok akılda kalıyor?"
+      ]
+    },
+    {
+      "id": "psikoloji-002",
+      "title": "Ebbinghaus’un unutma eğrisi",
+      "subtitle": "Kendi belleğini ölçen bir psikolog",
+      "facts": [
+        "Hermann Ebbinghaus (1850–1909) bellek deneylerinin sonuçlarını 1885’te Über das Gedächtnis (Bellek Üzerine) adlı kitabında yayımladı. Deneylerin tek deneği kendisiydi.",
+        "Var olan kelimelerden daha türdeş bir malzeme için yaklaşık 2.300 anlamsız hece hazırladı. Heceler “ünsüz-ünlü-ünsüz” yapısındaydı.",
+        "Unutmayı, bir listeyi yeniden öğrenirken ne kadar zaman kazandığıyla ölçtü. Bu kazanç 20 dakika sonra yaklaşık %58, 1 saat sonra %44, 31 gün sonra %21’di.",
+        "2015’te Jaap Murre ve Joeri Dros deneyi yineledi; tek denek olan Dros yaklaşık 70 saat liste öğrendi. Veriler Ebbinghaus’unkilere benzedi; yazarlara göre klasik eğri büyük olasılıkla 1 günlük noktada yukarı sıçrıyor."
+      ],
+      "sources": [
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/biography/Hermann-Ebbinghaus"
+        },
+        {
+          "name": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644"
+        },
+        {
+          "name": "York Üniversitesi – Classics in the History of Psychology",
+          "url": "https://psychclassics.yorku.ca/Ebbinghaus/memory7.htm"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-002-q1",
+          "text": "Ebbinghaus’un bellek deneylerindeki tek denek kimdi?",
+          "options": [
+            "Bir öğrencisi",
+            "Bir meslektaşı",
+            "Kız kardeşi",
+            "Kendisi"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ebbinghaus bildirdiği bütün deneylerde denek olarak yalnızca kendisini kullandı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-002-q2",
+          "text": "Ebbinghaus’un verilerinde, bir listeyi 1 saat sonra yeniden öğrenirken sağlanan zaman kazancı yaklaşık ne kadardı?",
+          "options": [
+            "%44",
+            "%5",
+            "%90",
+            "%75"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ebbinghaus’un verilerinde 1 saatlik aralıktaki kazanç yaklaşık %44’tü; 20 dakikada %58, 31 günde %21 idi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-002-q3",
+          "text": "Murre ve Dros’a göre 1 günlük noktadaki sıçramayı hangi alandaki araştırmalar öngörürdü?",
+          "options": [
+            "Uykunun belleğe etkisi",
+            "Işığın göze etkisi",
+            "Beslenmenin dikkate etkisi",
+            "Müziğin ruh hâline etkisi"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yazarlara göre uykunun belleğe etkisine dair araştırmalar böyle bir sıçrama öngörür; ama bu deney türü için bu henüz kanıtlanmış değil.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Okulda ezberleyip hâlâ unutmadığın bir şey var mı? Sence neden aklında kaldı?",
+        "Sence bir bilim insanının deneyi yalnızca kendi üzerinde yapması sonuçlara ne kadar güvenmemizi sağlar?"
+      ]
+    },
+    {
+      "id": "psikoloji-003",
+      "title": "Kısa süreli belleğin sınırı",
+      "subtitle": "Miller’ın yedisi, Cowan’ın dördü",
+      "facts": [
+        "George A. Miller, 1956’da Psychological Review’da yayımlanan ünlü makalesinde, insanların kısa süreli bellek görevlerinde yaklaşık yedi birim tutabildiğini gösteren bulguları özetledi.",
+        "Miller bu birimlere “chunk” (öbek) dedi; bir öbek bir harf, rakam ya da kelime olabilir. Makaleye göre akılda tutulan öbek sayısı, öbek başına düşen bilgi miktarından neredeyse bağımsız görünüyordu.",
+        "Miller makalesine, yedi yıldır bir tam sayı tarafından izlendiğini söyleyerek başladı. Sonunda ise her yerde karşısına çıkan bu yedilerin yalnızca “zararlı, Pisagorcu bir tesadüf” olduğundan şüphelendiğini yazdı.",
+        "Nelson Cowan 2001’de, Miller’ın yedisinin gerçek bir sınırdan çok kaba bir tahmin ve söz sanatı olarak kastedildiğini yazdı. Tekrar ve öbekleme engellendiğinde sınırın ortalama dört öbek civarında olduğunu savundu."
+      ],
+      "sources": [
+        {
+          "name": "Psychological Review (Miller, 1956) – York Üniversitesi arşivi",
+          "url": "https://psychclassics.yorku.ca/Miller/"
+        },
+        {
+          "name": "Behavioral and Brain Sciences",
+          "url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496"
+        },
+        {
+          "name": "Current Directions in Psychological Science",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-003-q1",
+          "text": "Miller’ın 1956 makalesine göre insanlar kısa süreli bellek görevlerinde yaklaşık kaç birim tutabiliyordu?",
+          "options": [
+            "Yirmi",
+            "Üç",
+            "Yedi",
+            "On iki"
+          ],
+          "answerIndex": 2,
+          "explanation": "Miller, pek çok farklı test malzemesinde anlık bellekte yaklaşık yedi öğe tutulabildiğini gösteren bulguları özetledi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-003-q2",
+          "text": "Cowan’a göre tekrar ve öbekleme engellendiğinde kısa süreli belleğin sınırı ortalama kaç öbek civarındadır?",
+          "options": [
+            "Bir",
+            "Dört",
+            "On",
+            "Yedi"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cowan 2001’de, öğelerin daha büyük öbeklere dönüştürülmesi engellendiğinde merkezi sınırın ortalama dört öbek civarında olduğunu savundu.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-003-q3",
+          "text": "Cowan’ın 2010’da yazdığına göre genç yetişkinler, deyim ya da kısa cümle gibi uzun öbeklerden kaç tanesini hatırlayabilir?",
+          "options": [
+            "3 ya da 4",
+            "7 ya da 8",
+            "10 ya da 12",
+            "15 ya da 20"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cowan, genç yetişkinlerin deyim ya da kısa cümle gibi uzun sözel öbeklerden yalnızca 3 ya da 4 tanesini hatırlayabildiğini yazdı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir telefon numarasını nasıl aklında tutarsın: parça parça mı, bütün olarak mı?",
+        "Sence “sihirli sayı yedi” fikri, bilim insanları onu sorgulasa da neden bu kadar yaygınlaştı?"
+      ]
+    },
+    {
+      "id": "psikoloji-004",
+      "title": "Seyirci etkisi",
+      "subtitle": "Yanımızda başkaları varken yardım etmek",
+      "facts": [
+        "John Darley ve Bibb Latané’nin 1968’de yayımlanan deneyinde her öğrenci ayrı bir odadaydı ve interkomla başka öğrencilerle konuştuğunu sanıyordu. Nöbet geçiren kişi dahil diğer bütün sesler önceden kaydedilmişti.",
+        "Kendini tek tanık sananların %85’i, kurbanın sesi kesilmeden odadan çıkıp durumu bildirdi. Bir kişinin daha duyduğunu sananlarda oran %62’ye, dört kişinin daha duyduğunu sananlarda %31’e düştü.",
+        "Çalışmaya 1964’teki Kitty Genovese cinayeti ilham verdi. New York Times 2016’da, olayla ilgili 1964’te yayımladığı “38 tanık” anlatısının tanık sayısını ve gördüklerini büyük ölçüde abarttığını yazdı.",
+        "Üç ülkedeki 219 gerçek tartışma ve saldırının kamera kayıtlarını inceleyen bir çalışmada, olayların 10’da 9’unda en az bir kişi müdahale etti; çevrede daha çok kişi varken yardım olasılığı arttı."
+      ],
+      "sources": [
+        {
+          "name": "BCcampus – Research Methods in Psychology (açık ders kitabı)",
+          "url": "https://opentextbc.ca/researchmethods/part/experimental-research/"
+        },
+        {
+          "name": "Lancaster Üniversitesi",
+          "url": "https://lancaster.ac.uk/news/bystanders-will-intervene-to-help-victims-of-aggressive-public-disputes"
+        },
+        {
+          "name": "Poynter Enstitüsü",
+          "url": "https://www.poynter.org/reporting-editing/2016/misremembering-kitty-genovese"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-004-q1",
+          "text": "Darley ve Latané’nin deneyinde, nöbeti yalnızca kendisinin duyduğunu sananların yüzde kaçı, kurbanın sesi kesilmeden durumu bildirdi?",
+          "options": [
+            "%31",
+            "%50",
+            "%85",
+            "%10"
+          ],
+          "answerIndex": 2,
+          "explanation": "Kendini tek tanık sananların %85’i kurbanın sesi kesilmeden durumu bildirdi; dört kişinin daha duyduğunu sananlarda bu oran %31’di.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-004-q2",
+          "text": "Üç ülkedeki kamera kayıtlarını inceleyen çalışmada, olayların ne kadarında en az bir kişi müdahale etti?",
+          "options": [
+            "Yarısında",
+            "4’te 1’inde",
+            "10’da 9’unda",
+            "10’da 1’inde"
+          ],
+          "answerIndex": 2,
+          "explanation": "İngiltere, Hollanda ve Güney Afrika’daki 219 olayın 10’da 9’unda en az bir kişi, çoğu zaman birkaç kişi yardım etmeye çalıştı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-004-q3",
+          "text": "2011’de 7.700’den fazla katılımcıyı kapsayan meta-analize göre seyirci etkisi hangi durumlarda zayıflıyordu?",
+          "options": [
+            "Tehlikeli algılanan durumlarda",
+            "Olay gündüz yaşandığında",
+            "Tanıklar yorgun olduğunda",
+            "Tanıklar acele ettiğinde"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fischer ve ekibine göre etki, durum tehlikeli algılandığında, saldırgan oradayken ve müdahalenin bedeli fiziksel olduğunda zayıflıyordu.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Kalabalık bir yerde birinin yardıma ihtiyacı olduğunu fark etsen, ilk ne yapardın?",
+        "Sence bir haberin yıllarca yanlış anlatılması, bilim insanlarının sorduğu soruları nasıl etkiler?"
+      ]
+    },
+    {
+      "id": "psikoloji-005",
+      "title": "Marshmallow testi",
+      "subtitle": "Beklemek ve sonrası: 1960’lardan 2018’e",
+      "facts": [
+        "Walter Mischel 1960’ların sonunda, Stanford kampüsündeki bir anaokulunda çocuklara seçim sundu: tek ikramı hemen yemek ya da araştırmacı dönene kadar bekleyip iki tane almak.",
+        "1990’daki izleme çalışmasında, daha uzun bekleyen çocukların ergenlikte daha başarılı olduğu bildirildi. Ancak bu çalışmada 653 çocuktan yalnızca 185’ine ulaşılabilmişti.",
+        "2018’de Tyler Watts, Greg Duncan ve Haonan Quan, ABD’deki geniş bir izleme araştırmasından 918 çocuğun verisini kullandı. Bu çocuklar 54 aylıkken en fazla 7 dakika bekletilmişti.",
+        "Annesi üniversite bitirmemiş 552 çocukta, bekleme süresiyle 15 yaştaki başarı arasındaki ilişki eski çalışmalardakinin yarısı kadardı; aile, erken bilişsel beceri ve ev ortamı hesaba katılınca üçte iki azaldı."
+      ],
+      "sources": [
+        {
+          "name": "Psychological Science (Watts, Duncan ve Quan, 2018)",
+          "url": "https://doi.org/10.1177/0956797618761661"
+        },
+        {
+          "name": "Association for Psychological Science (APS)",
+          "url": "https://www.psychologicalscience.org/publications/observer/obsonline/a-new-approach-to-the-marshmallow-test-yields-complex-findings.html"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-005-q1",
+          "text": "Marshmallow testinde çocuklara sunulan seçim neydi?",
+          "options": [
+            "İkramı hemen yemek ya da bekleyip iki tane almak",
+            "Yalnız ya da bir arkadaşla oynamak",
+            "Bir oyuncak ya da bir ikram seçmek",
+            "Resim çizmek ya da şarkı söylemek"
+          ],
+          "answerIndex": 0,
+          "explanation": "Çocuklara, bir süre yemeden bekleyebilirlerse bir yerine iki ikram alacakları söylendi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-005-q2",
+          "text": "2018’deki çalışmada kullanılan verilerde çocuklar en fazla kaç dakika bekletilmişti?",
+          "options": [
+            "30",
+            "7",
+            "60",
+            "15"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bu verilerde bekleme süresinin üst sınırı 7 dakikaydı; Mischel’in çalışmalarında ise çocuklardan 15–20 dakika beklemeleri istenmişti.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-005-q3",
+          "text": "Watts ve ekibine göre, bekleme süresiyle ergenlikteki başarı arasındaki ilişkiyi en çok ne belirliyordu?",
+          "options": [
+            "Sunulan ikramın türü",
+            "En az 20 saniye bekleyip bekleyememek",
+            "Tam 7 dakika bekleyip bekleyememek",
+            "Testin yapıldığı saat"
+          ],
+          "answerIndex": 1,
+          "explanation": "Makaleye göre bekleme süresiyle ergenlikteki başarı arasındaki ilişki büyük ölçüde, en az 20 saniye bekleyebilen çocuklarla bekleyemeyenler arasındaki farktan geliyordu.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen çocukken bu testi yapsaydın ikramı hemen yer miydin, yoksa beklemeyi mi seçerdin?",
+        "Sence tek bir çocukluk testi, birinin ileride nasıl biri olacağı hakkında ne kadar şey söyleyebilir?"
+      ]
+    },
+    {
+      "id": "psikoloji-006",
+      "title": "Akış hâli",
+      "subtitle": "Csikszentmihalyi ve kendini işe kaptırmak",
+      "facts": [
+        "Mihaly Csikszentmihalyi (1934–2021) 1969’dan 1999’a kadar Chicago Üniversitesi’nde öğretim üyeliği yaptı. Akışı anlattığı 1990 tarihli Flow kitabı 20’den fazla dile çevrildi.",
+        "Akışı, kişinin bir etkinliğe başka hiçbir şey önemli görünmeyecek kadar daldığı hâl olarak tanımladı. Bu ad, görüştüğü bazı kişilerin deneyimi onları sürükleyen bir su akıntısına benzetmesinden doğdu.",
+        "Csikszentmihalyi’nin tanımına göre akışta kişi, becerisiyle işin zorluğu arasında denge algılar; dikkati tümüyle işe yönelir, zaman algısı değişir ve kendini yaptığı işten ayrı hissetmez.",
+        "Engeser ve Rheinberg’in 2008’deki üç çalışması, akışın beceri-zorluk dengesine bağlı olduğu varsayımını yalnızca kısmen destekledi. İlişki, etkinliğin kişi için ne kadar önemli olduğuna göre değişti."
+      ],
+      "sources": [
+        {
+          "name": "Chicago Üniversitesi",
+          "url": "https://news.uchicago.edu/story/mihaly-csikszentmihalyi-pioneering-psychologist-and-father-flow-1934-2021"
+        },
+        {
+          "name": "Claremont Graduate University",
+          "url": "https://www.cgu.edu/people/mihaly-csikszentmihalyi/"
+        },
+        {
+          "name": "Motivation and Emotion (Engeser ve Rheinberg, 2008)",
+          "url": "https://www.uni-trier.de/fileadmin/fb1/prof/PSY/PGA/bilder/Engeser___Rheinberg_2008.pdf"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-006-q1",
+          "text": "“Akış” adı nereden geliyor?",
+          "options": [
+            "Bir caz parçasının adından",
+            "Bir sporcunun takma adından",
+            "Bir fabrika makinesinin adından",
+            "Görüşülenlerin deneyimi bir su akıntısına benzetmesinden"
+          ],
+          "answerIndex": 3,
+          "explanation": "Csikszentmihalyi’nin görüştüğü bazı kişiler deneyimlerini onları sürükleyen bir su akıntısına benzetti; terim buradan doğdu.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-006-q2",
+          "text": "Engeser ve Rheinberg’in çalışmasında beceri-zorluk dengesiyle akış arasındaki ilişki neye göre değişti?",
+          "options": [
+            "Çalışmanın yapıldığı mevsime",
+            "Etkinliğin kişi için önemine",
+            "Odanın sıcaklığına",
+            "Katılımcının boy uzunluğuna"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yazarlara göre ilişki, etkinliğin algılanan önemine ve kişinin başarı güdüsüne göre değişiyordu.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-006-q3",
+          "text": "Csikszentmihalyi’nin çalışmalarında insanların gündelik deneyimleri hangi yolla kayda geçirildi?",
+          "options": [
+            "Çağrı cihazları ve anketlerle",
+            "Yalnızca yıllık görüşmelerle",
+            "Beyin taramalarıyla",
+            "Gizli kamera kayıtlarıyla"
+          ],
+          "answerIndex": 0,
+          "explanation": "Deneyim örnekleme yönteminde katılımcılar, gün içinde rastgele zamanlarda gelen sinyallerle o anki deneyimlerini bildirdi.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen en son hangi etkinlikte zamanın nasıl geçtiğini fark etmedin?",
+        "Sence bir iş hem zor hem keyifli olabilir mi? Senin için böyle bir iş hangisi?"
+      ]
+    },
+    {
+      "id": "psikoloji-007",
+      "title": "Reçel deneyi ve seçenek çokluğu",
+      "subtitle": "6 mı, 24 mü: bir market deneyi ve sonrası",
+      "facts": [
+        "Sheena Iyengar ve Mark Lepper’ın 2000’de yayımlanan deneyinde, Kaliforniya’daki bir markette iki cumartesi günü kurulan tadım standında ya 6 ya da 24 çeşit reçel sergilendi.",
+        "24 çeşitlik standın önünden geçenlerin %60’ı durdu, 6 çeşitlikte bu oran %40’tı. Ama standda duranların 6 çeşitte yaklaşık %30’u, 24 çeşitte ise %3’ü reçel satın aldı.",
+        "Scheibehenne ve ekibinin 2010’daki meta-analizi, 50 deneydeki 63 koşulu (5.036 katılımcı) bir araya getirdi. Ortalama etki neredeyse sıfır çıktı, ama çalışmalar arasında büyük farklar vardı.",
+        "Chernev ve ekibinin 2015’teki meta-analizi (99 gözlem, 7.202 kişi), etkinin seçeneklerin karmaşıklığı, kararın zorluğu, tercih belirsizliği ve karar amacına bağlı olduğunu buldu."
+      ],
+      "sources": [
+        {
+          "name": "Journal of Personality and Social Psychology (Iyengar ve Lepper, 2000)",
+          "url": "https://faculty.washington.edu/jdb/345/345%20Articles/Iyengar%20&%20Lepper%20(2000).pdf"
+        },
+        {
+          "name": "Journal of Consumer Research (Scheibehenne ve ark., 2010)",
+          "url": "https://ideas.repec.org/a/oup/jconrs/v37y2010i3p409-425.html"
+        },
+        {
+          "name": "Kellogg School of Management",
+          "url": "https://www.kellogg.northwestern.edu/faculty/research/detail/2015/when-product-assortment-leads-to-choice-overload-a-conceptual"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-007-q1",
+          "text": "Reçel deneyinde sınırlı seçenekli standda kaç çeşit reçel vardı?",
+          "options": [
+            "24",
+            "12",
+            "6",
+            "36"
+          ],
+          "answerIndex": 2,
+          "explanation": "Standda ya 6 (sınırlı seçenek) ya da 24 (geniş seçenek) çeşit reçel sergilendi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-007-q2",
+          "text": "24 çeşitlik standda durup tadım yapanların yüzde kaçı sonradan reçel satın aldı?",
+          "options": [
+            "%30",
+            "%45",
+            "%60",
+            "%3"
+          ],
+          "answerIndex": 3,
+          "explanation": "Geniş seçenekli standda duranların yalnızca %3’ü reçel aldı; 6 çeşitlikte bu oran yaklaşık %30’du.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-007-q3",
+          "text": "Aynı makaledeki bir sınıf deneyinde, 6 ödev konusu sunulan öğrencilerin %74’ü ek ödevi teslim etti. 30 konu sunulanlarda bu oran neydi?",
+          "options": [
+            "%20",
+            "%60",
+            "%85",
+            "%95"
+          ],
+          "answerIndex": 1,
+          "explanation": "Iyengar ve Lepper’ın ikinci deneyinde 30 konu sunulan grupta ödev teslim oranı %60’ta kaldı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir menüde çok fazla seçenek görünce ne hissedersin: heyecan mı, kararsızlık mı?",
+        "Sence bir dükkân daha az çeşit sunsa, sen orada daha çok mu yoksa daha az mı alışveriş yapardın?"
+      ]
+    },
+    {
+      "id": "psikoloji-008",
+      "title": "Dunning–Kruger etkisi",
+      "subtitle": "Becerimizi tahmin etmek üzerine 1999 çalışması",
+      "facts": [
+        "Justin Kruger ve David Dunning 1999’da yayımlanan dört çalışmada Cornell Üniversitesi öğrencilerine mizah, dil bilgisi ve mantık testleri uyguladı ve kendi performanslarını tahmin etmelerini istedi.",
+        "En alt çeyrekte kalanların puanları onları ortalama 12. yüzdelik dilime yerleştiriyordu, ama kendilerini 62. dilimde sandılar. En üst çeyrektekiler ise kendilerini akranlarına göre olduğundan düşük değerlendirdi.",
+        "Makalenin ilk paragrafı, 1995’te Pittsburgh bölgesinde güpegündüz iki banka soyan bir adamın öyküsünü anlatır. Adam, yüzüne limon suyu sürünce güvenlik kameralarında görünmeyeceğini sanıyordu.",
+        "2020’de Gignac ve Zajenkowski 929 kişinin zekâ testi sonuçlarını öz değerlendirmeleriyle karşılaştırdı. Etkinin daha önce bildirilenden çok daha küçük olabileceğini yazdılar."
+      ],
+      "sources": [
+        {
+          "name": "Journal of Personality and Social Psychology (PubMed kaydı)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10626367/"
+        },
+        {
+          "name": "Intelligence dergisi (Gignac ve Zajenkowski, 2020)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0160289620300271"
+        },
+        {
+          "name": "McGill Üniversitesi Bilim ve Toplum Ofisi",
+          "url": "https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real"
+        }
+      ],
+      "questions": [
+        {
+          "id": "psikoloji-008-q1",
+          "text": "Kruger ve Dunning’in 1999 çalışmasında hangi alanlarda testler yapıldı?",
+          "options": [
+            "Matematik, tarih ve coğrafya",
+            "Satranç, bulmaca ve hafıza",
+            "Müzik, resim ve dans",
+            "Mizah, dil bilgisi ve mantık"
+          ],
+          "answerIndex": 3,
+          "explanation": "Dört çalışmada katılımcılar mizah, dil bilgisi ve mantık testlerine girdi ve kendi performanslarını tahmin etti.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "psikoloji-008-q2",
+          "text": "En alt çeyrekteki katılımcılar kendilerini ortalama hangi yüzdelik dilimde sandı?",
+          "options": [
+            "95. yüzdelik dilim",
+            "12. yüzdelik dilim",
+            "62. yüzdelik dilim",
+            "30. yüzdelik dilim"
+          ],
+          "answerIndex": 2,
+          "explanation": "Puanları onları 12. yüzdelik dilime koyuyordu, ama kendilerini 62. yüzdelik dilimde tahmin ettiler.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "psikoloji-008-q3",
+          "text": "Etkiyi sorgulayan araştırmacılara göre, Dunning–Kruger etkisine benzeyen bir grafik hangi verilerle de elde edilebiliyor?",
+          "options": [
+            "Hayvan deneylerinin verileriyle",
+            "Beyin taraması verileriyle",
+            "Yalnızca uzmanlardan toplanan verilerle",
+            "Bilgisayarda üretilmiş rastgele verilerle"
+          ],
+          "answerIndex": 3,
+          "explanation": "McGill Üniversitesi’nin aktardığına göre Nuhfer ve ekibi, rastgele üretilmiş verilerin de etkiye çok benzeyen bir örüntü verdiğini gösterdi.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Hiç bir konuda kendini olduğundan daha iyi sandığını sonradan fark ettin mi? Bunu nasıl anladın?",
+        "Sence bir bilimsel bulgu popüler bir söze dönüşünce anlamı nasıl değişir?"
+      ]
+    }
+  ]
+}

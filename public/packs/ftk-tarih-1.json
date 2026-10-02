@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "id": "ftk-tarih-1",
+  "kit": "freetimekit",
+  "category": "tarih",
+  "title": "Tarih · Paket 1",
+  "version": 1,
+  "updatedAt": "2026-10-02",
+  "cards": [
+    {
+      "id": "tarih-001",
+      "title": "Göbeklitepe",
+      "subtitle": "Avcı-toplayıcıların inşa ettiği anıtsal yapılar",
+      "facts": [
+        "Şanlıurfa’nın kuzeydoğusunda. En eski yapıları yaklaşık 11.600 yıl önceye, çanak çömleğin henüz bilinmediği Neolitik döneme tarihleniyor.",
+        "Yapıların ortasında T biçimli dikilitaşlar var; bazıları 5 metreyi aşıyor. Üzerlerinde tilki, yaban domuzu, yılan ve kuş kabartmaları görülüyor.",
+        "En eski yapıları, Stonehenge’in ilk evresinden 6.000 yıldan daha eski.",
+        "2018’de UNESCO Dünya Mirası Listesi’ne alındı."
+      ],
+      "sources": [
+        {
+          "name": "UNESCO Dünya Mirası Merkezi",
+          "url": "https://whc.unesco.org/en/list/1572/"
+        },
+        {
+          "name": "Alman Arkeoloji Enstitüsü",
+          "url": "https://www.dainst.blog/the-tepe-telegrams/faq/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-001-q1",
+          "text": "Göbeklitepe’deki dikilitaşlar hangi harfe benzer?",
+          "options": [
+            "H",
+            "L",
+            "T",
+            "Y"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dikilitaşlar T biçimlidir. Bazılarının yanlarında kol ve el kabartmaları olduğu için birçok araştırmacı onları insan figürü olarak yorumlar.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-001-q2",
+          "text": "Göbeklitepe hangi yıl UNESCO Dünya Mirası Listesi’ne alındı?",
+          "options": [
+            "2018",
+            "2003",
+            "1985",
+            "2012"
+          ],
+          "answerIndex": 0,
+          "explanation": "UNESCO kayıtlarına göre Göbeklitepe, 2018’de Dünya Mirası Listesi’ne girdi.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-001-q3",
+          "text": "UNESCO’ya göre Göbeklitepe’deki anıtsal yapıları kimler inşa etti?",
+          "options": [
+            "Hitit taş ustaları",
+            "Tunç Çağı kent halkı",
+            "Avcı-toplayıcı topluluklar",
+            "Roma dönemi işçileri"
+          ],
+          "answerIndex": 2,
+          "explanation": "UNESCO’ya göre bu yapıları, Çanak Çömleksiz Neolitik dönemde avcılık ve toplayıcılıkla geçinen gruplar inşa etti.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Yazının ve şehirlerin olmadığı bir çağda insanlar bu kadar büyük bir işi nasıl örgütlemiş olabilir?",
+        "Sence insanları bir arada tutan ilk şey ortak bir iş miydi, yoksa ortak bir toplanma yeri mi?"
+      ]
+    },
+    {
+      "id": "tarih-002",
+      "title": "Çatalhöyük",
+      "subtitle": "Damdan girilen evlerin Neolitik yerleşimi",
+      "facts": [
+        "Konya Ovası’ndaki iki höyükten oluşuyor. Daha büyük ve daha eski olan doğu höyükteki Neolitik yerleşim, 9.000 yılı aşkın bir süre önce kuruldu.",
+        "Evler aralarında sokak bırakılmadan bitişik yapılmıştı. İnsanlar damların üzerinde dolaşır, evlerine tavandaki bir açıklıktan tahta merdivenle inerdi.",
+        "Bazı evlerin beyaz sıvalı duvarlarında av sahneleri ve geometrik desenler vardı. Ölüler, odalardaki yükseltilmiş platformların altına gömülürdü.",
+        "Kazı ekibine göre en kalabalık döneminde burada 3.500 ile 8.000 arasında insan yaşıyordu. Alan 2012’de UNESCO Dünya Mirası Listesi’ne alındı."
+      ],
+      "sources": [
+        {
+          "name": "UNESCO Dünya Mirası Merkezi",
+          "url": "https://whc.unesco.org/en/list/1405/"
+        },
+        {
+          "name": "Çatalhöyük Araştırma Projesi",
+          "url": "https://www.catalhoyuk.com/site/architecture"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-002-q1",
+          "text": "Çatalhöyük’te insanlar evlerine nereden girerdi?",
+          "options": [
+            "Yer altındaki bir tünelden",
+            "Ortak bir avludan",
+            "Sokağa açılan bir kapıdan",
+            "Damdaki bir açıklıktan"
+          ],
+          "answerIndex": 3,
+          "explanation": "Evler sokaksız ve bitişikti; insanlar damlarda dolaşıp tavandaki açıklıktan tahta merdivenle evlerine inerdi.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-002-q2",
+          "text": "Çatalhöyük’te ölüler nereye gömülürdü?",
+          "options": [
+            "Evlerdeki platformların altına",
+            "Yakındaki dağ mağaralarına",
+            "Köyün ortasındaki bir meydana",
+            "Yerleşimin dışındaki bir mezarlığa"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kazı ekibine göre odalarda uyumak için kullanılan yükseltilmiş platformların altına ölüler gömülüyordu.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-002-q3",
+          "text": "Çatalhöyük’te 1961–1965 yıllarında kazı yapan arkeolog kimdir?",
+          "options": [
+            "Heinrich Schliemann",
+            "James Mellaart",
+            "Klaus Schmidt",
+            "Ian Hodder"
+          ],
+          "answerIndex": 1,
+          "explanation": "James Mellaart alanı 1961–1965 yıllarında kazdı. Yaklaşık 30 yıl sonra, 1993’te, onun öğrencisi Ian Hodder alanda yeni bir araştırma projesi başlattı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sokak yerine damların üzerinde dolaşılan bir mahallede yaşasaydın, günlük hayatında ne değişirdi?",
+        "Sence 9.000 yıl önce burada yaşayan bir çocuğun bir günü nasıl geçerdi?"
+      ]
+    },
+    {
+      "id": "tarih-003",
+      "title": "Kadeş Antlaşması",
+      "subtitle": "Hititler ile Mısır arasındaki barış",
+      "facts": [
+        "MÖ 13. yüzyılda Mısır firavunu II. Ramses ile Hititler, bugünkü Suriye’de Asi (Orontes) Nehri kıyısındaki Kadeş’te savaştı. Savaşın kesin bir galibi olmadı.",
+        "Savaştan yıllar sonra II. Ramses ile Hitit kralı III. Hattuşili bir barış antlaşması yaptı. Barış, Hattuşili’nin kızının Ramses’le evlenmesiyle pekiştirildi.",
+        "Hattuşa’da bulunan kil tablet, dönemin diplomasi dili Akadcayla ve çivi yazısıyla yazılmış. Mısır’da ise antlaşma metni tapınak duvarlarına kazındı.",
+        "Kil tablet bugün İstanbul Arkeoloji Müzeleri’nde. Türkiye’nin 1970’te BM’ye hediye ettiği bakır bir kopyası New York’ta, Güvenlik Konseyi salonunun yakınında."
+      ],
+      "sources": [
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/event/Battle-of-Kadesh"
+        },
+        {
+          "name": "Birleşmiş Milletler",
+          "url": "https://www.un.org/ungifts/node/615"
+        },
+        {
+          "name": "T.C. Kültür ve Turizm Bakanlığı (Türkiye Müzeleri)",
+          "url": "https://turkishmuseums.com/blog/detail/do-you-know-worlds-first-international-peace-treaty/10040/4"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-003-q1",
+          "text": "Kadeş’te Hititlerle savaşan Mısır firavunu kimdi?",
+          "options": [
+            "Tutankamon",
+            "III. Amenhotep",
+            "II. Ramses",
+            "Keops"
+          ],
+          "answerIndex": 2,
+          "explanation": "Kadeş Savaşı’nda Mısır ordusunu II. Ramses, Hitit ordusunu ise Muvatalli yönetiyordu.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-003-q2",
+          "text": "Antlaşmanın Hattuşa’da bulunan kil tableti bugün hangi müzede?",
+          "options": [
+            "Louvre Müzesi",
+            "British Museum",
+            "İstanbul Arkeoloji Müzeleri",
+            "Kahire Mısır Müzesi"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hattuşa’da bulunan kil tablet bugün İstanbul Arkeoloji Müzeleri’nde. New York’taki BM binasında ise onun bakır bir kopyası var.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-003-q3",
+          "text": "Hattuşa’da bulunan antlaşma tableti hangi dilde yazılmıştı?",
+          "options": [
+            "Akadca",
+            "Eski Yunanca",
+            "Latince",
+            "Aramice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Akadca, Geç Tunç Çağı’nda devletler arasında ortak dil olarak kullanılıyordu; tablet bu dilde, çivi yazısıyla yazıldı.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen iki eski rakibi barıştırmaya çalışsaydın, anlaşmanın ilk maddesine ne yazardın?",
+        "Sence bir anlaşmayı kil tablete ya da duvara kazımak onu daha güvenilir kılar mı?"
+      ]
+    },
+    {
+      "id": "tarih-004",
+      "title": "Rosetta Taşı",
+      "subtitle": "Hiyerogliflerin çözülmesine yardım eden taş",
+      "facts": [
+        "MÖ 196’da kazındı. Üzerindeki ferman, bir rahipler kurulunca 13 yaşındaki Mısır kralı V. Ptolemaios’u onurlandırmak için çıkarıldı.",
+        "Aynı metin üç farklı yazıyla tekrarlanıyor: hiyeroglif, demotik ve Eski Yunanca. Bilginler Eski Yunancayı okuyabildiği için taş, hiyerogliflerin anahtarı oldu.",
+        "15 Temmuz 1799’da Fransız askerleri, Nil Deltası’ndaki Reşit (Rosetta) yakınında bir kaleye ek bina için temel kazarken taşı tesadüfen buldu.",
+        "1802’den beri British Museum’da sergileniyor. Jean-François Champollion hiyeroglif çözümündeki buluşunu 27 Eylül 1822’de duyurdu."
+      ],
+      "sources": [
+        {
+          "name": "British Museum",
+          "url": "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/topic/Rosetta-Stone"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-004-q1",
+          "text": "Rosetta Taşı’ndaki metin kaç farklı yazıyla kazınmış?",
+          "options": [
+            "İki",
+            "Üç",
+            "Beş",
+            "Dört"
+          ],
+          "answerIndex": 1,
+          "explanation": "Aynı ferman hiyeroglif, demotik ve Eski Yunanca olmak üzere üç farklı yazıyla kazınmıştır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-004-q2",
+          "text": "Taştaki yazılardan hangisini bilginler zaten okuyabiliyordu?",
+          "options": [
+            "Eski Yunanca",
+            "Çivi yazısı",
+            "Hiyeroglif",
+            "Demotik"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bilginler Eski Yunancayı okuyabiliyordu. Aynı metnin Yunanca hâli, hiyerogliflerin çözülmesinde anahtar oldu.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-004-q3",
+          "text": "Hiyeroglif çözümündeki buluşunu 1822’de Paris’te duyuran bilgin kimdir?",
+          "options": [
+            "Arthur Evans",
+            "Jean-François Champollion",
+            "Howard Carter",
+            "Heinrich Schliemann"
+          ],
+          "answerIndex": 1,
+          "explanation": "Champollion hiyerogliflerin Mısır dilinin seslerini de yazdığını fark etti ve buluşunu 27 Eylül 1822’de duyurdu.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir taşa gelecek kuşaklar için tek bir cümle kazısaydın ne yazardın?",
+        "Sence bugün yazdığımız bir metnin 2.000 yıl sonra da anlaşılması için ne yapmalıyız?"
+      ]
+    },
+    {
+      "id": "tarih-005",
+      "title": "İbrahim Müteferrika’nın matbaası",
+      "subtitle": "İlk Türk matbaası ve bastığı ilk kitap",
+      "facts": [
+        "Macar kökenli İbrahim Müteferrika, Erdel’deki Kolozsvár’da (bugün Romanya’daki Cluj-Napoca) doğdu ve sonradan Osmanlı devlet hizmetine girdi.",
+        "Temmuz 1727’de Müteferrika ile Mehmed Said Efendi’ye, III. Ahmed’in fermanıyla ilk Türk matbaasını kurma izni verildi. Matbaa Müteferrika’nın Yavuzselim’deki evinde kuruldu.",
+        "Matbaanın ilk kitabı, basımı 1729 başında tamamlanan ve Vankulu Lugati diye bilinen bir sözlüktü. Müteferrika’nın sağlığında 17 kitap (23 cilt) basıldı.",
+        "İstanbul’da matbaa ondan önce de vardı: Yahudi matbaasının ilk kitabı 1493’te basıldı; ilk Ermeni matbaası 1567’de, ilk Rum matbaası 1627’de açıldı."
+      ],
+      "sources": [
+        {
+          "name": "TDV İslâm Ansiklopedisi (İbrâhim Müteferrika)",
+          "url": "https://islamansiklopedisi.org.tr/ibrahim-muteferrika"
+        },
+        {
+          "name": "TDV İslâm Ansiklopedisi (Matbaa)",
+          "url": "https://islamansiklopedisi.org.tr/matbaa"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/biography/Ibrahim-Muteferrika"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-005-q1",
+          "text": "Müteferrika matbaasında basılan ilk kitap hangisidir?",
+          "options": [
+            "Seyahatname",
+            "Kutadgu Bilig",
+            "Divanü Lugati’t-Türk",
+            "Vankulu Lugati"
+          ],
+          "answerIndex": 3,
+          "explanation": "Basımı 1729 başında tamamlanan Vankulu Lugati, Müteferrika matbaasının ilk kitabıdır.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-005-q2",
+          "text": "Müteferrika ile Said Efendi’ye matbaa kurma izni hangi yıl verildi?",
+          "options": [
+            "1683",
+            "1839",
+            "1727",
+            "1789"
+          ],
+          "answerIndex": 2,
+          "explanation": "İzin Temmuz 1727’de III. Ahmed’in fermanıyla verildi; ilk kitabın basımı 1729 başında tamamlandı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-005-q3",
+          "text": "İstanbul’a matbaayı ilk kez kimler getirdi?",
+          "options": [
+            "Venedikli elçiler",
+            "Rum tüccarlar",
+            "Ermeni rahipler",
+            "İspanya’dan gelen Yahudiler"
+          ],
+          "answerIndex": 3,
+          "explanation": "TDV İslâm Ansiklopedisi’ne göre matbaayı 15. yüzyılın sonunda İspanya’dan gelen Yahudiler getirdi; Rum ve Ermeni matbaaları daha sonra kuruldu.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen 1729’da bir matbaanın sahibi olsaydın ilk hangi kitabı basardın, neden?",
+        "Sence basılı kitap 100 yıl sonra da okunuyor olacak mı?"
+      ]
+    },
+    {
+      "id": "tarih-006",
+      "title": "Piri Reis’in dünya haritası",
+      "subtitle": "Amerika kıyılarını gösteren Osmanlı haritası",
+      "facts": [
+        "Osmanlı denizcisi Piri Reis bu dünya haritasını 1513’te Gelibolu’da çizdi ve 1517’de Mısır’da Yavuz Sultan Selim’e sundu.",
+        "Parşömen üzerine çizilen haritanın yalnızca bir parçası günümüze ulaştı. Bu parçada İspanya, Portekiz ve Batı Afrika kıyıları ile Amerika’nın doğu kıyıları var.",
+        "Piri Reis’in yararlandığı kaynaklardan biri, Kristof Kolomb’un bugün ne aslı ne de kopyası bulunan bir haritasıydı.",
+        "Harita parçası 1929’da Topkapı Sarayı’nda bulundu ve Topkapı Sarayı Müzesi Kütüphanesi’nde korunuyor."
+      ],
+      "sources": [
+        {
+          "name": "TDV İslâm Ansiklopedisi",
+          "url": "https://islamansiklopedisi.org.tr/piri-reis"
+        },
+        {
+          "name": "Erdem Dergisi",
+          "url": "https://erdem.gov.tr/tam-metin-pdf/981/tur"
+        },
+        {
+          "name": "Osmanlı Araştırmaları Dergisi",
+          "url": "https://dergipark.org.tr/tr/pub/oa/article/130754"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-006-q1",
+          "text": "Piri Reis 1513 tarihli haritasını hangi şehirde çizdi?",
+          "options": [
+            "İzmir",
+            "Trabzon",
+            "Venedik",
+            "Gelibolu"
+          ],
+          "answerIndex": 3,
+          "explanation": "Piri Reis haritayı 1513’te Gelibolu’da çizdi ve 1517’de Mısır’da Yavuz Sultan Selim’e sundu.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-006-q2",
+          "text": "Piri Reis’in yararlandığı, bugün kayıp olan harita hangi kâşife aitti?",
+          "options": [
+            "Abel Tasman",
+            "James Cook",
+            "Kristof Kolomb",
+            "Macellan"
+          ],
+          "answerIndex": 2,
+          "explanation": "Piri Reis’in kaynaklarından biri Kolomb’un haritasıydı; bu haritanın bugün ne aslı ne de kopyası biliniyor.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-006-q3",
+          "text": "Piri Reis’in Ege ve Akdeniz kıyılarını anlatan kitabının adı nedir?",
+          "options": [
+            "Cihannüma",
+            "Seyahatname",
+            "Divanü Lugati’t-Türk",
+            "Kitab-ı Bahriye"
+          ],
+          "answerIndex": 3,
+          "explanation": "Kitab-ı Bahriye, Ege ve Akdeniz kıyılarının atlası niteliğindedir. İlk hâli 1521 tarihlidir; gözden geçirilmiş ikinci hâli 1526’da Kanuni Sultan Süleyman’a sunuldu.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen 1513’te bir dünya haritası çizmeye kalksaydın, bilgiyi kimlerden toplardın?",
+        "Sence bugünün haritalarından hangisi 500 yıl sonra insanlara en tuhaf gelir?"
+      ]
+    },
+    {
+      "id": "tarih-007",
+      "title": "İpek Yolu",
+      "subtitle": "Çin’i Batı’ya bağlayan ticaret yolları",
+      "facts": [
+        "İpek Yolu tek bir yol değil, kara ve deniz yollarından oluşan bir ağdı. Doğu Avrupa’dan Uzak Doğu’ya uzanıyor, Hint Okyanusu üzerinden Çin’i Hindistan’a ve Afrika’ya da bağlıyordu.",
+        "MÖ 2. yüzyılda Çin’in Han imparatoru Wudi, Zhang Qian’ı Batı’ya elçi olarak gönderdi. Zhang Qian yolda göçebe Xiongnular tarafından yakalanıp yıllarca tutuldu.",
+        "İpek batıya giderken yün, altın ve gümüş doğuya taşındı. Bu yollar boyunca bilim, sanat, edebiyat, el sanatları ve teknolojiler de yayıldı.",
+        "Çin’in eski başkentleri Chang’an ve Luoyang’dan Orta Asya’daki Yedisu (Jetisu) bölgesine uzanan 5.000 km’lik bir bölüm, 2014’te UNESCO Dünya Mirası Listesi’ne alındı."
+      ],
+      "sources": [
+        {
+          "name": "UNESCO İpek Yolları Programı",
+          "url": "https://www.unesco.org/en/silk-roads/about-silk-roads"
+        },
+        {
+          "name": "UNESCO Dünya Mirası Merkezi",
+          "url": "https://whc.unesco.org/en/list/1442/"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/topic/Silk-Road-trade-route"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-007-q1",
+          "text": "İpek Yolu nasıl bir yoldu?",
+          "options": [
+            "Kara ve deniz yollarından oluşan bir ağ",
+            "Yalnızca bir deniz yolu",
+            "Çin’de açılmış bir kanal sistemi",
+            "Taş döşeli tek bir ana yol"
+          ],
+          "answerIndex": 0,
+          "explanation": "UNESCO’ya göre tüccarlar karadan ve denizden pek çok farklı yolu kullanıyordu; İpek Yolu bu yolların oluşturduğu bir ağdı.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-007-q2",
+          "text": "MÖ 2. yüzyılda Han imparatoru Wudi’nin Batı’ya elçi olarak gönderdiği kişi kimdir?",
+          "options": [
+            "Marco Polo",
+            "İbn Battuta",
+            "Cengiz Han",
+            "Zhang Qian"
+          ],
+          "answerIndex": 3,
+          "explanation": "UNESCO ve Britannica’ya göre Han imparatoru Wudi, Zhang Qian’ı Batı’ya gönderdi; Zhang Qian yolda Xiongnular tarafından yakalandı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-007-q3",
+          "text": "2014’te UNESCO listesine alınan İpek Yolu bölümü hangi ülkelerde?",
+          "options": [
+            "Çin, Moğolistan ve Rusya",
+            "Çin, Kazakistan ve Kırgızistan",
+            "İran, Irak ve Suriye",
+            "Hindistan, Pakistan ve Afganistan"
+          ],
+          "answerIndex": 1,
+          "explanation": "Chang’an–Tianshan Koridoru adıyla listeye alınan bu bölüm, UNESCO kaydına göre Çin, Kazakistan ve Kırgızistan’da yer alıyor.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Sen bir İpek Yolu kervanında olsaydın hangi malı taşımak isterdin, neden?",
+        "Sence bugün fikirleri ülkeden ülkeye en hızlı taşıyan “İpek Yolu” hangisi?"
+      ]
+    },
+    {
+      "id": "tarih-008",
+      "title": "Pompeii",
+      "subtitle": "Külün altında korunan bir Roma kenti",
+      "facts": [
+        "MS 79’da Vezüv Yanardağı patladı ve Pompeii kentini metrelerce kül ve ponza taşının altına gömdü.",
+        "UNESCO patlamayı 24 Ağustos’a tarihliyor. Ancak 2018’de bir evde bulunan kömürle yazılmış bir not, patlamanın Ekim’de olduğu görüşünü destekliyor.",
+        "Kazılar resmî olarak 1748’de, Bourbon hanedanından Napoli Kralı Charles döneminde başladı.",
+        "1863’te arkeolog Giuseppe Fiorelli, külde çürüyen bedenlerin bıraktığı boşluklara sıvı alçı dökerek kurbanların biçimini ilk kez başarıyla ortaya çıkardı."
+      ],
+      "sources": [
+        {
+          "name": "Pompeii Arkeoloji Parkı",
+          "url": "https://pompeiisites.org/en/comunicati/the-plaster-casts-of-pompeii-an-itinerary-through-the-eruption-of-ad-79/"
+        },
+        {
+          "name": "UNESCO Dünya Mirası Merkezi",
+          "url": "https://whc.unesco.org/en/list/829/"
+        }
+      ],
+      "questions": [
+        {
+          "id": "tarih-008-q1",
+          "text": "Pompeii’yi hangi yanardağın patlaması gömdü?",
+          "options": [
+            "Vezüv",
+            "Etna",
+            "Hekla",
+            "Stromboli"
+          ],
+          "answerIndex": 0,
+          "explanation": "MS 79’da Vezüv’ün patlaması Pompeii’yi metrelerce kül ve ponza taşının altına gömdü.",
+          "difficulty": "easy"
+        },
+        {
+          "id": "tarih-008-q2",
+          "text": "Boşluklara alçı dökerek kurbanların biçimini ilk kez başarıyla ortaya çıkaran arkeolog kimdir?",
+          "options": [
+            "Howard Carter",
+            "Giuseppe Fiorelli",
+            "Heinrich Schliemann",
+            "Arthur Evans"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pompeii Arkeoloji Parkı’na göre bunu ilk kez 1863’te Giuseppe Fiorelli başardı.",
+          "difficulty": "medium"
+        },
+        {
+          "id": "tarih-008-q3",
+          "text": "2018’de bulunan kömür yazısı, patlamanın hangi ayda olduğu görüşünü destekliyor?",
+          "options": [
+            "Ağustos",
+            "Ekim",
+            "Mart",
+            "Haziran"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yazı 17 Ekim’e denk gelen bir tarih taşıyor. Pompeii Arkeoloji Parkı’na göre bu, patlamanın bir hafta sonra, 24 Ekim’de olmuş olabileceğini düşündürüyor.",
+          "difficulty": "hard"
+        }
+      ],
+      "discussion": [
+        "Senin evin 2.000 yıl sonra kazılsa arkeologlar senin hakkında en çok neyi öğrenirdi?",
+        "Patlamadan bir gün önceki Pompeii’ye gidebilseydin, kentte en çok neyi görmek isterdin?"
+      ]
+    }
+  ]
+}

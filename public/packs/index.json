@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kit": "freetimekit",
+  "updatedAt": "2026-10-02",
+  "categories": [
+    {
+      "id": "tarih",
+      "label": "Tarih",
+      "color": "#8A5A37",
+      "description": "Uygarlıklar, olaylar, yerler"
+    },
+    {
+      "id": "bilim",
+      "label": "Bilim",
+      "color": "#1A6E9E",
+      "description": "Evren, beden, deneyler"
+    },
+    {
+      "id": "doga",
+      "label": "Doğa",
+      "color": "#2E7048",
+      "description": "Hayvanlar, bitkiler, iklim"
+    },
+    {
+      "id": "sanat",
+      "label": "Sanat",
+      "color": "#9A3B5E",
+      "description": "Resim, mimari, müzik"
+    },
+    {
+      "id": "teknoloji",
+      "label": "Teknoloji",
+      "color": "#4A5662",
+      "description": "İcatlar, yazılım, internet"
+    },
+    {
+      "id": "psikoloji",
+      "label": "Psikoloji",
+      "color": "#6B4FA0",
+      "description": "Alışkanlıklar, duygular, beyin"
+    }
+  ],
+  "packs": [
+    {
+      "id": "ftk-tarih-1",
+      "category": "tarih",
+      "version": 1,
+      "cards": 8,
+      "file": "ftk-tarih-1.json"
+    },
+    {
+      "id": "ftk-bilim-1",
+      "category": "bilim",
+      "version": 1,
+      "cards": 8,
+      "file": "ftk-bilim-1.json"
+    },
+    {
+      "id": "ftk-doga-1",
+      "category": "doga",
+      "version": 1,
+      "cards": 8,
+      "file": "ftk-doga-1.json"
+    },
+    {
+      "id": "ftk-sanat-1",
+      "category": "sanat",
+      "version": 1,
+      "cards": 8,
+      "file": "ftk-sanat-1.json"
+    },
+    {
+      "id": "ftk-teknoloji-1",
+      "category": "teknoloji",
+      "version": 1,
+      "cards": 8,
+      "file": "ftk-teknoloji-1.json"
+    },
+    {
+      "id": "ftk-psikoloji-1",
+      "category": "psikoloji",
+      "version": 1,
+      "cards": 8,
+      "file": "ftk-psikoloji-1.json"
+    }
+  ]
+}

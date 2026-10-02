@@ -24,7 +24,8 @@ export default defineConfig(({ mode }) => {
         includeAssets: ['favicon.svg', 'apple-touch-icon-180x180.png'],
         manifest: manifest(kit),
         // Workbox's default leaves fonts out; without them the offline app would fall back to system type.
-        workbox: { globPatterns: ['**/*.{js,css,html,woff2}'] },
+        // Card packs stay out: they are downloaded on demand and kept in IndexedDB.
+        workbox: { globPatterns: ['**/*.{js,css,html,woff2}'], globIgnores: ['packs/**'] },
       }),
     ],
   }
