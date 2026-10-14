@@ -1,6 +1,6 @@
 import type { BackupAdapter, CountLine } from 'kitshelf-ui/backup/format.ts'
 import { backupDue } from 'kitshelf-ui/backup/reminder.ts'
-import { readBackupState, snoozeReminder, type BackupState } from 'kitshelf-ui/backup/state.ts'
+import { readBackupState, type BackupState } from 'kitshelf-ui/backup/state.ts'
 import { useCallback, useMemo, useState } from 'react'
 import { useAppData } from '../app/appData.ts'
 import type { CardProgress, DayLog, Settings, WeekendItem } from '../cards/types.ts'
@@ -16,7 +16,6 @@ export const BACKUP_TEXTS = {
   card: 'Bitirdiğin kartlar, serin ve hafta sonu listen yalnızca bu cihazda duruyor. Yedek dosyasını Drive’a, e-postana ya da kendine gönder; telefon değişirse buradan geri yüklersin.',
   merge: 'Bu cihazda olmayanlar eklenir. İkisinde de olanın daha yeni hâli kalır. Hiçbir şey silinmez.',
   replace: 'Bu cihazdaki ilerleme, serin, listen ve ayarların silinir, yerine yedektekiler gelir.',
-  banner: 'Telefonun değişirse serin ve listen kaybolmasın.',
 }
 
 export const REPLACE_WARNING = {
@@ -141,14 +140,10 @@ function reminderOf(state: BackupState, data: KitData) {
   return backupDue({ now: new Date(), hasUserData: hasUserData(data), lastChangeAt: latestChange(data), ...state })
 }
 
-/** Whether a backup is due, for the home screen's banner and dot and for the settings card. */
+/** Whether a backup is due, for the dot on the home screen's settings button and for the settings card. */
 export function useBackupReminder() {
   const data = useKitData()
   const [state, setState] = useState(() => readBackupState(KIT))
   const refresh = useCallback(() => setState(readBackupState(KIT)), [])
-  const snooze = useCallback(() => {
-    snoozeReminder(KIT, new Date())
-    setState(readBackupState(KIT))
-  }, [])
-  return { reminder: reminderOf(state, data), lastBackupAt: state.lastBackupAt, refresh, snooze }
+  return { reminder: reminderOf(state, data), lastBackupAt: state.lastBackupAt, refresh }
 }
